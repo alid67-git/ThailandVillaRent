@@ -95,6 +95,9 @@ const th: Messages = {
     emailSent: "ตรวจสอบกล่องจดหมายของคุณสำหรับลิงก์เข้าสู่ระบบ",
     signInToBook: "เข้าสู่ระบบเพื่อจอง",
     setupNote: "ตั้งค่า Google, Apple และอีเมลใน .env (ดู .env.example)",
+    google: "ดำเนินการต่อด้วย Google",
+    apple: "ดำเนินการต่อด้วย Apple",
+    loading: "กำลังโหลด…",
   },
   detail: {
     back: "ที่พักทั้งหมด",

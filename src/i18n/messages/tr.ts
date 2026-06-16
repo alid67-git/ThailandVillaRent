@@ -91,6 +91,9 @@ const tr = {
     emailSent: "Giriş bağlantısı e-postanıza gönderildi.",
     signInToBook: "Rezervasyon için giriş yapın",
     setupNote: "Google, Apple ve e-posta için .env ayarları gerekir (bkz. .env.example).",
+    google: "Google ile devam et",
+    apple: "Apple ile devam et",
+    loading: "Yükleniyor…",
   },
   detail: {
     back: "Tüm konaklamalar",

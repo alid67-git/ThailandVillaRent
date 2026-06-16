@@ -95,6 +95,9 @@ const de: Messages = {
     emailSent: "Prüfen Sie Ihren Posteingang auf einen Anmeldelink.",
     signInToBook: "Zum Buchen anmelden",
     setupNote: "Google, Apple und E-Mail in .env konfigurieren (siehe .env.example).",
+    google: "Mit Google fortfahren",
+    apple: "Mit Apple fortfahren",
+    loading: "Wird geladen…",
   },
   detail: {
     back: "Alle Unterkünfte",

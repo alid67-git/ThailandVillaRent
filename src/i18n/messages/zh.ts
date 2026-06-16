@@ -94,6 +94,9 @@ const zh: Messages = {
     emailSent: "请查收收件箱中的登录链接。",
     signInToBook: "登录后预订",
     setupNote: "在 .env 中配置 Google、Apple 和电子邮件（参见 .env.example）。",
+    google: "使用 Google 继续",
+    apple: "使用 Apple 继续",
+    loading: "加载中…",
   },
   detail: {
     back: "全部住宿",

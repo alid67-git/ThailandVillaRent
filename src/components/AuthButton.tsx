@@ -9,7 +9,7 @@ export function AuthButton() {
   const { t } = useLocale();
 
   if (status === "loading") {
-    return <span className="text-sm text-white/60">…</span>;
+    return <span className="text-sm text-white/60">{t("auth.loading")}</span>;
   }
 
   if (session?.user) {

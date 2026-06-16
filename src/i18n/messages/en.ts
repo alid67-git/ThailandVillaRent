@@ -93,6 +93,9 @@ const en: Messages = {
     emailSent: "Check your inbox for a sign-in link.",
     signInToBook: "Sign in to book",
     setupNote: "Configure Google, Apple and email in .env (see .env.example).",
+    google: "Continue with Google",
+    apple: "Continue with Apple",
+    loading: "Loading…",
   },
   detail: {
     back: "All stays",

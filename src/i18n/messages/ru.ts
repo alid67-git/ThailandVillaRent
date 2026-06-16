@@ -95,6 +95,9 @@ const ru: Messages = {
     emailSent: "Проверьте почту — вам отправлена ссылка для входа.",
     signInToBook: "Войдите, чтобы забронировать",
     setupNote: "Настройте Google, Apple и e-mail в .env (см. .env.example).",
+    google: "Продолжить с Google",
+    apple: "Продолжить с Apple",
+    loading: "Загрузка…",
   },
   detail: {
     back: "Все варианты",

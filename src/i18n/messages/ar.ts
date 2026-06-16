@@ -95,6 +95,9 @@ const ar: Messages = {
     emailSent: "تحقق من بريدك الوارد للحصول على رابط تسجيل الدخول.",
     signInToBook: "سجّل الدخول للحجز",
     setupNote: "قم بإعداد Google وApple والبريد الإلكتروني في .env (انظر .env.example).",
+    google: "المتابعة مع Google",
+    apple: "المتابعة مع Apple",
+    loading: "جارٍ التحميل…",
   },
   detail: {
     back: "جميع الإقامات",

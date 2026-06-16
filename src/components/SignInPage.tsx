@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useState, Suspense } from "react";
 import Link from "next/link";
 import { useLocale } from "@/context/LocaleContext";
+import { LoadingText } from "@/components/LoadingText";
 
 type ProviderFlags = {
   google: boolean;
@@ -42,7 +43,7 @@ function SignInForm({ providers }: { providers: ProviderFlags }) {
               onClick={() => signIn("google", { callbackUrl })}
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm font-semibold hover:bg-neutral-50 dark:border-ink-600 dark:bg-ink-800"
             >
-              <span>Google</span>
+              <span>{t("auth.google")}</span>
             </button>
           )}
           {providers.apple && (
@@ -51,7 +52,7 @@ function SignInForm({ providers }: { providers: ProviderFlags }) {
               onClick={() => signIn("apple", { callbackUrl })}
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-neutral-200 bg-black px-4 py-3 text-sm font-semibold text-white hover:bg-neutral-900"
             >
-              <span>Apple</span>
+              <span>{t("auth.apple")}</span>
             </button>
           )}
         </div>
@@ -109,7 +110,7 @@ function SignInForm({ providers }: { providers: ProviderFlags }) {
 export function SignInPage({ providers }: { providers: ProviderFlags }) {
   return (
     <main className="min-h-[70vh] bg-neutral-50 px-4 py-16 dark:bg-ink-950">
-      <Suspense fallback={<div className="text-center">…</div>}>
+      <Suspense fallback={<LoadingText className="text-center" />}>
         <SignInForm providers={providers} />
       </Suspense>
     </main>

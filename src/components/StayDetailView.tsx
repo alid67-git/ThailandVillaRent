@@ -23,8 +23,7 @@ export function StayDetailView({ stay }: { stay: StayCatalogItem }) {
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${stay.lat},${stay.lng}`;
   const airportLabel =
     stay.airportKey === "hkt" ? t("airports.hkt") : t("airports.usm");
-  const regionLabel =
-    stay.region === "phuket" ? t("regions.phuket") : t("regions.koh-samui");
+  const regionLabel = t(`regions.${stay.region}`);
 
   return (
     <main className="min-h-screen bg-neutral-50 dark:bg-ink-950">

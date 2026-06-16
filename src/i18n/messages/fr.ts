@@ -95,6 +95,9 @@ const fr: Messages = {
     emailSent: "Consultez votre boîte de réception pour le lien de connexion.",
     signInToBook: "Connectez-vous pour réserver",
     setupNote: "Configurez Google, Apple et l'e-mail dans .env (voir .env.example).",
+    google: "Continuer avec Google",
+    apple: "Continuer avec Apple",
+    loading: "Chargement…",
   },
   detail: {
     back: "Tous les hébergements",

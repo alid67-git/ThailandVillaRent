@@ -10,8 +10,7 @@ import type { StaySlug } from "@/data/stays/types";
 export function StayCard({ stay }: { stay: StayCatalogItem }) {
   const { locale, t } = useLocale();
   const content = getStayContent(locale, stay.slug as StaySlug);
-  const regionLabel =
-    stay.region === "phuket" ? t("regions.phuket") : t("regions.koh-samui");
+  const regionLabel = t(`regions.${stay.region}`);
 
   return (
     <Link
