@@ -9,10 +9,12 @@ import type { DestinationSlug } from "@/i18n/destinations";
 import { getDestinationUi } from "@/i18n/destinations/ui";
 
 export function DestinationCard({ spot }: { spot: DestinationSpot }) {
-  const { locale } = useLocale();
+  const { locale, t } = useLocale();
   const ui = getDestinationUi(locale);
   const content = getDestinationContent(locale, spot.slug as DestinationSlug);
   const catLabel = ui.category[spot.category];
+  const regionLabel =
+    spot.region === "phuket" ? t("regions.phuket") : t("regions.koh-samui");
 
   return (
     <Link href={`/destinations/${spot.slug}`} className="group">
@@ -34,27 +36,15 @@ export function DestinationCard({ spot }: { spot: DestinationSpot }) {
             {spot.appeal}/10
           </div>
           <div className="absolute bottom-0 left-0 right-0 p-4">
+            <p className="text-[10px] font-semibold uppercase tracking-wide text-white/70">
+              {regionLabel}
+            </p>
             <h2 className="font-heading text-lg font-extrabold text-white">{content.name}</h2>
             <p className="mt-1 line-clamp-2 text-xs text-white/75">{content.description}</p>
           </div>
         </div>
-        <div className="grid grid-cols-3 divide-x divide-neutral-100 dark:divide-ink-700">
-          <div className="px-3 py-3">
-            <p className="text-[10px] font-bold uppercase tracking-wider text-neutral-400">{ui.distance}</p>
-            <p className="mt-0.5 text-xs font-bold text-ink-950 dark:text-neutral-100">
-              {ui.proximity.km.replace("{km}", String(spot.refKm))}
-            </p>
-          </div>
-          <div className="px-3 py-3">
-            <p className="text-[10px] font-bold uppercase tracking-wider text-neutral-400">{ui.driveTime}</p>
-            <p className="mt-0.5 text-xs font-bold text-ink-950 dark:text-neutral-100">
-              {ui.proximity.drive.replace("{min}", String(spot.refDriveMin))}
-            </p>
-          </div>
-          <div className="px-3 py-3">
-            <p className="text-[10px] font-bold uppercase tracking-wider text-neutral-400">{ui.appeal}</p>
-            <p className="mt-0.5 text-xs font-bold text-amber-600">{spot.appeal}/10</p>
-          </div>
+        <div className="border-t border-neutral-100 px-4 py-3 dark:border-ink-700">
+          <p className="text-xs font-medium text-neutral-500">{content.bestFor}</p>
         </div>
       </article>
     </Link>

@@ -1,19 +1,5 @@
 import type { StayCatalogItem } from "./types";
-
-const IMG = {
-  poolVilla:
-    "https://images.pexels.com/photos/32870/pexels-photo-32870.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  tropical:
-    "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  beach:
-    "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  bungalow:
-    "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  interior:
-    "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  samui:
-    "https://images.pexels.com/photos/216988/pexels-photo-216988.jpeg?auto=compress&cs=tinysrgb&w=1200",
-};
+import { STAY_IMAGES } from "@/data/images";
 
 export const STAY_CATALOG: StayCatalogItem[] = [
   {
@@ -30,22 +16,13 @@ export const STAY_CATALOG: StayCatalogItem[] = [
     airportKey: "hkt",
     phone: "+66-653843312",
     roomCount: 4,
+    maxGuests: 8,
+    size: "family",
     priceFromUsd: 553,
-    image: IMG.bungalow,
-    images: [IMG.bungalow, IMG.poolVilla, IMG.tropical, IMG.interior],
+    image: STAY_IMAGES.bungalow,
+    images: [STAY_IMAGES.bungalow, STAY_IMAGES.villaPool, STAY_IMAGES.villaTropical, STAY_IMAGES.interior],
     highlightKeys: ["pool", "garden", "bbq", "kitchen", "parking"],
-    amenityKeys: [
-      "pool",
-      "wifi",
-      "parking",
-      "garden",
-      "bbq",
-      "sharedKitchen",
-      "luggage",
-      "cctv",
-      "diving",
-      "snorkeling",
-    ],
+    amenityKeys: ["pool", "wifi", "parking", "garden", "bbq", "sharedKitchen", "luggage", "cctv", "diving", "snorkeling"],
     landmarks: [
       { id: "elephantLovers", meters: 150 },
       { id: "kamalaParadise", meters: 230 },
@@ -75,23 +52,15 @@ export const STAY_CATALOG: StayCatalogItem[] = [
     phone: "+66-619653404",
     email: "phuketvill@gmail.com",
     roomCount: 2,
+    maxGuests: 6,
+    size: "compact",
     opened: 2018,
     renovated: 2023,
     priceFromUsd: 104,
-    image: IMG.tropical,
-    images: [IMG.tropical, IMG.poolVilla, IMG.interior, IMG.bungalow],
+    image: STAY_IMAGES.villaTropical,
+    images: [STAY_IMAGES.villaTropical, STAY_IMAGES.villaPool, STAY_IMAGES.interior, STAY_IMAGES.bungalow],
     highlightKeys: ["saltPool", "cafe", "garden", "parking", "laundry"],
-    amenityKeys: [
-      "saltPool",
-      "cafe",
-      "wifi",
-      "parking",
-      "garden",
-      "laundry",
-      "kitchen",
-      "airportTransfer",
-      "petsAllowed",
-    ],
+    amenityKeys: ["saltPool", "cafe", "wifi", "parking", "garden", "laundry", "kitchen", "airportTransfer", "petsAllowed"],
     landmarks: [
       { id: "villaJungle", meters: 360 },
       { id: "monkeyDiva", meters: 360 },
@@ -118,9 +87,11 @@ export const STAY_CATALOG: StayCatalogItem[] = [
     airportKey: "hkt",
     phone: "+66-995038255",
     roomCount: 7,
+    maxGuests: 14,
+    size: "large",
     priceFromUsd: 85,
-    image: IMG.poolVilla,
-    images: [IMG.poolVilla, IMG.tropical, IMG.interior, IMG.bungalow],
+    image: STAY_IMAGES.villaPool,
+    images: [STAY_IMAGES.villaPool, STAY_IMAGES.villaTropical, STAY_IMAGES.interior, STAY_IMAGES.bungalow],
     highlightKeys: ["kamalaArea", "market", "beach", "elephants"],
     amenityKeys: ["wifi", "parking", "luggage", "cashPayment"],
     landmarks: [
@@ -150,23 +121,15 @@ export const STAY_CATALOG: StayCatalogItem[] = [
     phone: "+66-869443838",
     email: "booking@tangoluxe.com",
     roomCount: 14,
+    maxGuests: 28,
+    size: "large",
     opened: 2011,
     renovated: 2016,
     priceFromUsd: 448,
-    image: IMG.samui,
-    images: [IMG.samui, IMG.poolVilla, IMG.beach, IMG.interior],
+    image: STAY_IMAGES.samui,
+    images: [STAY_IMAGES.samui, STAY_IMAGES.villaPool, STAY_IMAGES.beachResort, STAY_IMAGES.interior],
     highlightKeys: ["privatePool", "beachfront", "spa", "restaurant", "breakfast"],
-    amenityKeys: [
-      "privatePool",
-      "spa",
-      "restaurant",
-      "bar",
-      "wifi",
-      "breakfast",
-      "airportTransfer",
-      "roomService",
-      "kayaking",
-    ],
+    amenityKeys: ["privatePool", "spa", "restaurant", "bar", "wifi", "breakfast", "airportTransfer", "roomService", "kayaking"],
     landmarks: [
       { id: "watPlaiLaem", meters: 260 },
       { id: "bigBuddha", meters: 900 },
@@ -192,20 +155,13 @@ export const STAY_CATALOG: StayCatalogItem[] = [
     airportKey: "usm",
     phone: "+66-7742-5017",
     roomCount: 20,
+    maxGuests: 40,
+    size: "large",
     priceFromUsd: 65,
-    image: IMG.beach,
-    images: [IMG.beach, IMG.bungalow, IMG.tropical, IMG.samui],
+    image: STAY_IMAGES.beachResort,
+    images: [STAY_IMAGES.beachResort, STAY_IMAGES.bungalow, STAY_IMAGES.villaTropical, STAY_IMAGES.samui],
     highlightKeys: ["oceanfront", "balcony", "fishermansVillage", "boPhut"],
-    amenityKeys: [
-      "wifi",
-      "parking",
-      "library",
-      "safe",
-      "luggage",
-      "balcony",
-      "airCon",
-      "oceanView",
-    ],
+    amenityKeys: ["wifi", "parking", "library", "safe", "luggage", "balcony", "airCon", "oceanView"],
     landmarks: [
       { id: "boPhutPier", meters: 400 },
       { id: "fishermansVillage", meters: 600 },
@@ -226,3 +182,10 @@ export function getStayBySlug(slug: string) {
 export function getAllStaySlugs() {
   return STAY_CATALOG.map((s) => s.slug);
 }
+
+export const REGIONS = ["phuket", "koh-samui"] as const;
+
+export const AREAS_BY_REGION: Record<string, string[]> = {
+  phuket: ["kamala"],
+  "koh-samui": ["boPhut", "maenam"],
+};

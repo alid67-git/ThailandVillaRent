@@ -45,6 +45,8 @@ export function StayCard({ stay }: { stay: StayCatalogItem }) {
           <span>·</span>
           <span>🛏️ {stay.roomCount} {t("stays.rooms")}</span>
           <span>·</span>
+          <span>👥 {stay.maxGuests}</span>
+          <span>·</span>
           <span>⭐ {stay.starRating}</span>
         </div>
         <p className="mt-3 text-sm font-semibold text-brand-600">

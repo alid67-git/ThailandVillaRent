@@ -21,10 +21,6 @@ export interface DestinationSpot {
   image: string;
   images: string[];
   gradient: string;
-  /** Reference hub for distance copy (kamala / bo-phut / maenam) */
-  hubKey: string;
-  refKm: number;
-  refDriveMin: number;
 }
 
 export interface StayProximityEntry {

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { AuthButton } from "@/components/AuthButton";
 import { useLocale } from "@/context/LocaleContext";
 
 export function SiteHeader() {
@@ -32,6 +33,7 @@ export function SiteHeader() {
             {t("nav.destinations")}
           </Link>
           <LanguageSwitcher />
+          <AuthButton />
         </nav>
       </div>
     </header>

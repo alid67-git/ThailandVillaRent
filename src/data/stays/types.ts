@@ -1,5 +1,7 @@
 export type StayRegion = "phuket" | "koh-samui";
 
+export type StaySize = "compact" | "family" | "large";
+
 export interface StayLandmarkRef {
   id: string;
   meters: number;
@@ -26,6 +28,8 @@ export interface StayCatalogItem {
   phone: string;
   email?: string;
   roomCount: number;
+  maxGuests: number;
+  size: StaySize;
   opened?: number;
   renovated?: number;
   priceFromUsd: number;
@@ -88,3 +92,9 @@ export type StaySlug =
   | "fantasy-villa-kamala"
   | "tango-luxe-beach-villa-koh-samui"
   | "moonhut-bungalows-koh-samui";
+
+export function sizeFromRooms(roomCount: number): StaySize {
+  if (roomCount <= 2) return "compact";
+  if (roomCount <= 5) return "family";
+  return "large";
+}

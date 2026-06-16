@@ -6,6 +6,7 @@ import type { StayCatalogItem } from "@/data/stays/types";
 import { useLocale } from "@/context/LocaleContext";
 import { getStayContent } from "@/i18n/stays";
 import type { StaySlug } from "@/data/stays/types";
+import { BookButton } from "@/components/AuthButton";
 import { StayProximitySection } from "@/components/StayProximitySection";
 
 function formatMeters(
@@ -198,8 +199,9 @@ export function StayDetailView({ stay }: { stay: StayCatalogItem }) {
                   </p>
                 )}
                 <p>
-                  {t("detail.roomCount")}: {stay.roomCount}
+                  {t("detail.roomCount")}: {stay.roomCount} · {stay.maxGuests} {t("stays.guests")}
                 </p>
+                <BookButton staySlug={stay.slug} />
               </div>
             </div>
 
