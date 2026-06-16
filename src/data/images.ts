@@ -33,4 +33,18 @@ export const DESTINATION_IMAGES = {
     "https://images.unsplash.com/photo-1559127324-4af05e789266?w=1200&q=80",
   nature:
     "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=1200&q=80",
+  city:
+    "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=1200&q=80",
+  city2:
+    "https://images.unsplash.com/photo-1563492065-40a8d3a2b74e?w=1200&q=80",
+  limestone:
+    "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
+  jungle:
+    "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80",
+  ruins:
+    "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1200&q=80",
+  waterfall:
+    "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=1200&q=80",
+  nightlife:
+    "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80",
 } as const;

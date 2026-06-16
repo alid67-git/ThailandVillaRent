@@ -13,8 +13,7 @@ export function DestinationCard({ spot }: { spot: DestinationSpot }) {
   const ui = getDestinationUi(locale);
   const content = getDestinationContent(locale, spot.slug as DestinationSlug);
   const catLabel = ui.category[spot.category];
-  const regionLabel =
-    spot.region === "phuket" ? t("regions.phuket") : t("regions.koh-samui");
+  const regionLabel = t(`regions.${spot.region}`);
 
   return (
     <Link href={`/destinations/${spot.slug}`} className="group">

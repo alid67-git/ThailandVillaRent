@@ -14,7 +14,7 @@ const fr: Messages = {
     eyebrow: "À travers la Thaïlande",
     title: "Votre séjour idéal en Thaïlande",
     subtitle:
-      "Locations de villas et bungalows à Phuket et Koh Samui — recherche et filtres façon Booking.",
+      "Locations de villas et bungalows à Phuket et Koh Samui — recherche et filtres avancés.",
     cta: "Voir tous les hébergements",
     featured: "Hébergements en vedette",
     featuredHint: "Annonces réelles avec tous les détails",
@@ -69,6 +69,16 @@ const fr: Messages = {
   regions: {
     phuket: "Phuket",
     "koh-samui": "Koh Samui",
+    krabi: "Krabi",
+    "chiang-mai": "Chiang Mai",
+    bangkok: "Bangkok",
+    pattaya: "Pattaya",
+    "koh-phangan": "Koh Phangan",
+    "koh-tao": "Koh Tao",
+    "koh-lipe": "Koh Lipe",
+    ayutthaya: "Ayutthaya",
+    pai: "Pai",
+    "hua-hin": "Hua Hin",
   },
   airports: {
     hkt: "Aéroport international de Phuket",

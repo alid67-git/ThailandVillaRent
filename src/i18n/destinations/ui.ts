@@ -21,7 +21,37 @@ export type DestinationSlug =
   | "lamai-beach"
   | "maenam-beach"
   | "ang-thong-park"
-  | "natien-beach";
+  | "natien-beach"
+  | "railay-beach"
+  | "ao-nang-beach"
+  | "phra-nang-cave"
+  | "tiger-cave-temple"
+  | "emerald-pool"
+  | "doi-suthep"
+  | "old-city-chiang-mai"
+  | "sunday-walking-street"
+  | "doi-inthanon"
+  | "sticky-waterfall"
+  | "grand-palace"
+  | "wat-arun"
+  | "chatuchak-market"
+  | "asiatique-riverfront"
+  | "walking-street-pattaya"
+  | "koh-larn"
+  | "sanctuary-of-truth"
+  | "jomtien-beach"
+  | "haad-rin-beach"
+  | "bottle-beach"
+  | "than-sadet-waterfall"
+  | "sairee-beach"
+  | "shark-bay-tao"
+  | "pattaya-beach-lipe"
+  | "sunrise-beach-lipe"
+  | "ayutthaya-historical-park"
+  | "wat-mahathat"
+  | "pai-canyon"
+  | "pam-bok-waterfall"
+  | "hua-hin-beach";
 
 export interface DestinationContent {
   name: string;
@@ -37,7 +67,7 @@ export const destinationUi = {
     eyebrow: "Explore",
     title: "Places to visit",
     subtitle:
-      "Beaches, temples, markets and day trips near your stay — with distances and drive times from each property.",
+      "Beaches, temples, markets and islands across Thailand — curated places worth visiting.",
     distance: "Distance",
     driveTime: "Drive time",
     walkTime: "Walk",
@@ -45,7 +75,7 @@ export const destinationUi = {
     appealScore: "{score}/10",
     viewAll: "All places →",
     listTitle: "Places to explore",
-    listSubtitle: "{count} destinations in Phuket and Koh Samui",
+    listSubtitle: "{count} destinations across Thailand",
     category: {
       beach: "Beach",
       temple: "Temple",
@@ -87,7 +117,7 @@ export const destinationUi = {
     eyebrow: "Keşif",
     title: "Gezilecek yerler",
     subtitle:
-      "Konaklamanıza yakın plajlar, tapınaklar, pazarlar ve günübirlik turlar — her mülkten mesafe ve sürüş süreleriyle.",
+      "Tayland genelinde plajlar, tapınaklar, pazarlar ve adalar — ziyaret etmeye değer seçilmiş yerler.",
     distance: "Mesafe",
     driveTime: "Sürüş süresi",
     walkTime: "Yürüyüş",
@@ -95,7 +125,7 @@ export const destinationUi = {
     appealScore: "{score}/10",
     viewAll: "Tüm yerler →",
     listTitle: "Keşfedilecek yerler",
-    listSubtitle: "Phuket ve Koh Samui'de {count} destinasyon",
+    listSubtitle: "Tayland genelinde {count} destinasyon",
     category: {
       beach: "Plaj",
       temple: "Tapınak",

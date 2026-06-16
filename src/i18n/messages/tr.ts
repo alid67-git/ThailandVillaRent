@@ -11,7 +11,7 @@ const tr = {
   home: {
     eyebrow: "Tayland genelinde",
     title: "Tayland'da mükemmel konaklamanızı bulun",
-    subtitle: "Phuket ve Koh Samui'de villa ve bungalov kiralama — Booking tarzı arama ve filtreler.",
+    subtitle: "Phuket ve Koh Samui'de villa ve bungalov kiralama — gelişmiş arama ve filtreler.",
     cta: "Tüm konaklamaları gör",
     featured: "Öne çıkan konaklamalar",
     featuredHint: "Gerçek ilanlar, detaylı bilgi",
@@ -65,6 +65,16 @@ const tr = {
   regions: {
     phuket: "Phuket",
     "koh-samui": "Koh Samui",
+    krabi: "Krabi",
+    "chiang-mai": "Chiang Mai",
+    bangkok: "Bangkok",
+    pattaya: "Pattaya",
+    "koh-phangan": "Koh Phangan",
+    "koh-tao": "Koh Tao",
+    "koh-lipe": "Koh Lipe",
+    ayutthaya: "Ayutthaya",
+    pai: "Pai",
+    "hua-hin": "Hua Hin",
   },
   airports: {
     hkt: "Phuket Uluslararası Havalimanı",

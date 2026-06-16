@@ -14,7 +14,7 @@ const zh: Messages = {
     eyebrow: "泰国全境",
     title: "您在泰国的理想住宿",
     subtitle:
-      "普吉岛和苏梅岛别墅与bungalow租赁 — Booking 风格的搜索与筛选。",
+      "普吉岛和苏梅岛别墅与bungalow租赁 — 高级搜索与筛选。",
     cta: "浏览全部住宿",
     featured: "精选住宿",
     featuredHint: "真实房源，含完整详情",
@@ -68,6 +68,16 @@ const zh: Messages = {
   regions: {
     phuket: "普吉岛",
     "koh-samui": "苏梅岛",
+    krabi: "甲米",
+    "chiang-mai": "清迈",
+    bangkok: "曼谷",
+    pattaya: "芭提雅",
+    "koh-phangan": "帕岸岛",
+    "koh-tao": "涛岛",
+    "koh-lipe": "丽贝岛",
+    ayutthaya: "大城",
+    pai: "拜县",
+    "hua-hin": "华欣",
   },
   airports: {
     hkt: "普吉国际机场",

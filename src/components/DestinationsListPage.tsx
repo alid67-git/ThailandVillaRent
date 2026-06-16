@@ -1,19 +1,15 @@
 "use client";
 
-import { DESTINATION_SPOTS } from "@/data/destinations/catalog";
+import { DESTINATION_SPOTS, getDestinationRegionsWithSpots } from "@/data/destinations/catalog";
+import type { DestinationRegion } from "@/data/destinations/types";
 import { DestinationCard } from "@/components/DestinationCard";
 import { useLocale } from "@/context/LocaleContext";
 import { getDestinationUi } from "@/i18n/destinations/ui";
 
 export function DestinationsListPage() {
-  const { locale } = useLocale();
+  const { locale, t } = useLocale();
   const ui = getDestinationUi(locale);
-  const phuket = DESTINATION_SPOTS.filter((d) => d.region === "phuket").sort(
-    (a, b) => b.appeal - a.appeal,
-  );
-  const samui = DESTINATION_SPOTS.filter((d) => d.region === "koh-samui").sort(
-    (a, b) => b.appeal - a.appeal,
-  );
+  const regions = getDestinationRegionsWithSpots();
 
   return (
     <main className="min-h-screen bg-neutral-50 dark:bg-ink-950">
@@ -24,28 +20,33 @@ export function DestinationsListPage() {
           </p>
           <h1 className="mt-3 font-heading text-3xl font-extrabold sm:text-4xl">{ui.title}</h1>
           <p className="mt-3 max-w-2xl text-lg text-white/75">{ui.subtitle}</p>
+          <p className="mt-2 text-sm text-white/60">
+            {ui.listSubtitle.replace("{count}", String(DESTINATION_SPOTS.length))}
+          </p>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <h2 className="font-heading text-xl font-bold text-ink-950 dark:text-white">Phuket</h2>
-        <p className="mt-1 text-sm text-neutral-500">
-          {ui.listSubtitle.replace("{count}", String(phuket.length))}
-        </p>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {phuket.map((spot) => (
-            <DestinationCard key={spot.slug} spot={spot} />
-          ))}
-        </div>
-
-        <h2 className="mt-14 font-heading text-xl font-bold text-ink-950 dark:text-white">
-          Koh Samui
-        </h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {samui.map((spot) => (
-            <DestinationCard key={spot.slug} spot={spot} />
-          ))}
-        </div>
+      <section className="mx-auto max-w-6xl space-y-14 px-4 py-10 sm:px-6">
+        {regions.map((region) => {
+          const spots = DESTINATION_SPOTS.filter((d) => d.region === region).sort(
+            (a, b) => b.appeal - a.appeal,
+          );
+          return (
+            <div key={region}>
+              <h2 className="font-heading text-xl font-bold text-ink-950 dark:text-white">
+                {t(`regions.${region}` as `regions.${DestinationRegion}`)}
+              </h2>
+              <p className="mt-1 text-sm text-neutral-500">
+                {ui.listSubtitle.replace("{count}", String(spots.length))}
+              </p>
+              <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {spots.map((spot) => (
+                  <DestinationCard key={spot.slug} spot={spot} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </section>
     </main>
   );

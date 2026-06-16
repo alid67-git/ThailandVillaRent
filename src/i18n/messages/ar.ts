@@ -14,7 +14,7 @@ const ar: Messages = {
     eyebrow: "في جميع أنحاء تايلاند",
     title: "إقامتك المثالية في تايلاند",
     subtitle:
-      "إيجار فيلات وبنغلows في بوكيت وكوه ساموي — بحث وفلاتر على طراز Booking.",
+      "إيجار فيلات وبنغلows في بوكيت وكوه ساموي — بحث وفلاتر متقدمة.",
     cta: "تصفح جميع الإقامات",
     featured: "إقامات مميزة",
     featuredHint: "إعلانات حقيقية مع تفاصيل كاملة",
@@ -69,6 +69,16 @@ const ar: Messages = {
   regions: {
     phuket: "بوكيت",
     "koh-samui": "كوه ساموي",
+    krabi: "كرابي",
+    "chiang-mai": "شيانغ ماي",
+    bangkok: "بانكوك",
+    pattaya: "باتايا",
+    "koh-phangan": "كوه فانغان",
+    "koh-tao": "كوه تاو",
+    "koh-lipe": "كوه ليبي",
+    ayutthaya: "أيوتايا",
+    pai: "باي",
+    "hua-hin": "هوا هين",
   },
   airports: {
     hkt: "مطار بوكيت الدولي",

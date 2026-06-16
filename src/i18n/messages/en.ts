@@ -13,7 +13,7 @@ const en: Messages = {
   home: {
     eyebrow: "Across Thailand",
     title: "Find your perfect stay in Thailand",
-    subtitle: "Villa and bungalow rentals in Phuket and Koh Samui — Booking-style search and filters.",
+    subtitle: "Villa and bungalow rentals in Phuket and Koh Samui — advanced search and filters.",
     cta: "Browse all stays",
     featured: "Featured stays",
     featuredHint: "Real listings with full details",
@@ -67,6 +67,16 @@ const en: Messages = {
   regions: {
     phuket: "Phuket",
     "koh-samui": "Koh Samui",
+    krabi: "Krabi",
+    "chiang-mai": "Chiang Mai",
+    bangkok: "Bangkok",
+    pattaya: "Pattaya",
+    "koh-phangan": "Koh Phangan",
+    "koh-tao": "Koh Tao",
+    "koh-lipe": "Koh Lipe",
+    ayutthaya: "Ayutthaya",
+    pai: "Pai",
+    "hua-hin": "Hua Hin",
   },
   airports: {
     hkt: "Phuket International Airport",

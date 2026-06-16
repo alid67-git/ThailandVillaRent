@@ -1,4 +1,31 @@
-import type { StayRegion } from "@/data/stays/types";
+export type DestinationRegion =
+  | "phuket"
+  | "koh-samui"
+  | "krabi"
+  | "chiang-mai"
+  | "bangkok"
+  | "pattaya"
+  | "koh-phangan"
+  | "koh-tao"
+  | "koh-lipe"
+  | "ayutthaya"
+  | "pai"
+  | "hua-hin";
+
+export const DESTINATION_REGIONS = [
+  "phuket",
+  "koh-samui",
+  "krabi",
+  "chiang-mai",
+  "bangkok",
+  "pattaya",
+  "koh-phangan",
+  "koh-tao",
+  "koh-lipe",
+  "ayutthaya",
+  "pai",
+  "hua-hin",
+] as const satisfies readonly DestinationRegion[];
 
 export type DestinationCategory =
   | "beach"
@@ -13,7 +40,7 @@ export type DestinationCategory =
 export interface DestinationSpot {
   id: string;
   slug: string;
-  region: StayRegion;
+  region: DestinationRegion;
   category: DestinationCategory;
   appeal: number;
   lat: number;

@@ -16,10 +16,9 @@ export function DestinationDetailView({ spot }: { spot: DestinationSpot }) {
   const ui = getDestinationUi(locale);
   const content = getDestinationContent(locale, spot.slug as DestinationSlug);
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`;
-  const regionLabel =
-    spot.region === "phuket" ? t("regions.phuket") : t("regions.koh-samui");
-
+  const regionLabel = t(`regions.${spot.region}`);
   const regionStays = STAY_CATALOG.filter((s) => s.region === spot.region).slice(0, 4);
+  const hasStayRegion = spot.region === "phuket" || spot.region === "koh-samui";
 
   return (
     <main className="min-h-screen bg-neutral-50 dark:bg-ink-950">
@@ -81,7 +80,7 @@ export function DestinationDetailView({ spot }: { spot: DestinationSpot }) {
           </section>
         )}
 
-        {regionStays.length > 0 && (
+        {hasStayRegion && regionStays.length > 0 && (
           <section className="rounded-2xl border border-neutral-200 bg-white p-6 dark:border-ink-700 dark:bg-ink-900">
             <h2 className="font-heading text-xl font-bold">{ui.page.nearbyStays}</h2>
             <p className="mt-1 text-sm text-neutral-500">{t("destinations.stayHint")}</p>
