@@ -1,0 +1,24 @@
+export const locales = ["tr", "en", "ru", "de", "fr", "th", "ar", "zh"] as const;
+
+export type Locale = (typeof locales)[number];
+
+export const defaultLocale: Locale = "en";
+
+export const localeLabels: Record<Locale, string> = {
+  tr: "Türkçe",
+  en: "English",
+  th: "ไทย",
+  de: "Deutsch",
+  fr: "Français",
+  ar: "العربية",
+  zh: "中文",
+  ru: "Русский",
+};
+
+export function isRtl(locale: Locale): boolean {
+  return locale === "ar";
+}
+
+export const LOCALE_STORAGE_KEY = "tvr-locale";
+export const LOCALE_CHOSEN_KEY = "tvr-locale-chosen";
+export const LOCALE_COOKIE = "tvr-locale";
