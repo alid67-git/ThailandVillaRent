@@ -6,6 +6,7 @@ const tr = {
   },
   nav: {
     stays: "Konaklamalar",
+    destinations: "Gezilecek yerler",
   },
   home: {
     eyebrow: "Tayland genelinde",

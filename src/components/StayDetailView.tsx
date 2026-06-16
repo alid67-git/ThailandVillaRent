@@ -6,6 +6,7 @@ import type { StayCatalogItem } from "@/data/stays/types";
 import { useLocale } from "@/context/LocaleContext";
 import { getStayContent } from "@/i18n/stays";
 import type { StaySlug } from "@/data/stays/types";
+import { StayProximitySection } from "@/components/StayProximitySection";
 
 function formatMeters(
   m: number,
@@ -92,6 +93,8 @@ export function StayDetailView({ stay }: { stay: StayCatalogItem }) {
                 ))}
               </div>
             </section>
+
+            <StayProximitySection stay={stay} />
 
             <section className="rounded-2xl border border-neutral-200 bg-white p-6 dark:border-ink-700 dark:bg-ink-900">
               <h2 className="font-heading text-xl font-bold">{t("detail.rooms")}</h2>

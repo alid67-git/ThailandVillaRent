@@ -8,6 +8,7 @@ const en: Messages = {
   },
   nav: {
     stays: "Stays",
+    destinations: "Places to visit",
   },
   home: {
     eyebrow: "Across Thailand",

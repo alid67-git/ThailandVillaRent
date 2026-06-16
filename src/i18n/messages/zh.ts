@@ -6,7 +6,7 @@ const zh: Messages = {
     description:
       "泰国精选住宿。普吉岛、苏梅岛等地的完整详情、距离和设施信息。",
   },
-  nav: { stays: "住宿" },
+  nav: { stays: "住宿", destinations: "景点" },
   home: {
     eyebrow: "泰国全境",
     title: "您在泰国的理想住宿",

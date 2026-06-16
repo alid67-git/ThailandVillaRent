@@ -6,7 +6,7 @@ const de: Messages = {
     description:
       "Ausgewählte Unterkünfte in Thailand. Vollständige Details, Entfernungen und Ausstattung für Phuket, Koh Samui und mehr.",
   },
-  nav: { stays: "Unterkünfte" },
+  nav: { stays: "Unterkünfte", destinations: "Sehenswürdigkeiten" },
   home: {
     eyebrow: "In ganz Thailand",
     title: "Ihre perfekte Unterkunft in Thailand",

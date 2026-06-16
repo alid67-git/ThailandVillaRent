@@ -3,11 +3,18 @@
 import Link from "next/link";
 import { STAY_CATALOG } from "@/data/stays/catalog";
 import { StayCard } from "@/components/StayCard";
+import { DESTINATION_SPOTS } from "@/data/destinations/catalog";
+import { DestinationCard } from "@/components/DestinationCard";
 import { useLocale } from "@/context/LocaleContext";
+import { getDestinationUi } from "@/i18n/destinations/ui";
 
 export function HomePage() {
-  const { t } = useLocale();
+  const { locale, t } = useLocale();
+  const ui = getDestinationUi(locale);
   const featured = STAY_CATALOG.slice(0, 3);
+  const topDestinations = [...DESTINATION_SPOTS]
+    .sort((a, b) => b.appeal - a.appeal)
+    .slice(0, 6);
 
   return (
     <main>
@@ -49,6 +56,30 @@ export function HomePage() {
           {featured.map((stay) => (
             <StayCard key={stay.slug} stay={stay} />
           ))}
+        </div>
+      </section>
+
+      <section className="bg-neutral-100 px-4 py-12 dark:bg-ink-900 sm:px-6 sm:py-16">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <h2 className="font-heading text-2xl font-bold text-ink-950 dark:text-white">
+                {ui.title}
+              </h2>
+              <p className="mt-1 text-neutral-600 dark:text-neutral-400">{ui.subtitle}</p>
+            </div>
+            <Link
+              href="/destinations"
+              className="text-sm font-semibold text-brand-600 hover:text-brand-500"
+            >
+              {ui.viewAll}
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {topDestinations.map((spot) => (
+              <DestinationCard key={spot.slug} spot={spot} />
+            ))}
+          </div>
         </div>
       </section>
     </main>
