@@ -1,5 +1,7 @@
 "use client";
 
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 import { LocaleProvider } from "@/context/LocaleContext";
 import type { Locale } from "@/i18n/config";
 
@@ -10,5 +12,11 @@ export function Providers({
   children: React.ReactNode;
   initialLocale?: Locale;
 }) {
-  return <LocaleProvider initialLocale={initialLocale}>{children}</LocaleProvider>;
+  return (
+    <LocaleProvider initialLocale={initialLocale}>
+      <SiteHeader />
+      {children}
+      <SiteFooter />
+    </LocaleProvider>
+  );
 }

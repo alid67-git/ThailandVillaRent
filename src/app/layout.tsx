@@ -39,9 +39,9 @@ const heading = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Thailand Villa Rent — Villa & Bungalow Rentals",
+  title: "Thailand Villa Rent — Thailand Stay Rentals",
   description:
-    "Villa and bungalow rentals across Thailand. Handpicked stays in Phuket, Koh Samui, Krabi and beyond.",
+    "Handpicked stay rentals across Thailand. Full details, distances, amenities and policies.",
 };
 
 export default async function RootLayout({
