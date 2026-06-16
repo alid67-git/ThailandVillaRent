@@ -8,7 +8,7 @@ export function HomePage() {
 
   return (
     <main className="relative flex min-h-screen flex-col overflow-hidden bg-gradient-to-br from-ink-950 via-brand-900 to-ocean-900 text-white">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(31,143,104,0.25),_transparent_55%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(124,58,237,0.30),_transparent_55%)]" />
       <div className="pointer-events-none absolute -bottom-32 right-0 h-96 w-96 rounded-full bg-sand-400/10 blur-3xl" />
       <div className="pointer-events-none absolute -left-20 top-1/3 h-72 w-72 rounded-full bg-ocean-500/15 blur-3xl" />
 
