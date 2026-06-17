@@ -50,7 +50,7 @@ export function LanguageSwitcher() {
         <div
           role="listbox"
           aria-label="Language"
-          className="absolute right-0 top-full z-50 mt-2 w-72 rounded-xl border border-white/10 bg-ink-900/95 p-1.5 shadow-lift-lg backdrop-blur-md"
+          className="fixed inset-x-3 top-[4.5rem] z-[100] rounded-xl border border-white/10 bg-ink-900/95 p-1.5 shadow-lift-lg backdrop-blur-md sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-2 sm:w-72"
         >
           <div className="grid grid-cols-2 gap-1">
             {locales.map((loc) => (

@@ -39,9 +39,14 @@ export function DestinationsListPage() {
               <p className="mt-1 text-sm text-neutral-500">
                 {ui.listSubtitle.replace("{count}", String(spots.length))}
               </p>
-              <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-6 flex gap-6 overflow-x-auto snap-x snap-mandatory pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 {spots.map((spot) => (
-                  <DestinationCard key={spot.slug} spot={spot} />
+                  <div
+                    key={spot.slug}
+                    className="w-[min(100%,300px)] shrink-0 snap-center sm:w-80"
+                  >
+                    <DestinationCard spot={spot} />
+                  </div>
                 ))}
               </div>
             </div>

@@ -27,7 +27,7 @@ export function HomePage() {
 
   return (
     <main>
-      <section className="relative min-h-[480px] overflow-hidden sm:min-h-[560px]">
+      <section className="relative z-0 min-h-[480px] overflow-hidden sm:min-h-[560px]">
         <Image
           src={HOME_HERO_IMAGES.main}
           alt=""
@@ -113,11 +113,9 @@ export function HomePage() {
             {t("home.viewAll")} →
           </Link>
         </div>
-        <div className="mt-8 flex gap-6 overflow-x-auto snap-x snap-mandatory pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="mt-8 flex flex-col gap-6">
           {STAY_CATALOG.slice(0, 12).map((stay) => (
-            <div key={stay.slug} className="w-[min(100%,300px)] shrink-0 snap-center sm:w-80">
-              <StayCard stay={stay} />
-            </div>
+            <StayCard key={stay.slug} stay={stay} />
           ))}
         </div>
       </section>
