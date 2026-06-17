@@ -2,38 +2,46 @@ import type { Messages } from "./tr";
 
 const de: Messages = {
   meta: {
-    title: "Thailand Villa Rent — Unterkünfte in Thailand",
+    title: "Thailand Villa Rent — Villa & Bungalow Vermietung",
     description:
-      "Ausgewählte Unterkünfte in Thailand. Vollständige Details, Entfernungen und Ausstattung für Phuket, Koh Samui und mehr.",
+      "Nur Villa- und Bungalowvermietung in Thailand. Alle Objekte auf der Karte mit Preisen, Mehrfachauswahl und Details.",
   },
   nav: {
-    stays: "Unterkünfte",
+    stays: "Villen & Bungalows",
     destinations: "Sehenswürdigkeiten",
+    map: "Karte",
   },
   home: {
     eyebrow: "In ganz Thailand",
-    heroEyebrow: "Phuket · Andamansee",
-    title: "Ihre perfekte Unterkunft in Thailand",
+    focusTag: "Nur Villa- & Bungalowvermietung",
+    heroEyebrow: "Villa · Bungalow · Thailand",
+    title: "Villen & Bungalows in Thailand mieten",
     subtitle:
-      "Villa- und Bungalowvermietung in Phuket und Koh Samui — erweiterte Suche und Filter.",
-    cta: "Alle Unterkünfte ansehen",
-    featured: "Empfohlene Unterkünfte",
-    featuredHint: "Echte Inserate mit vollständigen Details",
+      "100 ausgewählte Villen und Bungalows — von Phuket und Koh Samui bis Chiang Mai und Krabi.",
+    cta: "Villen ansehen",
+    featured: "Empfohlene Villen & Bungalows",
+    featuredHint: "Nur Villa- und Bungalow-Inserate",
     viewAll: "Alle ansehen",
+    pickRegions: "Reiseziele wählen",
+    pickRegionsHint: "Mehrere Regionen gleichzeitig auswählen",
+    viewMap: "Auf Karte ansehen",
     exploreTitle: "Ihr Reiseziel entdecken",
     exploreHint:
       "Entfernungen werden auf der Detailseite jeder Unterkunft angezeigt — berechnet vom jeweiligen Objekt.",
-    galleryTitle: "Phuket-Strände & Andaman-Aussichten",
+    galleryTitle: "Thailand-Villen & Strandblick",
   },
   search: {
     destination: "Reiseziel",
+    pickRegions: "Reiseziele (Mehrfachauswahl)",
+    allRegions: "Alle Reiseziele",
+    regionsSelected: "{count} Reiseziele ausgewählt",
     area: "Bereich / Viertel",
     allAreas: "Alle Viertel",
     checkIn: "Anreise",
     checkOut: "Abreise",
     guests: "Gäste",
     submit: "Suchen",
-    title: "Unterkunft suchen",
+    title: "Villen & Bungalows suchen",
     close: "Schließen",
   },
   areas: {
@@ -52,6 +60,7 @@ const de: Messages = {
   },
   filters: {
     allRegions: "Alle",
+    regions: "Reiseziele",
     priceMax: "Max. Preis / Nacht",
     anyPrice: "Beliebiger Preis",
     size: "Größe",
@@ -67,8 +76,8 @@ const de: Messages = {
     sortPriceDesc: "Preis (absteigend)",
   },
   stays: {
-    title: "Unterkünfte",
-    subtitle: "Reiseziel wählen, filtern und vergleichen.",
+    title: "Villa & Bungalow Vermietung",
+    subtitle: "Nur Villa- und Bungalow-Inserate — Mehrfachauswahl, filtern und vergleichen.",
     rooms: "Zimmer",
     listings: "Inserate",
     fromPrice: "Ab ~${price} USD/Nacht",
@@ -156,11 +165,20 @@ const de: Messages = {
     book: "Jetzt buchen",
   },
   footer: {
-    tagline: "Unterkünfte in ganz Thailand",
+    tagline: "Villa- & Bungalowvermietung in Thailand",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "Nach oben",
+  },
+  map: {
+    title: "Villa & Bungalow Karte",
+    subtitle: "Alle Villen und Bungalows auf der Karte — mit Nachtpreisen.",
+    allStays: "{count} Objekte auf der Karte",
+    viewDetail: "Details",
+    villa: "Villa",
+    bungalow: "Bungalow",
+    filterHint: "Filter schränkt nur die Seitenliste ein — alle Markierungen bleiben sichtbar.",
   },
 };
 

@@ -14,7 +14,7 @@ export type StayRegion =
 
 export type StaySize = "compact" | "family" | "large";
 
-export type StayPropertyType = "villa" | "bungalow" | "pool-villa" | "beach-house" | "apartment";
+export type StayPropertyType = "villa" | "bungalow" | "pool-villa";
 
 export interface StayLandmarkRef {
   id: string;

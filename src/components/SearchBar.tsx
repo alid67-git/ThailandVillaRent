@@ -3,7 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useLocale } from "@/context/LocaleContext";
-import { AREAS_BY_REGION, REGIONS } from "@/data/stays/catalog";
+import { RegionMultiSelect } from "@/components/RegionMultiSelect";
+import { buildRegionsQuery } from "@/lib/region-params";
 import type { StayRegion } from "@/data/stays/types";
 
 export function SearchBar({
@@ -15,23 +16,24 @@ export function SearchBar({
 }) {
   const { t } = useLocale();
   const router = useRouter();
-  const [region, setRegion] = useState<StayRegion>("phuket");
-  const [area, setArea] = useState("");
+  const [regions, setRegions] = useState<StayRegion[]>([]);
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [guests, setGuests] = useState(2);
 
-  const areas = AREAS_BY_REGION[region] ?? [];
-
   function onSearch(e: React.FormEvent) {
     e.preventDefault();
     const params = new URLSearchParams();
-    params.set("region", region);
-    if (area) params.set("area", area);
+    const regionQuery = buildRegionsQuery(regions);
+    if (regionQuery) {
+      const q = new URLSearchParams(regionQuery);
+      q.forEach((v, k) => params.set(k, v));
+    }
     if (checkIn) params.set("checkIn", checkIn);
     if (checkOut) params.set("checkOut", checkOut);
     params.set("guests", String(guests));
-    router.push(`/stays?${params.toString()}`);
+    const qs = params.toString();
+    router.push(qs ? `/stays?${qs}` : "/stays");
     onSubmitted?.();
   }
 
@@ -42,43 +44,12 @@ export function SearchBar({
         compact ? "" : "border border-neutral-200 dark:border-ink-700"
       }`}
     >
-      <div className={`grid gap-3 ${compact ? "sm:grid-cols-2 lg:grid-cols-6" : "sm:grid-cols-2 lg:grid-cols-5"}`}>
-        <div className={compact ? "lg:col-span-2" : "sm:col-span-2"}>
+      <div className={`grid gap-3 ${compact ? "sm:grid-cols-2 lg:grid-cols-5" : "sm:grid-cols-2 lg:grid-cols-4"}`}>
+        <div className={compact ? "sm:col-span-2 lg:col-span-2" : "sm:col-span-2"}>
           <label className="text-xs font-bold uppercase tracking-wide text-neutral-500">
-            {t("search.destination")}
+            {t("search.pickRegions")}
           </label>
-          <select
-            value={region}
-            onChange={(e) => {
-              setRegion(e.target.value as StayRegion);
-              setArea("");
-            }}
-            className="mt-1 w-full rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2.5 text-sm font-semibold dark:border-ink-600 dark:bg-ink-800"
-            required
-          >
-            {REGIONS.map((r) => (
-              <option key={r} value={r}>
-                {t(`regions.${r}`)}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label className="text-xs font-bold uppercase tracking-wide text-neutral-500">
-            {t("search.area")}
-          </label>
-          <select
-            value={area}
-            onChange={(e) => setArea(e.target.value)}
-            className="mt-1 w-full rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2.5 text-sm dark:border-ink-600 dark:bg-ink-800"
-          >
-            <option value="">{t("search.allAreas")}</option>
-            {areas.map((a) => (
-              <option key={a} value={a}>
-                {t(`areas.${a}` as "areas.kamala")}
-              </option>
-            ))}
-          </select>
+          <RegionMultiSelect value={regions} onChange={setRegions} className="mt-1" />
         </div>
         <div>
           <label className="text-xs font-bold uppercase tracking-wide text-neutral-500">

@@ -2,38 +2,46 @@ import type { Messages } from "./tr";
 
 const ar: Messages = {
   meta: {
-    title: "Thailand Villa Rent — إيجار إقامة في تايلاند",
+    title: "Thailand Villa Rent — إيجار فيلات وبنغلows",
     description:
-      "إقامات منتقاة في تايلاند. تفاصيل كاملة ومسافات ومرافق في بوكيت وكوه ساموي والمزيد.",
+      "إيجار فيلات وبنغلows فقط في تايلاند. جميع العقارات على الخريطة مع الأسعار واختيار وجهات متعددة.",
   },
   nav: {
-    stays: "الإقامات",
+    stays: "فيلات وبنغلows",
     destinations: "أماكن للزيارة",
+    map: "الخريطة",
   },
   home: {
     eyebrow: "في جميع أنحاء تايلاند",
-    heroEyebrow: "بوكيت · بحر أندامان",
-    title: "إقامتك المثالية في تايلاند",
+    focusTag: "إيجار فيلات وبنغلows فقط",
+    heroEyebrow: "فيلا · بنغل · تايلاند",
+    title: "أجر فيلات وبنغلows في تايلاند",
     subtitle:
-      "إيجار فيلات وبنغلows في بوكيت وكوه ساموي — بحث وفلاتر متقدمة.",
-    cta: "تصفح جميع الإقامات",
-    featured: "إقامات مميزة",
-    featuredHint: "إعلانات حقيقية مع تفاصيل كاملة",
+      "100 فيلا وبنغل منتقاة — من بوكيت وكوه ساموي إلى شيانغ ماي وكرابي.",
+    cta: "تصفح الفيلات",
+    featured: "فيلات وبنغلows مميزة",
+    featuredHint: "إعلانات فيلات وبنغلows فقط",
     viewAll: "عرض الكل",
+    pickRegions: "اختر الوجهات",
+    pickRegionsHint: "يمكنك اختيار عدة مناطق في آن واحد",
+    viewMap: "عرض على الخريطة",
     exploreTitle: "استكشف وجهتك",
     exploreHint:
       "تُعرض المسافات في صفحة تفاصيل كل إقامة — محسوبة من ذلك العقار.",
-    galleryTitle: "شواطئ بوكيت وإطلالات أندامان",
+    galleryTitle: "فيلات تايلاند وإطلالات الشاطئ",
   },
   search: {
     destination: "الوجهة",
+    pickRegions: "الوجهات (اختيار متعدد)",
+    allRegions: "جميع الوجهات",
+    regionsSelected: "{count} وجهة محددة",
     area: "المنطقة / الحي",
     allAreas: "جميع الأحياء",
     checkIn: "تسجيل الوصول",
     checkOut: "تسجيل المغادرة",
     guests: "الضيوف",
     submit: "بحث",
-    title: "البحث عن إقامة",
+    title: "البحث عن فيلات وبنغلows",
     close: "إغلاق",
   },
   areas: {
@@ -52,6 +60,7 @@ const ar: Messages = {
   },
   filters: {
     allRegions: "الكل",
+    regions: "الوجهات",
     priceMax: "الحد الأقصى للسعر / ليلة",
     anyPrice: "أي سعر",
     size: "الحجم",
@@ -67,8 +76,8 @@ const ar: Messages = {
     sortPriceDesc: "السعر (من الأعلى للأقل)",
   },
   stays: {
-    title: "الإقامات",
-    subtitle: "اختر وجهة، وفلتر وقارن.",
+    title: "إيجار فيلات وبنغلows",
+    subtitle: "فيلات وبنغلows فقط — اختيار وجهات متعددة وتصفية ومقارنة.",
     rooms: "غرف",
     listings: "إعلانات",
     fromPrice: "من ~${price} دولار/ليلة",
@@ -156,11 +165,20 @@ const ar: Messages = {
     book: "احجز الآن",
   },
   footer: {
-    tagline: "إيجار إقامة في جميع أنحاء تايلاند",
+    tagline: "إيجار فيلات وبنغلows في تايلاند",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "العودة للأعلى",
+  },
+  map: {
+    title: "خريطة الفيلات والبنغلows",
+    subtitle: "جميع الفيلات والبنغلows على الخريطة — مع الأسعار الليلية.",
+    allStays: "{count} عقار على الخريطة",
+    viewDetail: "التفاصيل",
+    villa: "فيلا",
+    bungalow: "بنغل",
+    filterHint: "الفلتر يضيّق القائمة الجانبية فقط — جميع النقاط تبقى على الخريطة.",
   },
 };
 

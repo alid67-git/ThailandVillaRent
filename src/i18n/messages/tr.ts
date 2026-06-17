@@ -1,35 +1,44 @@
 const tr = {
   meta: {
-    title: "Thailand Villa Rent — Tayland Konaklama Kiralama",
+    title: "Thailand Villa Rent — Villa & Bungalov Kiralama",
     description:
-      "Tayland'da özenle seçilmiş konaklama kiralama. Phuket, Koh Samui ve daha fazlasında detaylı bilgi, mesafe ve olanaklar.",
+      "Tayland genelinde yalnızca villa ve bungalov kiralama. Haritada fiyatlarla görün, birden fazla destinasyon seçin.",
   },
   nav: {
-    stays: "Konaklamalar",
+    stays: "Villa & Bungalov",
     destinations: "Gezilecek yerler",
+    map: "Harita",
   },
   home: {
     eyebrow: "Tayland genelinde",
-    heroEyebrow: "Phuket · Andaman Denizi",
-    title: "Tayland'da mükemmel konaklamanızı bulun",
-    subtitle: "Phuket ve Koh Samui'de villa ve bungalov kiralama — gelişmiş arama ve filtreler.",
-    cta: "Tüm konaklamaları gör",
-    featured: "Öne çıkan konaklamalar",
-    featuredHint: "Gerçek ilanlar, detaylı bilgi",
+    focusTag: "Yalnızca villa & bungalov kiralama",
+    heroEyebrow: "Villa · Bungalov · Tayland",
+    title: "Tayland'da villa ve bungalov kiralayın",
+    subtitle:
+      "100 özenle seçilmiş villa ve bungalov — Phuket'ten Koh Samui'ye, Chiang Mai'den Krabi'ye.",
+    cta: "Villaları gör",
+    featured: "Öne çıkan villalar & bungalovlar",
+    featuredHint: "Yalnızca villa ve bungalov ilanları",
     viewAll: "Tümünü gör",
+    pickRegions: "Destinasyonları seçin",
+    pickRegionsHint: "Birden fazla bölgeyi aynı anda seçebilirsiniz",
+    viewMap: "Haritada gör",
     exploreTitle: "Bölgenizi keşfedin",
     exploreHint: "Mesafeler konaklama detay sayfasında — seçtiğiniz mülke göre hesaplanır.",
-    galleryTitle: "Phuket plajları ve Andaman manzarası",
+    galleryTitle: "Tayland villaları ve plaj manzarası",
   },
   search: {
     destination: "Destinasyon",
+    pickRegions: "Destinasyonlar (çoklu seçim)",
+    allRegions: "Tüm destinasyonlar",
+    regionsSelected: "{count} destinasyon seçili",
     area: "Bölge / semt",
     allAreas: "Tüm semtler",
     checkIn: "Giriş",
     checkOut: "Çıkış",
     guests: "Misafir",
     submit: "Ara",
-    title: "Konaklama ara",
+    title: "Villa & bungalov ara",
     close: "Kapat",
   },
   areas: {
@@ -71,6 +80,7 @@ const tr = {
   },
   filters: {
     allRegions: "Tümü",
+    regions: "Destinasyonlar",
     priceMax: "Maks. fiyat / gece",
     anyPrice: "Tüm fiyatlar",
     size: "Büyüklük",
@@ -86,8 +96,8 @@ const tr = {
     sortPriceDesc: "Fiyat (azalan)",
   },
   stays: {
-    title: "Konaklamalar",
-    subtitle: "Destinasyon seçin, filtreleyin ve karşılaştırın.",
+    title: "Villa & Bungalov Kiralama",
+    subtitle: "Yalnızca villa ve bungalov ilanları — destinasyonları çoklu seçin, filtreleyin ve karşılaştırın.",
     rooms: "oda",
     listings: "ilan",
     fromPrice: "Gecelik ~${price} USD'den",
@@ -175,11 +185,20 @@ const tr = {
     book: "Rezervasyon yap",
   },
   footer: {
-    tagline: "Tayland genelinde konaklama kiralama",
+    tagline: "Tayland genelinde villa & bungalov kiralama",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "Yukarı çık",
+  },
+  map: {
+    title: "Villa & Bungalov Haritası",
+    subtitle: "Tayland'daki tüm villa ve bungalovlar haritada — gecelik fiyatlarla.",
+    allStays: "Haritada {count} konaklama",
+    viewDetail: "Detay",
+    villa: "Villa",
+    bungalow: "Bungalov",
+    filterHint: "Filtre yalnızca yan listeyi daraltır — haritada tüm noktalar görünür.",
   },
 };
 

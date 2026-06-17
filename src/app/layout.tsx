@@ -39,9 +39,9 @@ const heading = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Thailand Villa Rent — Thailand Stay Rentals",
+  title: "Thailand Villa Rent — Villa & Bungalow Rentals",
   description:
-    "Handpicked stay rentals across Thailand. Full details, distances, amenities and policies.",
+    "Villa and bungalow rentals only, across Thailand. Browse 100 properties on the map with prices, multi-destination search and full details.",
 };
 
 export default async function RootLayout({

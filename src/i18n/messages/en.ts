@@ -2,36 +2,45 @@ import type { Messages } from "./tr";
 
 const en: Messages = {
   meta: {
-    title: "Thailand Villa Rent — Thailand Stay Rentals",
+    title: "Thailand Villa Rent — Villa & Bungalow Rentals",
     description:
-      "Handpicked stay rentals across Thailand. Full details, distances and amenities for Phuket, Koh Samui and beyond.",
+      "Villa and bungalow rentals only across Thailand. See all properties on the map with prices, multi-destination search and full details.",
   },
   nav: {
-    stays: "Stays",
+    stays: "Villas & Bungalows",
     destinations: "Places to visit",
+    map: "Map",
   },
   home: {
     eyebrow: "Across Thailand",
-    heroEyebrow: "Phuket · Andaman Sea",
-    title: "Find your perfect stay in Thailand",
-    subtitle: "Villa and bungalow rentals in Phuket and Koh Samui — advanced search and filters.",
-    cta: "Browse all stays",
-    featured: "Featured stays",
-    featuredHint: "Real listings with full details",
+    focusTag: "Villa & bungalow rentals only",
+    heroEyebrow: "Villa · Bungalow · Thailand",
+    title: "Rent villas & bungalows in Thailand",
+    subtitle:
+      "100 handpicked villas and bungalows — from Phuket and Koh Samui to Chiang Mai and Krabi.",
+    cta: "Browse villas",
+    featured: "Featured villas & bungalows",
+    featuredHint: "Villa and bungalow listings only",
     viewAll: "View all",
+    pickRegions: "Pick destinations",
+    pickRegionsHint: "Select multiple regions at once",
+    viewMap: "View on map",
     exploreTitle: "Explore your destination",
     exploreHint: "Distances are shown on each stay's detail page — calculated from that property.",
-    galleryTitle: "Phuket beaches & Andaman views",
+    galleryTitle: "Thailand villas & beach views",
   },
   search: {
     destination: "Destination",
+    pickRegions: "Destinations (multi-select)",
+    allRegions: "All destinations",
+    regionsSelected: "{count} destinations selected",
     area: "Area / neighbourhood",
     allAreas: "All areas",
     checkIn: "Check-in",
     checkOut: "Check-out",
     guests: "Guests",
     submit: "Search",
-    title: "Search stays",
+    title: "Search villas & bungalows",
     close: "Close",
   },
   areas: {
@@ -73,6 +82,7 @@ const en: Messages = {
   },
   filters: {
     allRegions: "All",
+    regions: "Destinations",
     priceMax: "Max price / night",
     anyPrice: "Any price",
     size: "Size",
@@ -88,8 +98,8 @@ const en: Messages = {
     sortPriceDesc: "Price (high to low)",
   },
   stays: {
-    title: "Stays",
-    subtitle: "Pick a destination, filter and compare.",
+    title: "Villa & Bungalow Rentals",
+    subtitle: "Villa and bungalow listings only — multi-select destinations, filter and compare.",
     rooms: "rooms",
     listings: "listings",
     fromPrice: "From ~${price} USD/night",
@@ -177,11 +187,20 @@ const en: Messages = {
     book: "Book now",
   },
   footer: {
-    tagline: "Stay rentals across Thailand",
+    tagline: "Villa & bungalow rentals across Thailand",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "Back to top",
+  },
+  map: {
+    title: "Villa & Bungalow Map",
+    subtitle: "All villas and bungalows on the map — with nightly prices.",
+    allStays: "{count} properties on map",
+    viewDetail: "Details",
+    villa: "Villa",
+    bungalow: "Bungalow",
+    filterHint: "Filter narrows the side list only — all pins stay visible on the map.",
   },
 };
 

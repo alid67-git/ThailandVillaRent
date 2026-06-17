@@ -37,6 +37,12 @@ export function SiteHeader() {
             {t("nav.stays")}
           </Link>
           <Link
+            href="/map"
+            className="hidden text-sm font-medium text-white/80 transition hover:text-white sm:inline"
+          >
+            {t("nav.map")}
+          </Link>
+          <Link
             href="/destinations"
             className="hidden text-sm font-medium text-white/80 transition hover:text-white sm:inline"
           >

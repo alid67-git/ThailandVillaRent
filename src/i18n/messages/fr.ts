@@ -2,38 +2,46 @@ import type { Messages } from "./tr";
 
 const fr: Messages = {
   meta: {
-    title: "Thailand Villa Rent — Locations en Thaïlande",
+    title: "Thailand Villa Rent — Location Villa & Bungalow",
     description:
-      "Hébergements sélectionnés en Thaïlande. Détails complets, distances et équipements pour Phuket, Koh Samui et plus.",
+      "Uniquement villas et bungalows en Thaïlande. Tous les biens sur la carte avec prix, sélection multiple et détails.",
   },
   nav: {
-    stays: "Hébergements",
+    stays: "Villas & Bungalows",
     destinations: "Lieux à visiter",
+    map: "Carte",
   },
   home: {
     eyebrow: "À travers la Thaïlande",
-    heroEyebrow: "Phuket · mer d'Andaman",
-    title: "Votre séjour idéal en Thaïlande",
+    focusTag: "Uniquement villas & bungalows",
+    heroEyebrow: "Villa · Bungalow · Thaïlande",
+    title: "Louez villas & bungalows en Thaïlande",
     subtitle:
-      "Locations de villas et bungalows à Phuket et Koh Samui — recherche et filtres avancés.",
-    cta: "Voir tous les hébergements",
-    featured: "Hébergements en vedette",
-    featuredHint: "Annonces réelles avec tous les détails",
+      "100 villas et bungalows sélectionnés — de Phuket et Koh Samui à Chiang Mai et Krabi.",
+    cta: "Voir les villas",
+    featured: "Villas & bungalows en vedette",
+    featuredHint: "Annonces villa et bungalow uniquement",
     viewAll: "Tout voir",
+    pickRegions: "Choisir les destinations",
+    pickRegionsHint: "Sélectionnez plusieurs régions à la fois",
+    viewMap: "Voir sur la carte",
     exploreTitle: "Explorez votre destination",
     exploreHint:
       "Les distances sont affichées sur la page de détail de chaque hébergement — calculées depuis ce bien.",
-    galleryTitle: "Plages de Phuket et vues sur l'Andaman",
+    galleryTitle: "Villas thaïlandaises et vues plage",
   },
   search: {
     destination: "Destination",
+    pickRegions: "Destinations (sélection multiple)",
+    allRegions: "Toutes les destinations",
+    regionsSelected: "{count} destinations sélectionnées",
     area: "Quartier / zone",
     allAreas: "Tous les quartiers",
     checkIn: "Arrivée",
     checkOut: "Départ",
     guests: "Voyageurs",
     submit: "Rechercher",
-    title: "Rechercher un hébergement",
+    title: "Rechercher villas & bungalows",
     close: "Fermer",
   },
   areas: {
@@ -52,6 +60,7 @@ const fr: Messages = {
   },
   filters: {
     allRegions: "Tous",
+    regions: "Destinations",
     priceMax: "Prix max. / nuit",
     anyPrice: "Tous les prix",
     size: "Taille",
@@ -67,8 +76,8 @@ const fr: Messages = {
     sortPriceDesc: "Prix (décroissant)",
   },
   stays: {
-    title: "Hébergements",
-    subtitle: "Choisissez une destination, filtrez et comparez.",
+    title: "Location Villa & Bungalow",
+    subtitle: "Uniquement villas et bungalows — sélection multiple, filtres et comparaison.",
     rooms: "chambres",
     listings: "annonces",
     fromPrice: "À partir de ~${price} USD/nuit",
@@ -156,11 +165,20 @@ const fr: Messages = {
     book: "Réserver",
   },
   footer: {
-    tagline: "Locations en Thaïlande",
+    tagline: "Villas & bungalows en Thaïlande",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "Haut de page",
+  },
+  map: {
+    title: "Carte Villas & Bungalows",
+    subtitle: "Toutes les villas et bungalows sur la carte — avec prix par nuit.",
+    allStays: "{count} biens sur la carte",
+    viewDetail: "Détails",
+    villa: "Villa",
+    bungalow: "Bungalow",
+    filterHint: "Le filtre réduit la liste latérale — tous les points restent sur la carte.",
   },
 };
 

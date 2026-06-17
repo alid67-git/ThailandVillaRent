@@ -2,37 +2,45 @@ import type { Messages } from "./tr";
 
 const zh: Messages = {
   meta: {
-    title: "Thailand Villa Rent — 泰国住宿租赁",
+    title: "Thailand Villa Rent — 别墅与bungalow租赁",
     description:
-      "泰国精选住宿。普吉岛、苏梅岛等地的完整详情、距离和设施信息。",
+      "泰国仅限别墅与bungalow租赁。地图上查看全部房源及价格，支持多目的地选择与完整详情。",
   },
   nav: {
-    stays: "住宿",
+    stays: "别墅 & Bungalow",
     destinations: "景点",
+    map: "地图",
   },
   home: {
     eyebrow: "泰国全境",
-    heroEyebrow: "普吉岛 · 安达曼海",
-    title: "您在泰国的理想住宿",
+    focusTag: "仅限别墅与bungalow租赁",
+    heroEyebrow: "别墅 · Bungalow · 泰国",
+    title: "泰国别墅与bungalow租赁",
     subtitle:
-      "普吉岛和苏梅岛别墅与bungalow租赁 — 高级搜索与筛选。",
-    cta: "浏览全部住宿",
-    featured: "精选住宿",
-    featuredHint: "真实房源，含完整详情",
+      "100 套精选别墅与bungalow — 从普吉岛、苏梅岛到清迈和甲米。",
+    cta: "浏览别墅",
+    featured: "精选别墅与bungalow",
+    featuredHint: "仅别墅与bungalow房源",
     viewAll: "查看全部",
+    pickRegions: "选择目的地",
+    pickRegionsHint: "可同时选择多个地区",
+    viewMap: "地图查看",
     exploreTitle: "探索您的目的地",
     exploreHint: "距离显示在各住宿详情页 — 根据该房源计算。",
-    galleryTitle: "普吉海滩与安达曼景观",
+    galleryTitle: "泰国别墅与海滩景观",
   },
   search: {
     destination: "目的地",
+    pickRegions: "目的地（多选）",
+    allRegions: "全部目的地",
+    regionsSelected: "已选 {count} 个目的地",
     area: "区域 / 街区",
     allAreas: "所有区域",
     checkIn: "入住",
     checkOut: "退房",
     guests: "客人",
     submit: "搜索",
-    title: "搜索住宿",
+    title: "搜索别墅与bungalow",
     close: "关闭",
   },
   areas: {
@@ -51,6 +59,7 @@ const zh: Messages = {
   },
   filters: {
     allRegions: "全部",
+    regions: "目的地",
     priceMax: "最高价格 / 晚",
     anyPrice: "不限价格",
     size: "规模",
@@ -66,8 +75,8 @@ const zh: Messages = {
     sortPriceDesc: "价格（从高到低）",
   },
   stays: {
-    title: "住宿",
-    subtitle: "选择目的地，筛选并比较。",
+    title: "别墅与Bungalow租赁",
+    subtitle: "仅别墅与bungalow房源 — 多选目的地、筛选与比较。",
     rooms: "间客房",
     listings: "个房源",
     fromPrice: "约 ${price} 美元/晚起",
@@ -155,11 +164,20 @@ const zh: Messages = {
     book: "立即预订",
   },
   footer: {
-    tagline: "泰国全境住宿租赁",
+    tagline: "泰国别墅与bungalow租赁",
     copyright: "© 2026 Thailand Villa Rent",
   },
   ui: {
     scrollTop: "回到顶部",
+  },
+  map: {
+    title: "别墅与Bungalow地图",
+    subtitle: "地图上显示全部别墅与bungalow — 含每晚价格。",
+    allStays: "地图上有 {count} 个房源",
+    viewDetail: "详情",
+    villa: "别墅",
+    bungalow: "Bungalow",
+    filterHint: "筛选仅缩小侧栏列表 — 地图上仍显示全部标记。",
   },
 };
 

@@ -153,6 +153,4 @@ export const STAY_PROPERTY_TYPES: StayPropertyType[] = [
   "villa",
   "bungalow",
   "pool-villa",
-  "beach-house",
-  "apartment",
 ];
