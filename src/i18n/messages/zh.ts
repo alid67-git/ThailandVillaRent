@@ -12,6 +12,7 @@ const zh: Messages = {
   },
   home: {
     eyebrow: "泰国全境",
+    heroEyebrow: "普吉岛 · 安达曼海",
     title: "您在泰国的理想住宿",
     subtitle:
       "普吉岛和苏梅岛别墅与bungalow租赁 — 高级搜索与筛选。",
@@ -21,6 +22,7 @@ const zh: Messages = {
     viewAll: "查看全部",
     exploreTitle: "探索您的目的地",
     exploreHint: "距离显示在各住宿详情页 — 根据该房源计算。",
+    galleryTitle: "普吉海滩与安达曼景观",
   },
   search: {
     destination: "目的地",
@@ -30,6 +32,8 @@ const zh: Messages = {
     checkOut: "退房",
     guests: "客人",
     submit: "搜索",
+    title: "搜索住宿",
+    close: "关闭",
   },
   areas: {
     kamala: "卡马拉",
@@ -78,6 +82,10 @@ const zh: Messages = {
     ayutthaya: "大城",
     pai: "拜县",
     "hua-hin": "华欣",
+    "koh-chang": "象岛",
+    "koh-samet": "沙美岛",
+    kanchanaburi: "北碧",
+    "phang-nga": "攀牙",
   },
   airports: {
     hkt: "普吉国际机场",

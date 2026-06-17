@@ -1,6 +1,7 @@
 "use client";
 
 import { SessionProvider } from "next-auth/react";
+import { SearchModalProvider } from "@/context/SearchModalContext";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LocaleProvider } from "@/context/LocaleContext";
@@ -16,9 +17,11 @@ export function Providers({
   return (
     <SessionProvider>
       <LocaleProvider initialLocale={initialLocale}>
-        <SiteHeader />
-        {children}
-        <SiteFooter />
+        <SearchModalProvider>
+          <SiteHeader />
+          {children}
+          <SiteFooter />
+        </SearchModalProvider>
       </LocaleProvider>
     </SessionProvider>
   );

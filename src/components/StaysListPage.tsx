@@ -5,12 +5,13 @@ import { useSearchParams } from "next/navigation";
 import { STAY_CATALOG } from "@/data/stays/catalog";
 import { StayCard } from "@/components/StayCard";
 import { StayFilters, type StayFiltersState } from "@/components/StayFilters";
-import { SearchBar } from "@/components/SearchBar";
+import { useSearchModal } from "@/context/SearchModalContext";
 import { useLocale } from "@/context/LocaleContext";
 import type { StayRegion } from "@/data/stays/types";
 
 export function StaysListPage() {
   const { t } = useLocale();
+  const { openSearch } = useSearchModal();
   const searchParams = useSearchParams();
   const regionParam = (searchParams.get("region") as StayRegion) || "phuket";
   const areaParam = searchParams.get("area") ?? "";
@@ -49,9 +50,13 @@ export function StaysListPage() {
         <div className="mx-auto max-w-6xl">
           <h1 className="font-heading text-3xl font-extrabold">{t("stays.title")}</h1>
           <p className="mt-2 text-white/75">{t("stays.subtitle")}</p>
-          <div className="mt-8">
-            <SearchBar compact />
-          </div>
+          <button
+            type="button"
+            onClick={openSearch}
+            className="mt-6 inline-flex items-center gap-2 rounded-xl border border-white/25 bg-white/10 px-4 py-2.5 text-sm font-semibold hover:bg-white/15"
+          >
+            🔍 {t("search.title")}
+          </button>
         </div>
       </section>
 

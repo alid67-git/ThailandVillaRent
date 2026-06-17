@@ -12,6 +12,7 @@ const ru: Messages = {
   },
   home: {
     eyebrow: "По всему Таиланду",
+    heroEyebrow: "Пхукет · Андаманское море",
     title: "Идеальное размещение в Таиланде",
     subtitle:
       "Аренда вилл и бунгало на Пхукете и Самуи — расширенный поиск и фильтры.",
@@ -22,6 +23,7 @@ const ru: Messages = {
     exploreTitle: "Исследуйте направление",
     exploreHint:
       "Расстояния указаны на странице деталей каждого объекта — рассчитаны от этого жилья.",
+    galleryTitle: "Пляжи Пхукета и виды на Андаманское море",
   },
   search: {
     destination: "Направление",
@@ -31,6 +33,8 @@ const ru: Messages = {
     checkOut: "Выезд",
     guests: "Гости",
     submit: "Искать",
+    title: "Поиск жилья",
+    close: "Закрыть",
   },
   areas: {
     kamala: "Камала",
@@ -79,6 +83,10 @@ const ru: Messages = {
     ayutthaya: "Аюттхая",
     pai: "Пай",
     "hua-hin": "Хуахин",
+    "koh-chang": "Ко Чанг",
+    "koh-samet": "Ко Самет",
+    kanchanaburi: "Канчанабури",
+    "phang-nga": "Пхангнга",
   },
   airports: {
     hkt: "Международный аэропорт Пхукета",

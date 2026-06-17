@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { AuthButton } from "@/components/AuthButton";
+import { useSearchModal } from "@/context/SearchModalContext";
 import { useLocale } from "@/context/LocaleContext";
 
 export function SiteHeader() {
   const { t } = useLocale();
+  const { openSearch } = useSearchModal();
 
   return (
     <header className="border-b border-white/10 bg-ink-950/80 backdrop-blur-md">
@@ -19,7 +21,15 @@ export function SiteHeader() {
             Thailand Villa Rent
           </span>
         </Link>
-        <nav className="flex items-center gap-4">
+        <nav className="flex items-center gap-2 sm:gap-4">
+          <button
+            type="button"
+            onClick={openSearch}
+            className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/20 text-white transition hover:bg-white/10"
+            aria-label={t("search.title")}
+          >
+            🔍
+          </button>
           <Link
             href="/stays"
             className="hidden text-sm font-medium text-white/80 transition hover:text-white sm:inline"

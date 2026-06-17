@@ -12,6 +12,7 @@ const de: Messages = {
   },
   home: {
     eyebrow: "In ganz Thailand",
+    heroEyebrow: "Phuket · Andamansee",
     title: "Ihre perfekte Unterkunft in Thailand",
     subtitle:
       "Villa- und Bungalowvermietung in Phuket und Koh Samui — erweiterte Suche und Filter.",
@@ -22,6 +23,7 @@ const de: Messages = {
     exploreTitle: "Ihr Reiseziel entdecken",
     exploreHint:
       "Entfernungen werden auf der Detailseite jeder Unterkunft angezeigt — berechnet vom jeweiligen Objekt.",
+    galleryTitle: "Phuket-Strände & Andaman-Aussichten",
   },
   search: {
     destination: "Reiseziel",
@@ -31,6 +33,8 @@ const de: Messages = {
     checkOut: "Abreise",
     guests: "Gäste",
     submit: "Suchen",
+    title: "Unterkunft suchen",
+    close: "Schließen",
   },
   areas: {
     kamala: "Kamala",
@@ -79,6 +83,10 @@ const de: Messages = {
     ayutthaya: "Ayutthaya",
     pai: "Pai",
     "hua-hin": "Hua Hin",
+    "koh-chang": "Koh Chang",
+    "koh-samet": "Koh Samet",
+    kanchanaburi: "Kanchanaburi",
+    "phang-nga": "Phang Nga",
   },
   airports: {
     hkt: "Phuket Internationaler Flughafen",

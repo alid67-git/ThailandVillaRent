@@ -338,6 +338,447 @@ const zh: DestinationDictionary = {
     bestFor: "亲子 · 游泳 · 海鲜",
     tips: "周末曼谷游客众多。靠近考塔基布的南端更清静。",
   },
+﻿  "karon-beach": {
+    name: "Karon 海滩",
+    description:
+      "Patong 以南绵长的金色海滩，海水更平静，度假村林立，适合家庭放松。宽阔沙带适合游泳、拖伞和日落漫步，没有 Patong 那般喧闹的夜生活。",
+    bestFor: "家庭 · 游泳 · 日落",
+    tips: "南端靠近 Kata 更安静。可在主路入口附近租躺椅。",
+  },
+  "kata-beach": {
+    name: "Kata 海滩",
+    description:
+      "森林岬角环抱的如画海湾——海水清澈，旺季有浪，咖啡馆与小店点缀紧凑的村落。普吉最具上镜感的海滩之一，人气适中。",
+    bestFor: "游泳 · 冲浪 · 摄影",
+    tips: "南边的 Kata Noi 小湾更安静。周末停车位紧张。",
+  },
+  "nai-harn-beach": {
+    name: "Nai Harn 海滩",
+    description:
+      "南部避风海湾，碧蓝平静的海水，松荫沙滩，村落氛围宁静。本地人和长住客喜爱在此游泳、桨板，远离西海岸的喧嚣。",
+    bestFor: "游泳 · 桨板 · 安静海滩",
+    tips: "可搭配 Promthep Cape 看日落。停车位有限——建议 10:00 前到达。",
+  },
+  "freedom-beach-phuket": {
+    name: "Freedom 海滩",
+    description:
+      "隐秘的白沙小湾，只能乘长尾船或走陡峭丛林小径抵达——水晶般海水与壮丽悬崖。普吉最原始的海滩之一，没有公路通达。",
+    bestFor: "浮潜 · 僻静海滩 · 摄影",
+    tips: "长尾船从 Patong 或 Tri Trang 出发。带现金支付船费和躺椅。",
+  },
+  "rawai-beach": {
+    name: "Rawai 海滩",
+    description:
+      "南部劳作型海岸，彩色长尾船沿沙排开，海鲜餐厅供应当日渔获。通往附近岛屿的门户——可租船半日前往 Coral Island 或 Racha。",
+    bestFor: "乘船游 · 海鲜 · 当地生活",
+    tips: "不太适合游泳——更适合作为码头基地。上船前先谈好价格。",
+  },
+  "monkey-hill-phuket": {
+    name: "猴山（Toh Sae）",
+    description:
+      "普吉镇上方森林覆盖的小山，野生猕猴聚集在路边观景点。短途驾车或徒步登顶，可俯瞰城市、港口与海湾的全景。",
+    bestFor: "观景 · 野生动物 · 短途游览",
+    tips: "切勿喂食或戏弄猴子——包袋拉链拉好。晨间光线最佳。",
+  },
+  "simon-cabaret-phuket": {
+    name: "Simon Cabaret",
+    description:
+      "普吉旗舰歌舞剧院——华丽服饰、精心编排的舞蹈与现代礼堂中的璀璨夜间演出。寻求轻松夜生活的游客必看娱乐项目。",
+    bestFor: "夜间演出 · 娱乐 · 团体",
+    tips: "预订含酒店接送的门票更方便。每晚演出——建议提前 30 分钟到场。",
+  },
+  "chillva-market": {
+    name: "Chillva 市集",
+    description:
+      "普吉镇时尚夜市，集装箱摊位、现场音乐与创意街头美食。年轻人群与本地人在集装箱亮灯的傍晚汇聚于此。",
+    bestFor: "街头美食 · 夜市 · 本地氛围",
+    tips: "周一、周三、周六傍晚开放。可停在 Yaowarat Road 附近停车场。",
+  },
+  "naiyang-beach": {
+    name: "Nai Yang 海滩",
+    description:
+      "机场附近宁静的国家公园海滩——长长沙滩由木麻黄树荫蔽，浅海平静。海龟会在季节内在此产卵，氛围与 Patong 截然不同。",
+    bestFor: "安静海滩 · 自然 · 家庭",
+    tips: "11 月–2 月请尊重海龟产卵区。适合登机前的海滩停留。",
+  },
+  "mai-khao-beach": {
+    name: "Mai Khao 海滩",
+    description:
+      "普吉最长、最安静的海滩沿西北海岸延伸——无尽沙滩、开发极少，飞机从头顶降落。原始空旷的海岸，适合长距离漫步。",
+    bestFor: "长距离散步 · 独处 · 看飞机",
+    tips: "几乎无遮荫和设施——请带水并做好防晒。有时洋流较强。",
+  },
+  "lipa-noi-beach": {
+    name: "Lipa Noi 海滩",
+    description:
+      "苏梅岛西海岸宁静海湾，浅水平静，金色日落映照 Ang Thong 群岛。低调度假村与海滨餐饮，适合安宁住宿。",
+    bestFor: "日落 · 家庭 · 安静住宿",
+    tips: "浅水适合儿童。可在海滨餐厅搭配日落晚餐。",
+  },
+  "silver-beach-samui": {
+    name: "Silver 海滩（Thong Takhian）",
+    description:
+      "苏梅岛东岸隐秘小湾——细软白沙、清澈海水与少量精品度假村。岛上最美、人最少的游泳海滩之一。",
+    bestFor: "游泳 · 僻静海滩 · 浪漫",
+    tips: "经度假村道路进入——海滩允许公众进入。可在岩石两端浮潜。",
+  },
+  "namuang-waterfall": {
+    name: "Na Muang 瀑布",
+    description:
+      "苏梅最著名的瀑布，双层叠瀑穿过丛林，天然水潭可游泳。附近森林深处还有骑象与高空滑索冒险项目。",
+    bestFor: "瀑布 · 游泳 · 自然",
+    tips: "穿防滑鞋——岩石湿滑。第二层需向上徒步约 30 分钟。",
+  },
+  "overlap-stone-samui": {
+    name: "Overlap Stone（苏梅岛）",
+    description:
+      "悬崖边缘惊险的岩石突出部，游客可站在悬于海面的巨石上拍照。社交媒体网红观景点，南海岸视野开阔。",
+    bestFor: "摄影 · 观景 · 冒险",
+    tips: "恐高者不宜。小额门票；建议早到避开排队。",
+  },
+  "secret-garden-samui": {
+    name: "Secret Buddha Garden",
+    description:
+      "苏梅岛内陆深处神秘的山顶花园——海拔 300 米的石像、瀑布与茂密丛林。由当地果农创建，宛如隐秘的精神静修地。",
+    bestFor: "文化 · 自然 · 小众路线",
+    tips: "只能四驱或结实摩托车抵达——路陡且颠簸。可与 Na Muang 组合游览。",
+  },
+  "koh-poda": {
+    name: "Koh Poda",
+    description:
+      "小型石灰岩岛屿，完美白沙海滩与标志性喀斯特背景——经典甲米明信片画面。一日游含浮潜、午餐与翡翠浅滩游泳时光。",
+    bestFor: "跳岛 · 浮潜 · 摄影",
+    tips: "从 Ao Nang 或 Railay 参加四岛游。旱季渡海最平静。",
+  },
+  "koh-hong-krabi": {
+    name: "Koh Hong（甲米）",
+    description:
+      "垂直悬崖环绕的壮丽泻湖岛——划皮划艇穿过红树林进入内层翡翠水池。Than Bok Khorani 国家公园的一部分，海滩原始、海水清澈。",
+    bestFor: "皮划艇 · 泻湖 · 跳岛",
+    tips: "行程含泻湖内皮划艇使用。不可过夜——仅限一日游。",
+  },
+  "tubkaek-beach": {
+    name: "Tubkaek 海滩",
+    description:
+      "甲米北部安静海滩，丛林与豪华度假村作背景——平静海水、长长沙滩与离岸岛屿景观。繁忙 Ao Nang 的精致替代，适合放松游泳。",
+    bestFor: "安静海滩 · 度假村 · 游泳",
+    tips: "公共入口有限——可使用度假村海滩俱乐部或主公共停车场。",
+  },
+  "ao-thalane": {
+    name: "Ao Thalane",
+    description:
+      "甲米以南红树林环绕的水湾——划皮划艇穿越石灰岩洞穴、潮汐水道与猴群森林。南部泰国最佳划桨体验之一，水域受保护且平静。",
+    bestFor: "皮划艇 · 红树林 · 自然",
+    tips: "预订有导览的皮划艇行程走洞穴路线。清晨低潮露出更多水道。",
+  },
+  "klong-muang-beach": {
+    name: "Klong Muang 海滩",
+    description:
+      "Ao Nang 以北高端沙带，五星度假村、平静游泳与甲米群岛景观。宽阔海滩、细软沙质，比 Ao Nang 中心更安静。",
+    bestFor: "游泳 · 度假村 · 家庭",
+    tips: "日落方向可望 Koh Kai。Centara 附近南端有公共海滩入口。",
+  },
+  "warorot-market": {
+    name: "Warorot 市场",
+    description:
+      "清迈最古老、最地道的市场——香料、纺织品、鲜花与泰北街头美食同处一屋。沿 Ping River 深入本地日常生活的感官之旅。",
+    bestFor: "街头美食 · 本地购物 · 文化",
+    tips: "清晨最新鲜的农产品最佳。Chang Moi Road 沿线延伸夜市摊位。",
+  },
+  "doi-pui-village": {
+    name: "Doi Pui 苗族村",
+    description:
+      "Doi Suthep 山上的山地部落村落，手工艺品摊、咖啡馆与清凉山风。海拔 1400 米的文化展示与俯瞰清迈山谷的全景。",
+    bestFor: "文化 · 山景 · 凉爽气候",
+    tips: "可与 Wat Phra That Doi Suthep 同日游览。带薄外套——山顶较凉。",
+  },
+  "nimman-road": {
+    name: "Nimman 路",
+    description:
+      "清迈最时尚的街区——精品咖啡馆、艺术画廊、鸡尾酒吧与创意街头生活。城市现代面貌与数分钟外的古城形成对比。",
+    bestFor: "咖啡馆 · 购物 · 夜生活",
+    tips: "傍晚至夜间步行探索最佳。Soi 侧巷藏有最好去处。",
+  },
+  "art-in-paradise-cm": {
+    name: "Art in Paradise（清迈）",
+    description:
+      "互动 3D 艺术博物馆，墙面与地面的绘画错觉邀请趣味摄影。空调室内亲子乐趣——清迈雨天热门选择。",
+    bestFor: "家庭 · 摄影 · 室内活动",
+    tips: "预留 1–2 小时。手机相机即可——按地面标记找最佳角度。",
+  },
+  "san-kamphaeng-hot-springs": {
+    name: "San Kamphaeng 温泉",
+    description:
+      "清迈以东乡间的天然矿物温泉——在热池中煮蛋，在层叠石浴中泡脚。花园与森林环绕的放松半日逃离。",
+    bestFor: "温泉 · 家庭 · 半日",
+    tips: "入口可买鸡蛋篮在最热池中煮。池水过热，不适合全身浸泡。",
+  },
+  "wat-pho": {
+    name: "Wat Pho",
+    description:
+      "曼谷卧佛寺——46 米镀金卧佛，位于泰国最大寺庙建筑群。传统泰式按摩发源地，院内设有著名按摩学校。",
+    bestFor: "文化 · 寺庙 · 按摩",
+    tips: "清晨前往避开酷暑与人群。穿着得体，殿内脱鞋。",
+  },
+  "lumpini-park": {
+    name: "Lumpini 公园",
+    description:
+      "曼谷绿肺——142 英亩湖泊、慢跑道、巨蜥与黎明太极。摩天大楼环绕商务区中心的宁静绿洲。",
+    bestFor: "散步 · 自然 · 晨间活动",
+    tips: "日出或傍晚最佳。周末主湖可租脚踏船。",
+  },
+  "iconsiam": {
+    name: "ICONSIAM",
+    description:
+      "湄南河畔巨型商场，奢侈品牌、室内水上市集与壮观晚间喷泉秀。曼谷最精致的现代面貌——购物、餐饮与河景。",
+    bestFor: "购物 · 餐饮 · 河景",
+    tips: "从 Sathorn Pier 乘免费接驳船。河滨晚间灯光秀定时上演。",
+  },
+  "mahanakhon-skywalk": {
+    name: "Mahanakhon SkyWalk",
+    description:
+      "曼谷最高建筑顶部的玻璃地板观景台——314 米高空 360 度城市景观。惊险透明走道与屋顶酒吧适合日落鸡尾酒。",
+    bestFor: "观景 · 摄影 · 日落",
+    tips: "网上预订分时段门票。日落时段售罄——提前 30 分钟到场。",
+  },
+  "jim-thompson-house": {
+    name: "Jim Thompson House",
+    description:
+      "保存完好的柚木建筑群，展示传统泰式建筑与美国侨民传奇的丝绸帝国。导览揭示古董、花园与他失踪之谜。",
+    bestFor: "文化 · 历史 · 建筑",
+    tips: "仅限导览参观——入口购票。可搭配附近 Siam 购物。",
+  },
+  "nong-nooch-garden": {
+    name: "Nong Nooch 热带花园",
+    description:
+      "芭提雅附近广阔的景观花园，主题分区、大象表演与文化演出。兰花、盆景、法式正式花园与树冠 Skywalk。",
+    bestFor: "家庭 · 花园 · 表演",
+    tips: "预留全天。大象与文化表演按固定时间进行。",
+  },
+  "mini-siam-pattaya": {
+    name: "Mini Siam",
+    description:
+      "微缩公园展示泰国与世界著名地标的按比例复制品。趣味半日景点——一次漫步中可将 Eiffel Tower 与 Angkor Wat 同框。",
+    bestFor: "家庭 · 摄影 · 半日",
+    tips: "傍晚光线较柔和时最佳。步行预留 1–2 小时。",
+  },
+  "ko-sichang": {
+    name: "Ko Sichang",
+    description:
+      "泰国皇室曾青睐的宁静海湾岛屿——悬崖寺庙、旧宫殿与悠闲渔村氛围。从芭提雅出发的宁静一日游，避开旅游人潮。",
+    bestFor: "海岛一日游 · 历史 · 安静逃离",
+    tips: "从 Sriracha 码头渡轮约 40 分钟。租高尔夫球车环岛。",
+  },
+  "pratumnak-viewpoint": {
+    name: "Pratumnak 观景点",
+    description:
+      "芭提雅与 Jomtien 之间的山顶瞭望，俯瞰海湾、城市天际线与离岸岛屿。附近有大佛，热门日落点，远离海滩噪音。",
+    bestFor: "观景 · 日落 · 摄影",
+    tips: "从公路短途步行或驾车至停车场。可搭配 Big Buddha 寺庙。",
+  },
+  "zen-beach": {
+    name: "Zen 海滩（Koh Tao）",
+    description:
+      "Koh Tao 西北端的小型岩石小湾——清澈海水、浮潜与波西米亚海滩酒吧氛围。日落景观与悠闲人群，潜水员休息日的最爱。",
+    bestFor: "浮潜 · 日落 · 轻松氛围",
+    tips: "从 Sairee 短途骑摩托可达。岩石入水——建议穿水鞋。",
+  },
+  "khao-rae-viewpoint": {
+    name: "Khao Rae 观景点",
+    description:
+      "Koh Tao 东岸丛林观景点，俯瞰心形海湾与碧蓝浅滩。短途徒步穿越森林，收获岛上最壮丽的全景之一。",
+    bestFor: "徒步 · 观景 · 摄影",
+    tips: "雨后小径可能泥泞——穿运动鞋。晨间光线最佳。",
+  },
+  "salad-bay": {
+    name: "Salad 湾（Koh Tao）",
+    description:
+      "北岸避风海湾，平静清澈海水、珊瑚礁与少量安静度假村。Koh Tao 最佳浮潜海滩之一，没有 Sairee 的人潮。",
+    bestFor: "浮潜 · 安静海滩 · 游泳",
+    tips: "可向度假村租浮潜装备。平潮时可划皮划艇至附近 Shark Island。",
+  },
+  "john-suwan-viewpoint": {
+    name: "John-Suwan 观景点",
+    description:
+      "Koh Tao 南端著名双湾瞭望——陡峭 10 分钟攀登至岩石观景台，俯瞰两湾碧蓝海水。Koh Tao 必拍打卡点，海岸视野开阔。",
+    bestFor: "观景 · 摄影 · 短途徒步",
+    tips: "穿合适鞋履——最后一段为岩石。上午中段避开强烈顶光。",
+  },
+  "mango-bay-tao": {
+    name: "Mango Bay（Koh Tao）",
+    description:
+      "北岸僻静小湾，可乘船或丛林小径抵达——翡翠海水、礁鱼与宁静氛围。浮潜行程常停此处游泳约一小时。",
+    bestFor: "浮潜 · 僻静海滩 · 乘船游",
+    tips: "岸上无设施——请带水并做好防晒。从 Mae Haad 参加乘船游。",
+  },
+  "ao-leuk-tao": {
+    name: "Ao Leuk（Koh Tao）",
+    description:
+      "东岸受保护海湾，Koh Tao 最清澈的浮潜点之一——珊瑚花园距沙滩仅数米。平静清晨与小型海滨餐厅，轻松半日行程。",
+    bestFor: "浮潜 · 游泳 · 家庭",
+    tips: "10:00 前到达能见度最佳。沿岩石南缘浮潜。",
+  },
+  "karma-beach-lipe": {
+    name: "Karma 海滩（Koh Lipe）",
+    description:
+      "岛西岸小型僻静海滩——细软沙、清澈海水与精品度假村氛围。比 Pattaya Beach 更安静，安达曼日落视野极佳。",
+    bestFor: "日落 · 安静海滩 · 浪漫",
+    tips: "从 Pattaya Beach 步行或长尾船可达。度假村躺椅附近海滩仍对公众开放。",
+  },
+  "walking-street-lipe": {
+    name: "Walking Street（Koh Lipe）",
+    description:
+      "Koh Lipe 傍晚步行街——海鲜烧烤、鸡尾酒吧、现场音乐与岛屿购物从黄昏开始。日落后的岛屿社交中心。",
+    bestFor: "餐饮 · 夜生活 · 岛屿生活",
+    tips: "Pattaya Beach 约 18:00 开始营业。街头美食摊位建议带现金。",
+  },
+  "bang-pa-in-palace": {
+    name: "Bang Pa-In 皇宫",
+    description:
+      "大城附近河畔皇家夏宫，泰、中、欧建筑横跨精心打理的花园。华丽亭台、水上王座厅与湖畔漫步，环境静谧安宁。",
+    bestFor: "历史 · 建筑 · 花园",
+    tips: "严格执行着装——禁止短裤或无袖上衣。门口可租合适遮挡衣物。",
+  },
+  "wat-chaiwatthanaram": {
+    name: "Wat Chaiwatthanaram",
+    description:
+      "湄南河畔壮丽的高棉风格寺庙遗迹——对称尖塔与佛像在日落时分熠熠生辉。大城最具上镜感与历史意义的遗址之一。",
+    bestFor: "历史 · 日落 · 摄影",
+    tips: "黄金时段光线最佳。从大城中心骑自行车或 tuk-tuk 可达。",
+  },
+  "yun-lai-viewpoint": {
+    name: "Yun Lai 观景点",
+    description:
+      "Pai 上方云雾缭绕的山顶瞭望，日出俯瞰山谷与层叠山丘。中式茶亭与清凉清晨的云海，氛围如梦似幻。",
+    bestFor: "日出 · 观景 · 摄影",
+    tips: "黎明前驾车或骑摩托上山——路陡。带保暖衣物——日出时很冷。",
+  },
+  "tha-pai-hot-springs": {
+    name: "Tha Pai 温泉",
+    description:
+      "Pai 以南森林中的天然热矿泉——在层叠石浴中浸泡，竹林与丛林环绕。湄宏顺环线途中的舒缓停留。",
+    bestFor: "温泉 · 自然 · 放松",
+    tips: "小额门票。各池水温不同——入水前先试温。",
+  },
+  "cicada-market-hua-hin": {
+    name: "Cicada 市集",
+    description:
+      "华欣手工艺周末市集，现场音乐、手工商品与精致街头美食。曼谷周末客喜爱的高品质市集体验。",
+    bestFor: "艺术 · 街头美食 · 周末市集",
+    tips: "仅周五至周日傍晚开放。可搭配华欣海滩晚餐。",
+  },
+  "khao-sam-roi-yot": {
+    name: "Khao Sam Roi Yot 国家公园",
+    description:
+      "华欣以南滨海国家公园——石灰岩峰、红树林与著名的 Phraya Nakhon 洞，内有皇家亭阁。野生动物、海滩与徒步路线集于紧凑的园区。",
+    bestFor: "徒步 · 洞穴 · 自然",
+    tips: "Phraya Nakhon 洞需徒步约 30 分钟——趁暑热前早到。可乘船穿越潟湖。",
+  },
+  "white-sand-beach-koh-chang": {
+    name: "White Sand 海滩（Koh Chang）",
+    description:
+      "Koh Chang 最繁忙、开发最完善的海滩——长长白沙、海滩酒吧、餐厅与热闹海岸线上的水上运动。岛屿主枢纽，餐饮与夜生活选择最广。",
+    bestFor: "游泳 · 夜生活 · 岛屿基地",
+    tips: "北端更安静。双条车沿滨海公路连接其他海滩。",
+  },
+  "lonely-beach-koh-chang": {
+    name: "Lonely 海滩（Koh Chang）",
+    description:
+      "名副其实的波西米亚西岸海湾——背包客酒吧、简朴小屋与轻松派对氛围。日落时段与火舞表演吸引年轻悠闲人群。",
+    bestFor: "背包客 · 日落 · 夜生活",
+    tips: "路陡且弯——建议有经验者骑摩托。工作日上午更安静。",
+  },
+  "klong-plu-waterfall": {
+    name: "Klong Plu 瀑布",
+    description:
+      "Koh Chang 最易抵达的瀑布——丛林步行 20 分钟至叠瀑与天然游泳池。热门午间逃离海滩暑热之选。",
+    bestFor: "瀑布 · 游泳 · 丛林徒步",
+    tips: "200 泰铢国家公园门票。穿防滑鞋——雨季小径可能泥泞。",
+  },
+  "bang-bao-pier": {
+    name: "Bang Bao 码头",
+    description:
+      "Koh Chang 南端高脚桩上的迷人渔村——海鲜餐厅、纪念品店与浮潜船出发地。上镜的水岸与通往附近小岛的门户。",
+    bestFor: "海鲜 · 乘船游 · 摄影",
+    tips: "码头餐厅午餐必试。可预订前往 Koh Wai 或 Koh Rang 的浮潜行程。",
+  },
+  "sai-kaew-beach": {
+    name: "Sai Kaew 海滩（Koh Samet）",
+    description:
+      "Koh Samet 最热闹的海滩——白沙、海滩酒吧、火舞表演与清澈海湾游泳。岛屿主要抵达点，餐厅与度假村最密集。",
+    bestFor: "游泳 · 夜生活 · 海滩酒吧",
+    tips: "周末曼谷游客拥挤。向南步行可找到稍安静区段。",
+  },
+  "ao-prao-beach": {
+    name: "Ao Prao 海滩",
+    description:
+      "Koh Samet 专属西岸海湾，平静海水、细软沙与高端度假村氛围。岛上最美、最安静的游泳海滩之一，日落视野极佳。",
+    bestFor: "安静海滩 · 游泳 · 度假村",
+    tips: "经 Le Vimarn 或 Ao Prao Resort 日票进入。比 Sai Kaew 人少。",
+  },
+  "samet-viewpoint": {
+    name: "Samet 观景点",
+    description:
+      "Koh Samet 山顶瞭望，俯瞰海湾、附近岛屿与岛上森林内陆。从 Ao Noi Na 短途攀登，海风拂面的海岸全景尽收眼底。",
+    bestFor: "观景 · 摄影 · 短途徒步",
+    tips: "日落最佳。带驱蚊液——黄昏蚊虫较多。",
+  },
+  "bridge-river-kwai": {
+    name: "桂河大桥",
+    description:
+      "北碧著名的二战铁路桥——可步行铁架跨越 Kwai River，参观邻近战争博物馆。令人动容的历史地标与 Death Railway 象征。",
+    bestFor: "历史 · 二战 · 摄影",
+    tips: "火车仍通行——注意时刻表。可搭配附近 JEATH War Museum。",
+  },
+  "erawan-waterfall": {
+    name: "Erawan 瀑布",
+    description:
+      "Erawan 国家公园七层翡翠叠瀑——碧绿水潭、丛林步道与啃咬你脚的小鱼。泰国最美、最易抵达的瀑布之一。",
+    bestFor: "瀑布 · 游泳 · 徒步",
+    tips: "公园开门（8:00）时到达避开人群。上层需更陡峭攀登。",
+  },
+  "sai-yok-national-park": {
+    name: "Sai Yok 国家公园",
+    description:
+      "北碧河谷公园，瀑布、石灰岩洞穴与 Kwai Noi 沿岸残留的 Death Railway 铁轨。自然、历史与安静丛林步道，位于主旅游线以西。",
+    bestFor: "自然 · 历史 · 洞穴",
+    tips: "河畔筏屋住宿体验完整。Lawa 洞需向导与头灯。",
+  },
+  "hellfire-pass": {
+    name: "Hellfire Pass",
+    description:
+      "切开坚岩的感人纪念地，盟军战俘徒手修建 Death Railway。语音导览步道穿越丛林，展现战时苦难的规模。",
+    bestFor: "历史 · 二战 · 纪念",
+    tips: "博物馆领取免费语音导览。步行预留 1–2 小时。",
+  },
+  "james-bond-island": {
+    name: "James Bond Island（Koh Tapu）",
+    description:
+      "《金枪人》中标志性的石灰岩海柱耸立于 Phang Nga Bay。经典长尾船游停靠点，喀斯特景观、洞穴与水上村落游览。",
+    bestFor: "跳岛 · 摄影 · 乘船游",
+    tips: "从 Phuket 或 Krabi 预订行程。早出发避开正午高峰船流。",
+  },
+  "koh-panyee": {
+    name: "Koh Panyee",
+    description:
+      "Phang Nga Bay 上完全建在水上高脚桩上的独特穆斯林渔村。水上足球场、海鲜午餐与数百年岛居社区生活一瞥。",
+    bestFor: "文化 · 海鲜 · 乘船游",
+    tips: "多数 James Bond Island 行程含此站。尊重当地习俗——穿着得体受赞赏。",
+  },
+  "samet-nangshe-viewpoint": {
+    name: "Samet Nangshe 观景点",
+    description:
+      "震撼的日出瞭望，Phang Nga Bay 喀斯特岛屿笼罩晨雾。竹屋与陡峭 10 分钟攀登，南部泰国标志性全景之一。",
+    bestFor: "日出 · 观景 · 摄影",
+    tips: "5:00 前离酒店看日出。竹屋可过夜租用，适合星空摄影。",
+  },
+  "koh-yao-noi": {
+    name: "Koh Yao Noi",
+    description:
+      "Phuket 与 Krabi 之间的宁静岛屿，稻田、渔村与面向 Phang Nga Bay 的非拥挤海滩。慢节奏岛居、皮划艇与东岸可望 James Bond Island。",
+    bestFor: "安静岛屿 · 皮划艇 · 当地生活",
+    tips: "从 Bang Rong Pier（Phuket）或 Ao Nang 乘渡轮。租摩托环岛。",
+  },
 };
 
 export default zh;

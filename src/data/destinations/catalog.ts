@@ -1,8 +1,9 @@
 import type { DestinationRegion, DestinationSpot } from "./types";
 import { DESTINATION_REGIONS } from "./types";
 import { DESTINATION_IMAGES as D } from "@/data/images";
+import { EXTRA_DESTINATION_SPOTS } from "./catalog-extra";
 
-export const DESTINATION_SPOTS: DestinationSpot[] = [
+const BASE_DESTINATION_SPOTS: DestinationSpot[] = [
   { id: "kamala-beach", slug: "kamala-beach", region: "phuket", category: "beach", appeal: 8, lat: 7.9525, lng: 98.2834, image: D.beach, images: [D.beach, D.beach2], gradient: "from-cyan-500/70 to-blue-900/70" },
   { id: "surin-beach", slug: "surin-beach", region: "phuket", category: "beach", appeal: 8, lat: 7.9742, lng: 98.2789, image: D.beach2, images: [D.beach2, D.beach], gradient: "from-teal-500/70 to-emerald-900/70" },
   { id: "bang-tao-beach", slug: "bang-tao-beach", region: "phuket", category: "beach", appeal: 8, lat: 7.9897, lng: 98.2891, image: D.beach, images: [D.beach, D.island], gradient: "from-sky-500/70 to-indigo-900/70" },
@@ -74,6 +75,11 @@ export const DESTINATION_SPOTS: DestinationSpot[] = [
 
   // Hua Hin
   { id: "hua-hin-beach", slug: "hua-hin-beach", region: "hua-hin", category: "beach", appeal: 7, lat: 12.5689, lng: 99.9578, image: D.beach, images: [D.beach, D.beach2], gradient: "from-sky-500/70 to-blue-900/70" },
+];
+
+export const DESTINATION_SPOTS: DestinationSpot[] = [
+  ...BASE_DESTINATION_SPOTS,
+  ...EXTRA_DESTINATION_SPOTS,
 ];
 
 export function getDestinationBySlug(slug: string) {

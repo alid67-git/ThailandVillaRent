@@ -338,6 +338,447 @@ const fr: DestinationDictionary = {
     bestFor: "Familles · Baignade · Fruits de mer",
     tips: "Week-ends animés par les visiteurs de Bangkok. Extrémité sud près de Khao Takiab plus calme.",
   },
+  "karon-beach": {
+    name: "Karon Beach",
+    description:
+      "Longue plage dorée au sud de Patong avec eau plus calme, hôtels-resorts et ambiance familiale détendue. La large bande de sable convient à la baignade, au parasailing et aux promenades au coucher du soleil sans l'intensité nocturne de Patong.",
+    bestFor: "Familles · Baignade · Coucher de soleil",
+    tips: "L'extrémité sud près de Kata est plus calme. Louez des transats près des accès depuis la route principale.",
+  },
+  "kata-beach": {
+    name: "Kata Beach",
+    description:
+      "Baie pittoresque encadrée de promontoires boisés — eau claire, vagues en saison et village compact de cafés et boutiques. L'une des plages les plus photogéniques de Phuket avec une foule animée mais gérable.",
+    bestFor: "Baignade · Surf · Photographie",
+    tips: "Kata Noi, une petite crique au sud, est encore plus calme. Le parking est saturé le week-end.",
+  },
+  "nai-harn-beach": {
+    name: "Nai Harn Beach",
+    description:
+      "Baie abritée au sud avec eau turquoise calme, sable ombragé par des pins et ambiance villageoise paisible. Prisée des locaux et des longs séjours pour la baignade et le paddleboard loin de l'agitation de la côte ouest.",
+    bestFor: "Baignade · Paddleboard · Plage tranquille",
+    tips: "À combiner avec Promthep Cape pour le coucher du soleil. Parking limité — arrivez avant 10 h.",
+  },
+  "freedom-beach-phuket": {
+    name: "Freedom Beach",
+    description:
+      "Crique de sable blanc cachée, accessible uniquement en longtail ou par un sentier escarpé en jungle — eau cristalline et falaises spectaculaires. L'une des plages les plus préservées de Phuket, sans accès routier.",
+    bestFor: "Plongée avec tuba · Plage isolée · Photographie",
+    tips: "Les bateaux partent de Patong ou Tri Trang. Apportez des espèces pour le trajet et les transats.",
+  },
+  "rawai-beach": {
+    name: "Rawai Beach",
+    description:
+      "Rivage du sud où de colorés longtails bordent le sable et des restaurants de fruits de mer servent la pêche du jour. Porte d'entrée vers les îles voisines — louez un bateau pour une demi-journée vers Coral Island ou Racha.",
+    bestFor: "Excursions en bateau · Fruits de mer · Vie locale",
+    tips: "Peu adapté à la baignade — utilisez-le comme base de départ. Négociez les prix avant d'embarquer.",
+  },
+  "monkey-hill-phuket": {
+    name: "Monkey Hill (Toh Sae)",
+    description:
+      "Colline boisée au-dessus de Phuket Town où des macaques sauvages se rassemblent le long du point de vue routier. Vues panoramiques sur la ville, le port et la baie récompensent la courte montée en voiture ou à pied.",
+    bestFor: "Vues · Faune · Courte visite",
+    tips: "Ne nourrissez ni n'importunez les singes — gardez les sacs fermés. Idéal en lumière matinale.",
+  },
+  "simon-cabaret-phuket": {
+    name: "Simon Cabaret",
+    description:
+      "Le cabaret phare de Phuket — costumes élaborés, chorégraphies et spectacle glamour du soir dans un auditorium moderne. Divertissement soigné pour les visiteurs en quête d'une soirée amusante.",
+    bestFor: "Spectacle du soir · Divertissement · Groupes",
+    tips: "Réservez les billets avec transfert hôtel pour plus de confort. Spectacles chaque soir — arrivez 30 min en avance.",
+  },
+  "chillva-market": {
+    name: "Chillva Market",
+    description:
+      "Marché nocturne tendance à Phuket Town avec étals en conteneurs, musique live et street food créatif. Jeunes et locaux se mêlent ici le soir quand les conteneurs s'illuminent.",
+    bestFor: "Street food · Marché nocturne · Ambiance locale",
+    tips: "Ouvert lun., mer. et sam. soir. Stationnez dans les parkings voisins de Yaowarat Road.",
+  },
+  "naiyang-beach": {
+    name: "Nai Yang Beach",
+    description:
+      "Plage paisible de parc national près de l'aéroport — long sable ombragé par des casuarinas et eaux peu profondes calmes. Les tortues marines y nichent en saison, dans un cadre à des années-lumière de Patong.",
+    bestFor: "Plage tranquille · Nature · Familles",
+    tips: "Respectez les zones de ponte nov.–fév. Idéal pour une pause plage avant le vol.",
+  },
+  "mai-khao-beach": {
+    name: "Mai Khao Beach",
+    description:
+      "La plus longue et la plus calme plage de Phuket s'étire le long de la côte nord-ouest — sable à perte de vue, peu d'aménagements et avions en descente au-dessus. Rivage sauvage et désert, parfait pour de longues promenades.",
+    bestFor: "Longues promenades · Solitude · Observation d'avions",
+    tips: "Presque pas d'ombre ni de services — apportez eau et protection solaire. Courants forts par moments.",
+  },
+  "lipa-noi-beach": {
+    name: "Lipa Noi Beach",
+    description:
+      "Baie tranquille de la côte ouest de Koh Samui avec eau peu profonde et calme et couchers de soleil dorés sur les îles Ang Thong. Resorts discrets et restaurants en bord de mer pour des séjours paisibles.",
+    bestFor: "Coucher de soleil · Familles · Séjour tranquille",
+    tips: "Eau peu profonde idéale pour les enfants. Combinez avec un dîner au coucher du soleil en bord de plage.",
+  },
+  "silver-beach-samui": {
+    name: "Silver Beach (Thong Takhian)",
+    description:
+      "Petite crique cachée sur la côte est de Samui — sable poudreux, eau claire et quelques resorts boutique. L'une des plus belles plages de baignade de l'île, parmi les moins fréquentées.",
+    bestFor: "Baignade · Plage isolée · Romantisme",
+    tips: "Accès par les routes des resorts — entrée publique autorisée sur la plage. Plongée avec tuba aux extrémités rocheuses.",
+  },
+  "namuang-waterfall": {
+    name: "Na Muang Waterfall",
+    description:
+      "La cascade la plus célèbre de Samui dévale la jungle en deux niveaux avec bassins naturels pour la baignade. Promenades à dos d'éléphant et tyroliennes à proximité dans l'intérieur boisé.",
+    bestFor: "Cascade · Baignade · Nature",
+    tips: "Chaussures antidérapantes — les rochers sont glissants. Le second niveau demande 30 min de montée.",
+  },
+  "overlap-stone-samui": {
+    name: "Overlap Stone (Samui)",
+    description:
+      "Affleurement rocheux spectaculaire au bord d'une falaise où les visiteurs posent sur un rocher en porte-à-faux au-dessus de la mer. Photos saisissantes et vues panoramiques sur la côte sud depuis ce point de vue célèbre sur Instagram.",
+    bestFor: "Photographie · Vues · Aventure",
+    tips: "Déconseillé aux personnes souffrant du vertige. Petit droit d'entrée ; venez tôt pour éviter la file.",
+  },
+  "secret-garden-samui": {
+    name: "Secret Buddha Garden",
+    description:
+      "Jardin mystique au sommet d'une colline au cœur de l'intérieur de Samui — statues de pierre, cascades et jungle luxuriante à 300 mètres d'altitude. Créé par un fruiticulteur local, il évoque une retraite spirituelle cachée.",
+    bestFor: "Culture · Nature · Hors des sentiers battus",
+    tips: "Accessible uniquement en 4x4 ou scooter robuste — route escarpée et difficile. À combiner avec Na Muang.",
+  },
+  "koh-poda": {
+    name: "Koh Poda",
+    description:
+      "Petite île calcaire avec plage de sable blanc parfaite et décor karstique emblématique — la scène classique de carte postale de Krabi. Les excursions comprennent plongée avec tuba, déjeuner et baignade dans les eaux émeraude peu profondes.",
+    bestFor: "Tour des îles · Plongée avec tuba · Photographie",
+    tips: "Rejoignez un circuit quatre îles depuis Ao Nang ou Railay. Traversées les plus calmes en saison sèche.",
+  },
+  "koh-hong-krabi": {
+    name: "Koh Hong (Krabi)",
+    description:
+      "Île-lagon spectaculaire entourée de falaises verticales — pagayez en kayak à travers les mangroves vers un bassin intérieur émeraude. Partie du parc national Than Bok Khorani avec plages préservées et eau claire.",
+    bestFor: "Kayak · Lagon · Tour des îles",
+    tips: "Les excursions incluent le kayak dans le lagon. Pas de nuitée — excursion à la journée uniquement.",
+  },
+  "tubkaek-beach": {
+    name: "Tubkaek Beach",
+    description:
+      "Plage calme au nord de Krabi bordée de jungle et de resorts de luxe — eau tranquille, long sable et vue sur les îles au large. Alternative raffinée à Ao Nang animé pour une baignade détendue.",
+    bestFor: "Plage tranquille · Resorts · Baignade",
+    tips: "Accès public limité — utilisez les beach clubs des resorts ou le parking public principal.",
+  },
+  "ao-thalane": {
+    name: "Ao Thalane",
+    description:
+      "Anse bordée de mangroves au sud de Krabi — kayak à travers grottes calcaires, chenaux de marée et forêts peuplées de singes. L'une des meilleures expériences de paddle du sud de la Thaïlande en eaux abritées et calmes.",
+    bestFor: "Kayak · Mangroves · Nature",
+    tips: "Réservez une excursion kayak guidée pour les routes des grottes. Marée basse du matin révèle plus de chenaux.",
+  },
+  "klong-muang-beach": {
+    name: "Klong Muang Beach",
+    description:
+      "Étendue de sable haut de gamme au nord d'Ao Nang avec resorts cinq étoiles, baignade calme et vue vers les îles de Krabi. Plage large, sable fin et ambiance plus tranquille qu'Ao Nang central.",
+    bestFor: "Baignade · Resorts · Familles",
+    tips: "Couchers de soleil vers Koh Kai. Accès public à l'extrémité sud près de Centara.",
+  },
+  "warorot-market": {
+    name: "Warorot Market",
+    description:
+      "Le plus ancien et le plus authentique marché de Chiang Mai — épices, textiles, fleurs et street food du nord sous un même toit. Plongée sensorielle dans la vie quotidienne locale le long de la rivière Ping.",
+    bestFor: "Street food · Shopping local · Culture",
+    tips: "Idéal tôt le matin pour les produits frais. Les étals du bazar nocturne s'étendent le long de Chang Moi Road.",
+  },
+  "doi-pui-village": {
+    name: "Doi Pui Hmong Village",
+    description:
+      "Village de tribu de montagne sur le Doi Suthep avec étals d'artisanat, cafés et air frais de montagne. Présentations culturelles et vues panoramiques sur la vallée de Chiang Mai à 1 400 mètres.",
+    bestFor: "Culture · Vues de montagne · Climat frais",
+    tips: "À combiner avec Wat Phra That Doi Suthep le même jour. Apportez une veste légère — il fait plus frais en haut.",
+  },
+  "nimman-road": {
+    name: "Nimman Road",
+    description:
+      "Le quartier le plus tendance de Chiang Mai — cafés boutique, galeries d'art, bars à cocktails et vie de rue créative. Le visage moderne de la ville contraste avec la vieille cité fortifiée à quelques minutes.",
+    bestFor: "Cafés · Shopping · Vie nocturne",
+    tips: "À explorer à pied en fin d'après-midi jusqu'au soir. Les sois latéraux cachent les meilleures adresses.",
+  },
+  "art-in-paradise-cm": {
+    name: "Art in Paradise (Chiang Mai)",
+    description:
+      "Musée d'art 3D interactif où les illusions peintes invitent à des photos ludiques sur murs et sols. Divertissement familial en climatisé — favori des jours de pluie à Chiang Mai.",
+    bestFor: "Familles · Photographie · Activité intérieure",
+    tips: "Prévoyez 1–2 heures. Un smartphone suffit — suivez les repères au sol pour les meilleurs angles.",
+  },
+  "san-kamphaeng-hot-springs": {
+    name: "San Kamphaeng Hot Springs",
+    description:
+      "Sources minérales naturelles à la campagne à l'est de Chiang Mai — faites cuire des œufs dans les bassins thermaux et trempez les pieds dans des bains de pierre en terrasses. Échappée relaxante d'une demi-journée entourée de jardins et de forêt.",
+    bestFor: "Sources chaudes · Familles · Demi-journée",
+    tips: "Achetez un panier d'œufs à l'entrée pour le bassin le plus chaud. Trop chaud pour un bain complet.",
+  },
+  "wat-pho": {
+    name: "Wat Pho",
+    description:
+      "Le temple du Bouddha couché de Bangkok — statue dorée de 46 mètres dans le plus grand complexe de temples de Thaïlande. Berceau du massage thaï traditionnel avec une école renommée sur place.",
+    bestFor: "Culture · Temple · Massage",
+    tips: "Visitez tôt le matin pour éviter chaleur et foule. Tenue modeste et chaussures retirées dans les salles.",
+  },
+  "lumpini-park": {
+    name: "Lumpini Park",
+    description:
+      "Le poumon vert de Bangkok — 57 hectares de lacs, pistes de jogging, varans et tai-chi à l'aube. Oasis de calme entre les gratte-ciel au cœur du quartier d'affaires.",
+    bestFor: "Promenade · Nature · Activité matinale",
+    tips: "Idéal au lever du soleil ou en fin d'après-midi. Pédalo disponible sur le lac principal le week-end.",
+  },
+  "iconsiam": {
+    name: "ICONSIAM",
+    description:
+      "Méga-centre commercial en bord de Chao Phraya avec marques de luxe, marché flottant intérieur et spectacles de fontaines le soir. Bangkok moderne à son apogée — restauration, shopping et vue sur la rivière.",
+    bestFor: "Shopping · Restauration · Vue sur la rivière",
+    tips: "Prenez la navette gratuite depuis le quai Sathorn. Spectacle lumineux le soir sur le front de rivière.",
+  },
+  "mahanakhon-skywalk": {
+    name: "Mahanakhon SkyWalk",
+    description:
+      "Plateforme d'observation au sol vitré au sommet du plus haut bâtiment de Bangkok — 314 mètres au-dessus de la ville avec vue à 360 degrés. Passerelle transparente vertigineuse et bar rooftop pour cocktails au coucher du soleil.",
+    bestFor: "Vues · Photographie · Coucher de soleil",
+    tips: "Réservez les billets horaires en ligne. Créneau coucher de soleil complet — arrivez 30 min avant l'entrée.",
+  },
+  "jim-thompson-house": {
+    name: "Jim Thompson House",
+    description:
+      "Ensemble de maisons en teck préservé mettant en valeur l'architecture thaï traditionnelle et l'empire de la soie d'une légende américaine expatriée. Visites guidées révélant antiquités, jardins et mystère de sa disparition.",
+    bestFor: "Culture · Histoire · Architecture",
+    tips: "Visites guidées uniquement — billets à l'entrée. À combiner avec le shopping de Siam à proximité.",
+  },
+  "nong-nooch-garden": {
+    name: "Nong Nooch Tropical Garden",
+    description:
+      "Vaste jardin paysager près de Pattaya avec sections thématiques, spectacles d'éléphants et performances culturelles. Orchidées, bonsaï, jardins à la française et passerelle au-dessus de la canopée.",
+    bestFor: "Familles · Jardins · Spectacles",
+    tips: "Prévoyez une journée complète. Spectacles d'éléphants et culturels à horaires fixes.",
+  },
+  "mini-siam-pattaya": {
+    name: "Mini Siam",
+    description:
+      "Parc miniature présentant des répliques à l'échelle des monuments célèbres de Thaïlande et du monde. Attraction insolite d'une demi-journée — photographiez la Tour Eiffel à côté d'Angkor Wat en une promenade.",
+    bestFor: "Familles · Photographie · Demi-journée",
+    tips: "Idéal en fin d'après-midi quand la lumière est plus douce. Prévoyez 1–2 heures à pied.",
+  },
+  "ko-sichang": {
+    name: "Ko Sichang",
+    description:
+      "Île tranquille du golfe autrefois prisée de la royauté thaïlandaise — temples sur falaise, anciens palais et ambiance de village de pêcheurs décontractée. Excursion paisible depuis Pattaya sans la foule touristique.",
+    bestFor: "Excursion insulaire · Histoire · Échappée tranquille",
+    tips: "Ferry depuis le quai de Sriracha, environ 40 min. Louez une voiturette de golf pour explorer l'île.",
+  },
+  "pratumnak-viewpoint": {
+    name: "Pratumnak Viewpoint",
+    description:
+      "Belvédère sur colline entre Pattaya et Jomtien avec vues panoramiques sur la baie, la skyline et les îles au large. Statue du Big Buddha à proximité et spot populaire pour le coucher du soleil loin du bruit des plages.",
+    bestFor: "Vues · Coucher de soleil · Photographie",
+    tips: "Courte montée depuis la route ou accès au parking. À combiner avec le temple du Big Buddha.",
+  },
+  "zen-beach": {
+    name: "Zen Beach (Koh Tao)",
+    description:
+      "Petite crique rocheuse à l'extrémité nord-ouest de Koh Tao — eau claire, plongée avec tuba et ambiance bar de plage bohème. Couchers de soleil et clientèle détendue en font un favori des jours off des plongeurs.",
+    bestFor: "Plongée avec tuba · Coucher de soleil · Ambiance détendue",
+    tips: "Court trajet en scooter depuis Sairee. Entrée rocheuse — chaussures d'eau utiles.",
+  },
+  "khao-rae-viewpoint": {
+    name: "Khao Rae Viewpoint",
+    description:
+      "Point de vue en jungle sur la côte est de Koh Tao dominant une baie en forme de cœur et des eaux turquoise peu profondes. Courte randonnée en forêt récompensée par l'un des panoramas les plus spectaculaires de l'île.",
+    bestFor: "Randonnée · Vues · Photographie",
+    tips: "Sentier boueux après la pluie — portez des baskets. Allez le matin pour la meilleure lumière.",
+  },
+  "salad-bay": {
+    name: "Salad Bay (Koh Tao)",
+    description:
+      "Baie abritée de la côte nord avec eau calme et claire, récifs coralliens et quelques resorts tranquilles. L'une des meilleures plages de plongée avec tuba de Koh Tao sans la foule de Sairee.",
+    bestFor: "Plongée avec tuba · Plage tranquille · Baignade",
+    tips: "Louez l'équipement à votre resort. Kayak vers Shark Island à marée calme.",
+  },
+  "john-suwan-viewpoint": {
+    name: "John-Suwan Viewpoint",
+    description:
+      "Célèbre belvédère sur deux baies à l'extrémité sud de Koh Tao — montée escarpée de 10 minutes vers un perchoir rocheux au-dessus de deux baies turquoise. Arrêt photo incontournable de Koh Tao avec vues côtières à couper le souffle.",
+    bestFor: "Vues · Photographie · Courte randonnée",
+    tips: "Chaussures adaptées — dernière section rocheuse. Milieu de matinée évite le soleil zénithal.",
+  },
+  "mango-bay-tao": {
+    name: "Mango Bay (Koh Tao)",
+    description:
+      "Crique isolée de la côte nord accessible en bateau ou par sentier en jungle — eau émeraude, poissons de récif et ambiance paisible. Populaire auprès des excursions snorkeling qui s'arrêtent une heure pour la baignade.",
+    bestFor: "Plongée avec tuba · Plage isolée · Excursion en bateau",
+    tips: "Aucun service sur place — apportez eau et protection solaire. Excursions en bateau depuis Mae Haad.",
+  },
+  "ao-leuk-tao": {
+    name: "Ao Leuk (Koh Tao)",
+    description:
+      "Baie protégée sur la côte est avec l'une des meilleures zones de plongée avec tuba de Koh Tao — jardins coralliens à quelques mètres du sable. Matinées calmes et petit restaurant de plage pour une demi-journée facile.",
+    bestFor: "Plongée avec tuba · Baignade · Familles",
+    tips: "Arrivez avant 10 h pour la meilleure visibilité. Plongez le long du bord rocheux sud.",
+  },
+  "karma-beach-lipe": {
+    name: "Karma Beach (Koh Lipe)",
+    description:
+      "Petite plage isolée sur la côte ouest de l'île — sable fin, eau claire et ambiance resort boutique. Plus calme que Pattaya Beach avec d'excellents couchers de soleil sur l'Andaman.",
+    bestFor: "Coucher de soleil · Plage tranquille · Romantisme",
+    tips: "À pied ou en longtail depuis Pattaya Beach. Plage publique même près des transats des resorts.",
+  },
+  "walking-street-lipe": {
+    name: "Walking Street (Koh Lipe)",
+    description:
+      "Artère piétonne du soir de Koh Lipe — grills de fruits de mer, bars à cocktails, musique live et shopping insulaire dès le crépuscule. Cœur social de l'île quand le soleil se couche.",
+    bestFor: "Restauration · Vie nocturne · Vie insulaire",
+    tips: "Ouvert vers 18 h sur Pattaya Beach. Espèces utiles pour les étals de street food.",
+  },
+  "bang-pa-in-palace": {
+    name: "Bang Pa-In Palace",
+    description:
+      "Palais royal d'été en bord de rivière près d'Ayutthaya mêlant architecture thaïlandaise, chinoise et européenne dans des jardins soignés. Pavillons ornés, salle du trône flottante et promenades au bord des lacs dans un cadre serein.",
+    bestFor: "Histoire · Architecture · Jardins",
+    tips: "Code vestimentaire strict — pas de shorts ni de tops sans manches. Location de vêtements adaptés à l'entrée.",
+  },
+  "wat-chaiwatthanaram": {
+    name: "Wat Chaiwatthanaram",
+    description:
+      "Magnifique ruine de temple de style khmer sur la rive du Chao Phraya — prangs symétriques et statues de Bouddha dorées au coucher du soleil. L'un des sites les plus photogéniques et historiques d'Ayutthaya.",
+    bestFor: "Histoire · Coucher de soleil · Photographie",
+    tips: "Visitez à l'heure dorée pour la meilleure lumière. Vélo ou tuk-tuk depuis le centre d'Ayutthaya.",
+  },
+  "yun-lai-viewpoint": {
+    name: "Yun Lai Viewpoint",
+    description:
+      "Belvédère montagneux brumeux au-dessus de Pai avec vues panoramiques sur la vallée et les collines superposées au lever du soleil. Pavillons de thé chinois et mer de nuages les matins frais créent une atmosphère magique.",
+    bestFor: "Lever du soleil · Vues · Photographie",
+    tips: "Montez en voiture ou scooter avant l'aube — route escarpée. Apportez des vêtements chauds ; il fait froid au lever du soleil.",
+  },
+  "tha-pai-hot-springs": {
+    name: "Tha Pai Hot Springs",
+    description:
+      "Bassins minéraux chauds naturels dans la forêt au sud de Pai — trempez-vous dans des bains de roche en terrasses entourés de bambous et de jungle. Pause apaisante sur la route de la boucle Mae Hong Son.",
+    bestFor: "Sources chaudes · Nature · Détente",
+    tips: "Petit droit d'entrée. Températures variables — testez avant de vous immerger complètement.",
+  },
+  "cicada-market-hua-hin": {
+    name: "Cicada Market",
+    description:
+      "Marché du week-end arts et artisanat à Hua Hin avec musique live, créations artisanales et street food gourmet. Expérience de marché raffinée prisée des Bangkokiens du week-end.",
+    bestFor: "Arts · Street food · Marché du week-end",
+    tips: "Ouvert ven.–dim. soir uniquement. Combinez avec un dîner sur la plage de Hua Hin ensuite.",
+  },
+  "khao-sam-roi-yot": {
+    name: "Khao Sam Roi Yot National Park",
+    description:
+      "Parc national côtier au sud de Hua Hin — pics calcaires, mangroves et la célèbre grotte Phraya Nakhon avec pavillon royal à l'intérieur. Faune, plages et sentiers de randonnée dans un parc compact.",
+    bestFor: "Randonnée · Grottes · Nature",
+    tips: "Grotte Phraya Nakhon : 30 min de marche — partez tôt avant la chaleur. Option bateau à travers la lagune.",
+  },
+  "white-sand-beach-koh-chang": {
+    name: "White Sand Beach (Koh Chang)",
+    description:
+      "La plage la plus animée et la plus développée de Koh Chang — long sable blanc, bars de plage, restaurants et sports nautiques le long d'une bande vivante. Hub principal de l'île avec le plus large choix de restauration et de vie nocturne.",
+    bestFor: "Baignade · Vie nocturne · Base insulaire",
+    tips: "L'extrémité nord est plus calme. Songthaew relie les autres plages le long de la route côtière.",
+  },
+  "lonely-beach-koh-chang": {
+    name: "Lonely Beach (Koh Chang)",
+    description:
+      "Baie bohème de la côte ouest qui porte bien son nom — bars de routards, bungalows rustiques et ambiance fête décontractée. Sessions au coucher du soleil et spectacles de feu attirent une clientèle jeune et détendue.",
+    bestFor: "Routards · Coucher de soleil · Vie nocturne",
+    tips: "Route escarpée et sinueuse — scooter avec expérience recommandé. Plus calme en semaine le matin.",
+  },
+  "klong-plu-waterfall": {
+    name: "Klong Plu Waterfall",
+    description:
+      "La cascade la plus accessible de Koh Chang — 20 minutes de marche en jungle vers une chute en niveaux avec bassin naturel de baignade. Échappée populaire en milieu de journée loin de la chaleur des plages.",
+    bestFor: "Cascade · Baignade · Marche en jungle",
+    tips: "200 bahts de droit d'entrée au parc. Chaussures antidérapantes — sentier boueux en saison des pluies.",
+  },
+  "bang-bao-pier": {
+    name: "Bang Bao Pier",
+    description:
+      "Village de pêcheurs charmant sur pilotis à l'extrémité sud de Koh Chang — restaurants de fruits de mer, boutiques de souvenirs et départs de bateaux de plongée avec tuba. Front de mer photogénique et porte d'entrée vers les îlots voisins.",
+    bestFor: "Fruits de mer · Excursions en bateau · Photographie",
+    tips: "Déjeuner dans un restaurant du quai incontournable. Réservez des excursions snorkeling vers Koh Wai ou Koh Rang.",
+  },
+  "sai-kaew-beach": {
+    name: "Sai Kaew Beach (Koh Samet)",
+    description:
+      "La plage la plus animée de Koh Samet — sable blanc, bars de plage, spectacles de feu et baignade dans les eaux claires du golfe. Point d'arrivée principal de l'île avec la plus dense offre de restaurants et resorts.",
+    bestFor: "Baignade · Vie nocturne · Bars de plage",
+    tips: "Week-ends bondés depuis Bangkok. Marchez vers le sud pour des sections un peu plus calmes.",
+  },
+  "ao-prao-beach": {
+    name: "Ao Prao Beach",
+    description:
+      "Baie exclusive de la côte ouest de Koh Samet avec eau calme, sable fin et ambiance resort haut de gamme. L'une des plus belles plages de baignade de l'île, parmi les plus tranquilles, avec d'excellents couchers de soleil.",
+    bestFor: "Plage tranquille · Baignade · Resorts",
+    tips: "Accès via Le Vimarn ou day-pass Ao Prao Resort. Moins fréquentée que Sai Kaew.",
+  },
+  "samet-viewpoint": {
+    name: "Samet Viewpoint",
+    description:
+      "Belvédère sur colline à Koh Samet avec vues panoramiques sur le golfe, les îles voisines et l'intérieur boisé de l'île. Courte montée depuis Ao Noi Na récompensée par des vistas côtières ventilées.",
+    bestFor: "Vues · Photographie · Courte randonnée",
+    tips: "Idéal au coucher du soleil. Apportez un anti-moustiques — présents au crépuscule.",
+  },
+  "bridge-river-kwai": {
+    name: "Bridge on the River Kwai",
+    description:
+      "Le célèbre pont ferroviaire de la Seconde Guerre mondiale à Kanchanaburi — traversez les travées de fer au-dessus de la rivière Kwai et visitez le musée de guerre adjacent. Monument historique poignant et symbole de la Death Railway.",
+    bestFor: "Histoire · Seconde Guerre mondiale · Photographie",
+    tips: "Les trains passent encore — surveillez les horaires. À combiner avec le JEATH War Museum à proximité.",
+  },
+  "erawan-waterfall": {
+    name: "Erawan Waterfall",
+    description:
+      "Cascade émeraude à sept niveaux dans le parc national d'Erawan — bassins turquoise, sentiers en jungle et poissons qui picorent vos pieds. L'une des plus belles et accessibles cascades de Thaïlande.",
+    bestFor: "Cascade · Baignade · Randonnée",
+    tips: "Arrivez à l'ouverture du parc (8 h) pour éviter la foule. Niveaux supérieurs demandent des montées plus raides.",
+  },
+  "sai-yok-national-park": {
+    name: "Sai Yok National Park",
+    description:
+      "Parc de vallée fluviale à Kanchanaburi avec cascades, grottes calcaires et vestiges de voies de la Death Railway le long du Kwai Noi. Nature, histoire et sentiers de jungle tranquilles à l'ouest du circuit touristique principal.",
+    bestFor: "Nature · Histoire · Grottes",
+    tips: "Séjournez dans une maison flottante en bord de rivière pour l'expérience complète. Grotte Lawa : guide et lampe frontale nécessaires.",
+  },
+  "hellfire-pass": {
+    name: "Hellfire Pass",
+    description:
+      "Mémorial émouvant creusé dans la roche où des prisonniers alliés construisirent la Death Railway à la main. Sentier audio-guidé en jungle qui rend l'ampleur des souffrances de guerre.",
+    bestFor: "Histoire · Seconde Guerre mondiale · Mémorial",
+    tips: "Récupérez l'audioguide gratuit au musée. Prévoyez 1–2 heures pour la promenade.",
+  },
+  "james-bond-island": {
+    name: "James Bond Island (Koh Tapu)",
+    description:
+      "L'emblématique piton calcaire de L'Homme au pistolet d'or émergeant de la baie de Phang Nga. Arrêt classique des excursions en longtail avec paysages karstiques, grottes et visites de villages flottants.",
+    bestFor: "Tour des îles · Photographie · Excursion en bateau",
+    tips: "Réservez les excursions depuis Phuket ou Krabi. Partez tôt pour éviter le trafic de bateaux de midi.",
+  },
+  "koh-panyee": {
+    name: "Koh Panyee",
+    description:
+      "Remarquable village de pêcheurs musulmans entièrement construit sur pilotis au-dessus de l'eau dans la baie de Phang Nga. Terrain de football flottant, déjeuner de fruits de mer et aperçu d'une communauté insulaire centenaire.",
+    bestFor: "Culture · Fruits de mer · Excursion en bateau",
+    tips: "Inclus dans la plupart des tours James Bond Island. Respectez les coutumes locales — tenue modeste appréciée.",
+  },
+  "samet-nangshe-viewpoint": {
+    name: "Samet Nangshe Viewpoint",
+    description:
+      "Belvédère au lever du soleil à couper le souffle sur les îles karstiques de la baie de Phang Nga enveloppées de brume matinale. Cabanes en bambou et montée escarpée de 10 minutes offrent l'un des panoramas emblématiques du sud de la Thaïlande.",
+    bestFor: "Lever du soleil · Vues · Photographie",
+    tips: "Quittez l'hôtel vers 5 h pour le lever du soleil. Cabanes en bambou louables pour l'astrophotographie.",
+  },
+  "koh-yao-noi": {
+    name: "Koh Yao Noi",
+    description:
+      "Île paisible entre Phuket et Krabi avec rizières, villages de pêcheurs et plages peu fréquentées face à la baie de Phang Nga. Vie insulaire lente, kayak et vue sur James Bond Island depuis la côte est.",
+    bestFor: "Île tranquille · Kayak · Vie locale",
+    tips: "Ferry depuis Bang Rong Pier (Phuket) ou Ao Nang. Louez un scooter pour explorer l'île.",
+  },
 };
 
 export default fr;

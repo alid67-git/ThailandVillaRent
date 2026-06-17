@@ -12,6 +12,7 @@ const ar: Messages = {
   },
   home: {
     eyebrow: "في جميع أنحاء تايلاند",
+    heroEyebrow: "بوكيت · بحر أندامان",
     title: "إقامتك المثالية في تايلاند",
     subtitle:
       "إيجار فيلات وبنغلows في بوكيت وكوه ساموي — بحث وفلاتر متقدمة.",
@@ -22,6 +23,7 @@ const ar: Messages = {
     exploreTitle: "استكشف وجهتك",
     exploreHint:
       "تُعرض المسافات في صفحة تفاصيل كل إقامة — محسوبة من ذلك العقار.",
+    galleryTitle: "شواطئ بوكيت وإطلالات أندامان",
   },
   search: {
     destination: "الوجهة",
@@ -31,6 +33,8 @@ const ar: Messages = {
     checkOut: "تسجيل المغادرة",
     guests: "الضيوف",
     submit: "بحث",
+    title: "البحث عن إقامة",
+    close: "إغلاق",
   },
   areas: {
     kamala: "كامالا",
@@ -79,6 +83,10 @@ const ar: Messages = {
     ayutthaya: "أيوتايا",
     pai: "باي",
     "hua-hin": "هوا هين",
+    "koh-chang": "كوه تشانغ",
+    "koh-samet": "كوه ساميت",
+    kanchanaburi: "كانشانابوري",
+    "phang-nga": "فانغ نغا",
   },
   airports: {
     hkt: "مطار بوكيت الدولي",

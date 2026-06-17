@@ -338,6 +338,447 @@ const tr: DestinationDictionary = {
     bestFor: "Aileler · Yüzme · Deniz ürünleri",
     tips: "Hafta sonları Bangkok ziyaretçileriyle kalabalık. Khao Takiab yakınındaki güney uç daha sakin.",
   },
+  "karon-beach": {
+    name: "Karon Plajı",
+    description:
+      "Patong'un güneyinde daha sakin su, resort oteller ve rahat aile atmosferiyle uzun altın kumsal. Geniş kum şeridi Patong'un gece hayatı yoğunluğu olmadan yüzme, parasailing ve gün batımı yürüyüşleri için ideal.",
+    bestFor: "Aileler · Yüzme · Gün batımı",
+    tips: "Kata'ya yakın güney ucu daha sakin. Ana yol girişlerinde şezlong kiralayın.",
+  },
+  "kata-beach": {
+    name: "Kata Plajı",
+    description:
+      "Ormanlık burunlarla çerçevelenmiş pitoresk bir koy — berrak su, sezonunda sörf ve kafe-dükkanlarla kompakt bir köy. Phuket'in en fotojenik plajlarından biri; canlı ama yönetilebilir kalabalık.",
+    bestFor: "Yüzme · Sörf · Fotoğraf",
+    tips: "Güneydeki daha küçük koy Kata Noi daha da sakin. Hafta sonları otopark doluyor.",
+  },
+  "nai-harn-beach": {
+    name: "Nai Harn Plajı",
+    description:
+      "Sakin turkuaz su, çam gölgesinde kum ve huzurlu köy havasıyla korunaklı güney koy. Batı kıyı kalabalığından uzakta yüzme ve paddleboard için yerel halk ve uzun konaklayanların tercihi.",
+    bestFor: "Yüzme · Paddleboard · Sakin plaj",
+    tips: "Gün batımı için Promthep Burnu ile birleştirin. Otopark sınırlı — 10:00'dan önce gidin.",
+  },
+  "freedom-beach-phuket": {
+    name: "Freedom Plajı",
+    description:
+      "Yalnızca longtail tekne veya dik orman patikasıyla ulaşılan gizli beyaz kum koyu — kristal berraklığında su ve dramatik kayalıklar. Karayolu erişimi olmayan Phuket'in en el değmemiş plajlarından biri.",
+    bestFor: "Şnorkel · Tenha plaj · Fotoğraf",
+    tips: "Patong veya Tri Trang'dan tekneler kalkar. Tekne ücreti ve plaj sandalyeleri için nakit getirin.",
+  },
+  "rawai-beach": {
+    name: "Rawai Plajı",
+    description:
+      "Renkli longtail teknelerin kumda sıralandığı ve deniz ürünü restoranlarının günün balığını servis ettiği çalışan bir güney kıyısı. Yakın adalara kapı — Coral Island veya Racha için yarım günlük tekne kiralayın.",
+    bestFor: "Tekne turları · Deniz ürünleri · Yerel yaşam",
+    tips: "Yüzmek için ideal değil — iskele üssü olarak kullanın. Binişten önce tekne fiyatlarını pazarlık edin.",
+  },
+  "monkey-hill-phuket": {
+    name: "Monkey Hill (Toh Sae)",
+    description:
+      "Phuket Town üzerinde vahşi makakların yol kenarı seyir noktasında toplandığı ormanlık tepe. Şehir, liman ve koy üzerinde panoramik manzara kısa sürüş veya yürüyüşle ödüllendirir.",
+    bestFor: "Manzara · Vahşi yaşam · Kısa ziyaret",
+    tips: "Maymunları beslemeyin veya kışkırtmayın — çantaları kapalı tutun. Sabah ışığında en iyi.",
+  },
+  "simon-cabaret-phuket": {
+    name: "Simon Cabaret",
+    description:
+      "Phuket'in amiral gemisi kabare tiyatrosu — gösterişli kostümler, koreografi ve modern bir salonda gösterişli akşam şovu. Eğlenceli bir gece arayan ziyaretçiler için cilalı bir eğlence klasiği.",
+    bestFor: "Akşam şovu · Eğlence · Gruplar",
+    tips: "Otel transferi dahil bilet ayırtın. Gösteriler her gece — 30 dk erken gelin.",
+  },
+  "chillva-market": {
+    name: "Chillva Market",
+    description:
+      "Phuket Town'da konteyner tezgâhları, canlı müzik ve yaratıcı sokak yemeğiyle trend bir gece pazarı. Konteynerler ışıklandığında genç kalabalık ve yerel halk akşamları burada buluşur.",
+    bestFor: "Sokak yemeği · Gece pazarı · Yerel atmosfer",
+    tips: "Pazartesi, Çarşamba ve Cumartesi akşamları açık. Yaowarat Road yakınındaki otoparkları kullanın.",
+  },
+  "naiyang-beach": {
+    name: "Nai Yang Plajı",
+    description:
+      "Havalimanına yakın huzurlu bir milli park plajı — casuarina çamları gölgesinde uzun kum ve sakin sığ sular. Sezonunda deniz kaplumbağaları yumurtlar ve Patong'dan dünyalar uzak bir atmosfer sunar.",
+    bestFor: "Sakin plaj · Doğa · Aileler",
+    tips: "Kasım–Şubat kaplumbağa yumurtlama bölgelerine saygı gösterin. Uçuş öncesi plaj molası için ideal.",
+  },
+  "mai-khao-beach": {
+    name: "Mai Khao Plajı",
+    description:
+      "Phuket'in en uzun ve en sakin plajı kuzeybatı kıyısı boyunca uzanır — sonsuz kum, az gelişme ve tepeden inen uçaklar. Uzun yürüyüşler için vahşi, boş bir kıyı.",
+    bestFor: "Uzun yürüyüş · Yalnızlık · Uçak izleme",
+    tips: "Neredeyse hiç gölge veya tesis yok — su ve güneş koruması getirin. Bazen güçlü akıntılar olur.",
+  },
+  "lipa-noi-beach": {
+    name: "Lipa Noi Plajı",
+    description:
+      "Koh Samui batı kıyısında sığ sakin su ve Ang Thong adaları üzerinde altın gün batımlarıyla huzurlu bir koy. Düşük tempolu resortlar ve sahil restoranları huzurlu konaklamalar için ideal.",
+    bestFor: "Gün batımı · Aileler · Sakin konaklama",
+    tips: "Sığ su çocuklara uygun. Sahil restoranında gün batımı yemeği ile birleştirin.",
+  },
+  "silver-beach-samui": {
+    name: "Silver Plajı (Thong Takhian)",
+    description:
+      "Samui doğu kıyısında küçük gizli bir koy — ince kum, berrak su ve bir avuç butik resort. Adanın en güzel ve en az kalabalık yüzme plajlarından biri.",
+    bestFor: "Yüzme · Tenha plaj · Romantik",
+    tips: "Resort yollarından erişim — plajda halka açık giriş serbest. Kayalık uçlarda şnorkel yapın.",
+  },
+  "namuang-waterfall": {
+    name: "Na Muang Şelalesi",
+    description:
+      "Samui'nin en ünlü şelalesi orman içinde iki katmanlı doğal yüzme havuzlarıyla akar. Fil turları ve zipline maceraları yakın ormanlık alanda düzenlenir.",
+    bestFor: "Şelale · Yüzme · Doğa",
+    tips: "Kaymaz ayakkabı giyin — kayalar kaygan. İkinci katman yukarı 30 dakikalık yürüyüş gerektirir.",
+  },
+  "overlap-stone-samui": {
+    name: "Overlap Stone (Samui)",
+    description:
+      "Deniz üzerinde denge taşı gibi uzanan kayalık çıkıntıda ziyaretçilerin poz verdiği dramatik bir uçurum kenarı. Instagram'ın ünlü seyir noktasından güney kıyısının geniş manzarası.",
+    bestFor: "Fotoğraf · Manzara · Macera",
+    tips: "Yükseklik korkusu olanlar için uygun değil. Küçük giriş ücreti; kuyruk için erken gidin.",
+  },
+  "secret-garden-samui": {
+    name: "Secret Buddha Garden",
+    description:
+      "Samui iç kesiminde 300 metre yükseklikte mistik bir tepede bahçe — taş heykeller, şelaleler ve gür orman. Yerel bir meyve çiftçisi tarafından yaratılmış gizli bir manevi inziva gibi.",
+    bestFor: "Kültür · Doğa · Az bilinen rota",
+    tips: "Yalnızca 4x4 veya sağlam scooter ile ulaşılır — yol dik ve engebeli. Na Muang ile birleştirin.",
+  },
+  "koh-poda": {
+    name: "Koh Poda",
+    description:
+      "Mükemmel beyaz kum plajı ve ikonik karst fonuyla küçük bir kireçtaşı adası — klasik Krabi kartpostal manzarası. Günübirlik turlar şnorkel, öğle yemeği ve zümrüt sığ sularda yüzme içerir.",
+    bestFor: "Ada turu · Şnorkel · Fotoğraf",
+    tips: "Ao Nang veya Railay'dan dört ada turuna katılın. Kuru mevsim en sakin geçişleri sunar.",
+  },
+  "koh-hong-krabi": {
+    name: "Koh Hong (Krabi)",
+    description:
+      "Dikey kayalıklarla çevrili muhteşem bir lagün adası — mangrovlar arasından kano ile iç zümrüt havuza girin. Than Bok Khorani Milli Parkı'nın parçası; el değmemiş plajlar ve berrak su.",
+    bestFor: "Kano · Lagün · Ada turu",
+    tips: "Turlar lagün içinde kano kullanımını içerir. Gece konaklama yok — yalnızca günübirlik tur.",
+  },
+  "tubkaek-beach": {
+    name: "Tubkaek Plajı",
+    description:
+      "Orman ve lüks resortlarla çevrili sakin bir Krabi kuzey plajı — sakin su, uzun kum ve açık denizdeki adalar manzarası. Yoğun Ao Nang'a göre rahat yüzme için seçkin alternatif.",
+    bestFor: "Sakin plaj · Resortlar · Yüzme",
+    tips: "Sınırlı halka açık erişim — resort beach club'ları veya ana halk otoparkını kullanın.",
+  },
+  "ao-thalane": {
+    name: "Ao Thalane",
+    description:
+      "Krabi'nin güneyinde mangrovlarla çevrili bir körfez — kireçtaşı mağaraları, gelgit kanalları ve maymun dolu ormanlar arasında kano. Güney Tayland'ın korunaklı sakin suda en iyi kürek deneyimlerinden biri.",
+    bestFor: "Kano · Mangrovlar · Doğa",
+    tips: "Mağara rotaları için rehberli kano turu ayırtın. Sabah alçak gelgit daha fazla kanal açar.",
+  },
+  "klong-muang-beach": {
+    name: "Klong Muang Plajı",
+    description:
+      "Ao Nang'ın kuzeyinde beş yıldızlı resortlar, sakin yüzme ve Krabi adalarına bakan manzara ile seçkin bir kum şeridi. Geniş plaj, yumuşak kum ve merkezi Ao Nang'dan daha sakin atmosfer.",
+    bestFor: "Yüzme · Resortlar · Aileler",
+    tips: "Koh Kai'ye gün batımı manzarası. Centara yakınındaki güney uçta halka açık plaj erişimi.",
+  },
+  "warorot-market": {
+    name: "Warorot Market",
+    description:
+      "Chiang Mai'nin en eski ve en otantik pazarı — baharatlar, tekstiller, çiçekler ve kuzey Tay sokak yemeği tek çatı altında. Ping Nehri kıyısında yerel günlük yaşama duyusal bir dalış.",
+    bestFor: "Sokak yemeği · Yerel alışveriş · Kültür",
+    tips: "Taze ürün için sabah erken en iyi. Gece pazarı tezgâhları Chang Moi Road boyunca uzanır.",
+  },
+  "doi-pui-village": {
+    name: "Doi Pui Hmong Köyü",
+    description:
+      "Doi Suthep dağında el sanatları tezgâhları, kahve dükkanları ve serin dağ havasıyla bir dağ kabilesi köyü. 1.400 metrede kültürel sergiler ve Chiang Mai vadisi panoramik manzarası.",
+    bestFor: "Kültür · Dağ manzarası · Serin iklim",
+    tips: "Aynı gezide Wat Phra That Doi Suthep ile birleştirin. Hafif ceket getirin — tepede daha serin.",
+  },
+  "nimman-road": {
+    name: "Nimman Road",
+    description:
+      "Chiang Mai'nin en trend mahallesi — butik kafeler, sanat galerileri, kokteyl barları ve yaratıcı sokak hayatı. Şehrin modern yüzü, surlu eski şehirden dakikalar uzakta.",
+    bestFor: "Kafeler · Alışveriş · Gece hayatı",
+    tips: "Öğleden sonra akşama kadar yürüyerek keşfedin. En iyi mekânlar ara sokaklarda gizli.",
+  },
+  "art-in-paradise-cm": {
+    name: "Art in Paradise (Chiang Mai)",
+    description:
+      "Duvar ve zeminlerde oynak fotoğraflar için boyalı illüzyonlar sunan interaktif 3D sanat müzesi. Klimalı konfor — Chiang Mai'de yağmurlu gün favorisi, aile dostu eğlence.",
+    bestFor: "Aileler · Fotoğraf · Kapalı aktivite",
+    tips: "1–2 saat ayırın. Telefon kamerası yeterli — en iyi açılar için zemin işaretlerini takip edin.",
+  },
+  "san-kamphaeng-hot-springs": {
+    name: "San Kamphaeng Kaplıcaları",
+    description:
+      "Chiang Mai doğusunda kırsal alanda doğal mineral kaynakları — termal havuzlarda yumurta haşlayın ve basamaklı taş banyolarda ayaklarınızı ıslatın. Bahçe ve ormanla çevrili rahatlatıcı yarım günlük kaçış.",
+    bestFor: "Kaplıca · Aileler · Yarım gün",
+    tips: "En sıcak havuzda pişirmek için girişte yumurta sepeti alın. Havuzlar tam banyo için çok sıcak.",
+  },
+  "wat-pho": {
+    name: "Wat Pho",
+    description:
+      "Bangkok'un Yatar Buda Tapınağı — Tayland'ın en büyük tapınak kompleksinde 46 metrelik altın kaplama heykel. Geleneksel Tay masajının doğduğu yer; meşhur masaj okulu site içinde.",
+    bestFor: "Kültür · Tapınak · Masaj",
+    tips: "Sıcağı ve kalabalığı önlemek için sabah erken gidin. Mütevazı giyinin ve salonlarda ayakkabı çıkarın.",
+  },
+  "lumpini-park": {
+    name: "Lumpini Park",
+    description:
+      "Bangkok'un yeşil ciğeri — 142 dönüm göl, koşu yolları, monitor kertenkeleleri ve şafakta tai chi. İş bölgesinin kalbinde gökdelenler arasında huzur vahası.",
+    bestFor: "Yürüyüş · Doğa · Sabah aktivitesi",
+    tips: "Gün doğumu veya geç öğleden sonra en iyi. Hafta sonları ana gölde pedallı tekne mevcut.",
+  },
+  "iconsiam": {
+    name: "ICONSIAM",
+    description:
+      "Chao Phraya kıyısında lüks markalar, kapalı yüzen pazar ve muhteşem akşam fıskiye gösterileriyle nehir kenarı mega AVM. Modern Bangkok'un en cilalı hali — alışveriş, yemek ve nehir manzarası.",
+    bestFor: "Alışveriş · Yemek · Nehir manzarası",
+    tips: "Sathorn iskelesinden ücretsiz tekne servisi. Akşam ışık gösterisi nehir kenarında.",
+  },
+  "mahanakhon-skywalk": {
+    name: "Mahanakhon SkyWalk",
+    description:
+      "Bangkok'un en yüksek binasının tepesinde cam zeminli gözlem terası — şehrin 314 metre üzerinde 360 derece manzara. Heyecan verici şeffaf yürüyüş yolu ve gün batımı kokteyli için çatı barı.",
+    bestFor: "Manzara · Fotoğraf · Gün batımı",
+    tips: "Saatli biletleri online ayırtın. Gün batımı seansı tükenir — girişten 30 dk önce gelin.",
+  },
+  "jim-thompson-house": {
+    name: "Jim Thompson House",
+    description:
+      "Geleneksel Tay mimarisini ve Amerikalı expat efsanesinin ipek imparatorluğunu sergileyen korunmuş tik ahşap kompleks. Rehberli turlar antikalar, bahçeler ve kayboluşunun gizemini anlatır.",
+    bestFor: "Kültür · Tarih · Mimari",
+    tips: "Yalnızca rehberli turlar — girişte bilet alın. Yakındaki Siam alışverişi ile birleştirin.",
+  },
+  "nong-nooch-garden": {
+    name: "Nong Nooch Tropikal Bahçesi",
+    description:
+      "Pattaya yakınında tematik bölümler, fil gösterileri ve kültürel performanslarla geniş peyzaj bahçesi. Orkideler, bonsai, Fransız formal bahçeleri ve kanopi üzerinde skywalk.",
+    bestFor: "Aileler · Bahçeler · Gösteriler",
+    tips: "Tam gün ayırın. Program belirli saatlerde fil ve kültür gösterileri içerir.",
+  },
+  "mini-siam-pattaya": {
+    name: "Mini Siam",
+    description:
+      "Tayland'ın ve dünyanın ünlü simgelerinin ölçekli replikalarını sergileyen minyatür park. Tuhaf yarım günlük cazibe — tek yürüyüşte Eyfel Kulesi ile Angkor Wat yan yana.",
+    bestFor: "Aileler · Fotoğraf · Yarım gün",
+    tips: "Işık daha yumuşak olduğu geç öğleden sonra ziyaret edin. Yürüyerek 1–2 saat ayırın.",
+  },
+  "ko-sichang": {
+    name: "Ko Sichang",
+    description:
+      "Bir zamanlar Tay kraliyetinin tercih ettiği sakin bir Körfez adası — uçurum tapınakları, eski saraylar ve rahat balıkçı köyü atmosferi. Turist kalabalığı olmadan Pattaya'dan huzurlu günübirlik tur.",
+    bestFor: "Ada günübirlik · Tarih · Sakin kaçış",
+    tips: "Sriracha iskelesinden feribot yaklaşık 40 dk. Adayı keşfetmek için golf arabası kiralayın.",
+  },
+  "pratumnak-viewpoint": {
+    name: "Pratumnak Seyir Noktası",
+    description:
+      "Pattaya ile Jomtien arasında koy, şehir silueti ve açık deniz adaları üzerinde panoramik manzaralı tepede seyir noktası. Yakında Büyük Buda heykeli; plaj gürültüsünden uzak popüler gün batımı noktası.",
+    bestFor: "Manzara · Gün batımı · Fotoğraf",
+    tips: "Yoldan kısa tırmanış veya otoparka sürüş. Büyük Buda tapınağı ile birleştirin.",
+  },
+  "zen-beach": {
+    name: "Zen Plajı (Koh Tao)",
+    description:
+      "Koh Tao kuzeybatı ucunda küçük kayalık koy — berrak su, şnorkel ve bohem plaj barı atmosferi. Gün batımı manzaraları ve rahat kalabalık dalgıçların izin günü favorisi.",
+    bestFor: "Şnorkel · Gün batımı · Rahat atmosfer",
+    tips: "Sairee'den kısa scooter yolculuğu. Kayalık giriş — su ayakkabısı yardımcı olur.",
+  },
+  "khao-rae-viewpoint": {
+    name: "Khao Rae Seyir Noktası",
+    description:
+      "Koh Tao doğu kıyısında kalp şeklinde koy ve turkuaz sığ suları gören orman seyir noktası. Orman içi kısa yürüyüş adanın en dramatik panoramalarından birini ödüllendirir.",
+    bestFor: "Yürüyüş · Manzara · Fotoğraf",
+    tips: "Yağmurdan sonra patika çamurlu olabilir — spor ayakkabı giyin. En iyi ışık için sabah gidin.",
+  },
+  "salad-bay": {
+    name: "Salad Koyu (Koh Tao)",
+    description:
+      "Sakin berrak su, mercan resifleri ve bir avuç sakin resortla korunaklı kuzey kıyı koyu. Sairee kalabalığı olmadan Koh Tao'nun en iyi şnorkel plajlarından biri.",
+    bestFor: "Şnorkel · Sakin plaj · Yüzme",
+    tips: "Resortunuzdan şnorkel ekipmanı kiralayın. Sakin gelgitte yakındaki Shark Island'a kano.",
+  },
+  "john-suwan-viewpoint": {
+    name: "John-Suwan Seyir Noktası",
+    description:
+      "Koh Tao güney ucunda ünlü çift koy seyir noktası — iki turkuaz koyun üzerindeki kayalık noktaya dik 10 dakikalık tırmanış. Geniş kıyı manzarasıyla vazgeçilmez Koh Tao fotoğraf durağı.",
+    bestFor: "Manzara · Fotoğraf · Kısa yürüyüş",
+    tips: "Uygun ayakkabı giyin — son bölüm kayalık. Sert öğle güneşinden kaçınmak için sabah ortası.",
+  },
+  "mango-bay-tao": {
+    name: "Mango Koyu (Koh Tao)",
+    description:
+      "Tekne veya orman patikasıyla ulaşılan tenha kuzey kıyı koyu — zümrüt su, resif balıkları ve huzurlu atmosfer. Bir saatlik yüzme molası veren şnorkel turlarının popüler durağı.",
+    bestFor: "Şnorkel · Tenha plaj · Tekne turu",
+    tips: "Kıyıda tesis yok — su ve güneş koruması getirin. Mae Haad'dan tekne turları.",
+  },
+  "ao-leuk-tao": {
+    name: "Ao Leuk (Koh Tao)",
+    description:
+      "Koh Tao'nun en berrak şnorkel noktalarından bazılarına sahip doğu kıyısında korunaklı koy — kumdan birkaç metre ötede mercan bahçeleri. Sakin sabahlar ve küçük plaj restoranı kolay yarım gün.",
+    bestFor: "Şnorkel · Yüzme · Aileler",
+    tips: "En iyi görüş için 10:00'dan önce gelin. Kayalık güney kenar boyunca şnorkel yapın.",
+  },
+  "karma-beach-lipe": {
+    name: "Karma Plajı (Koh Lipe)",
+    description:
+      "Adanın batı tarafında küçük tenha plaj — yumuşak kum, berrak su ve butik resort atmosferi. Pattaya Plajı'ndan daha sakin; Andaman üzerinde mükemmel gün batımı manzarası.",
+    bestFor: "Gün batımı · Sakin plaj · Romantik",
+    tips: "Pattaya Plajı'ndan yürüyün veya longtail. Resort şezlongları yakınında bile plaj halka açık.",
+  },
+  "walking-street-lipe": {
+    name: "Yürüyüş Caddesi (Koh Lipe)",
+    description:
+      "Koh Lipe'nin akşam yaya şeridi — deniz ürünü ızgaralar, kokteyl barları, canlı müzik ve alacakaranlıktan itibaren ada alışverişi. Güneş battığında adanın sosyal kalbi.",
+    bestFor: "Yemek · Gece hayatı · Ada yaşamı",
+    tips: "Pattaya Plajı'nda yaklaşık 18:00'de açılır. Sokak yemeği tezgâhları için nakit faydalı.",
+  },
+  "bang-pa-in-palace": {
+    name: "Bang Pa-In Sarayı",
+    description:
+      "Ayutthaya yakınında nehir kenarında Tay, Çin ve Avrupa mimarisini birleştiren kraliyet yaz sarayı, bakımlı bahçeler arasında. Süslü köşkler, yüzen taht salonu ve sakin ortamda göl kenarı yürüyüşleri.",
+    bestFor: "Tarih · Mimari · Bahçeler",
+    tips: "Kıyafet kuralı uygulanır — şort ve kolsuz üst yasak. Kapıda uygun örtü kiralanır.",
+  },
+  "wat-chaiwatthanaram": {
+    name: "Wat Chaiwatthanaram",
+    description:
+      "Chao Phraya nehir kıyısında muhteşem Khmer tarzı tapınak harabesi — simetrik prang'lar ve Buda heykelleri gün batımında parlar. Ayutthaya'nın en fotojenik ve tarihsel açıdan en önemli yerlerinden biri.",
+    bestFor: "Tarih · Gün batımı · Fotoğraf",
+    tips: "En iyi ışık için altın saatte ziyaret edin. Ayutthaya merkezinden bisiklet veya tuk-tuk.",
+  },
+  "yun-lai-viewpoint": {
+    name: "Yun Lai Seyir Noktası",
+    description:
+      "Pai üzerinde vadi ve katmanlı tepeler üzerinde gün doğumunda panoramik manzaralı sisli dağ seyir noktası. Çin çay köşkleri ve serin sabahlarda bulut denizi büyülü bir atmosfer yaratır.",
+    bestFor: "Gün doğumu · Manzara · Fotoğraf",
+    tips: "Gün doğumundan önce dik yolda araba veya scooter. Sıcak katmanlar getirin — şafakta soğuk.",
+  },
+  "tha-pai-hot-springs": {
+    name: "Tha Pai Kaplıcaları",
+    description:
+      "Pai güneyinde orman içinde doğal sıcak mineral havuzlar — bambu ve ormanla çevrili basamaklı taş banyolarda ıslanın. Mae Hong Son döngü yolunda rahatlatıcı bir durak.",
+    bestFor: "Kaplıca · Doğa · Dinlenme",
+    tips: "Küçük giriş ücreti. Havuzlar farklı sıcaklıkta — tam batmadan önce test edin.",
+  },
+  "cicada-market-hua-hin": {
+    name: "Cicada Market",
+    description:
+      "Hua Hin'de canlı müzik, el yapımı ürünler ve gurme sokak yemeğiyle sanat ve el sanatları hafta sonu pazarı. Bangkok hafta sonu ziyaretçilerinin sevdiği seçkin pazar deneyimi.",
+    bestFor: "Sanat · Sokak yemeği · Hafta sonu pazarı",
+    tips: "Yalnızca Cuma–Pazar akşamları açık. Sonrasında Hua Hin plajında akşam yemeği ile birleştirin.",
+  },
+  "khao-sam-roi-yot": {
+    name: "Khao Sam Roi Yot Milli Parkı",
+    description:
+      "Hua Hin güneyinde kıyı milli parkı — kireçtaşı zirveler, mangrovlar ve içinde kraliyet köşkü bulunan ünlü Phraya Nakhon Mağarası. Vahşi yaşam, plajlar ve yürüyüş parkurları tek kompakt parkta.",
+    bestFor: "Yürüyüş · Mağaralar · Doğa",
+    tips: "Phraya Nakhon Mağarası 30 dk yürüyüş — sıcaktan önce erken gidin. Lagünü geçmek için tekne seçeneği.",
+  },
+  "white-sand-beach-koh-chang": {
+    name: "White Sand Plajı (Koh Chang)",
+    description:
+      "Koh Chang'ın en yoğun ve en gelişmiş plajı — uzun beyaz kum, plaj barları, restoranlar ve canlı bir şerit boyunca su sporları. Adanın en geniş yemek ve gece hayatı seçeneğiyle ana merkezi.",
+    bestFor: "Yüzme · Gece hayatı · Ada üssü",
+    tips: "Kuzey ucu daha sakin. Songthaew kıyı yolu boyunca diğer plajlara bağlar.",
+  },
+  "lonely-beach-koh-chang": {
+    name: "Lonely Plajı (Koh Chang)",
+    description:
+      "Adına yakışır bohem batı kıyı koyu — sırt çantalı barlar, rustik bungalovlar ve rahat parti atmosferi. Gün batımı seansları ve ateş gösterileri genç, sakin bir kalabalık çeker.",
+    bestFor: "Sırt çantalı · Gün batımı · Gece hayatı",
+    tips: "Yol dik ve virajlı — deneyimli scooter önerilir. Hafta içi sabahları daha sakin.",
+  },
+  "klong-plu-waterfall": {
+    name: "Klong Plu Şelalesi",
+    description:
+      "Koh Chang'da en kolay ulaşılan şelale — doğal yüzme havuzlu katmanlı şelaleye 20 dakikalık orman yürüyüşü. Plaj sıcağından popüler öğle kaçışı.",
+    bestFor: "Şelale · Yüzme · Orman yürüyüşü",
+    tips: "200 baht milli park ücreti. Kaymaz ayakkabı — yağmur mevsiminde patika çamurlu olabilir.",
+  },
+  "bang-bao-pier": {
+    name: "Bang Bao İskelesi",
+    description:
+      "Koh Chang güney ucunda iskeleler üzerine kurulmuş sevimli balıkçı köyü — deniz ürünü restoranları, hediyelik dükkanlar ve şnorkel tekne kalkışları. Fotojenik sahil ve yakın adalara kapı.",
+    bestFor: "Deniz ürünleri · Tekne turları · Fotoğraf",
+    tips: "İskele restoranında öğle yemeği şart. Koh Wai veya Koh Rang şnorkel turlarını ayırtın.",
+  },
+  "sai-kaew-beach": {
+    name: "Sai Kaew Plajı (Koh Samet)",
+    description:
+      "Koh Samet'te en canlı plaj — beyaz kum, plaj barları, ateş gösterileri ve berrak Körfez suyunda yüzme. Adanın ana varış noktası; en yoğun restoran ve resort sahnesi.",
+    bestFor: "Yüzme · Gece hayatı · Plaj barları",
+    tips: "Hafta sonları Bangkok'tan dolup taşar. Biraz daha sakin bölümler için güneye yürüyün.",
+  },
+  "ao-prao-beach": {
+    name: "Ao Prao Plajı",
+    description:
+      "Koh Samet batı kıyısında sakin su, yumuşak kum ve seçkin resort atmosferiyle özel bir koy. Adanın en güzel ve en sakin yüzme plajlarından biri; mükemmel gün batımı manzarası.",
+    bestFor: "Sakin plaj · Yüzme · Resortlar",
+    tips: "Le Vimarn veya Ao Prao Resort gün geçişi ile erişim. Sai Kaew'dan daha az kalabalık.",
+  },
+  "samet-viewpoint": {
+    name: "Samet Seyir Noktası",
+    description:
+      "Koh Samet'te Körfez, yakın adalar ve adanın ormanlık iç kesimi üzerinde panoramik manzaralı tepede seyir noktası. Ao Noi Na'dan kısa tırmanış esintili kıyı manzarası ödüllendirir.",
+    bestFor: "Manzara · Fotoğraf · Kısa yürüyüş",
+    tips: "Gün batımında en iyi. Alacakaranlıkta sivrisinek — böcek spreyi getirin.",
+  },
+  "bridge-river-kwai": {
+    name: "Kwai Nehri Köprüsü",
+    description:
+      "Kanchanaburi'de ünlü II. Dünya Savaşı demiryolu köprüsü — Kwai Nehri üzerindeki demir açıklıklarda yürüyün ve bitişiğindeki savaş müzesini ziyaret edin. Ölüm Demiryolu'nun sembolü, dokunaklı tarihi simge.",
+    bestFor: "Tarih · II. Dünya Savaşı · Fotoğraf",
+    tips: "Trenler hâlâ geçiyor — programlara dikkat edin. Yakındaki JEATH Savaş Müzesi ile birleştirin.",
+  },
+  "erawan-waterfall": {
+    name: "Erawan Şelalesi",
+    description:
+      "Erawan Milli Parkı'nda yedi katmanlı zümrüt şelale — turkuaz havuzlar, orman patikaları ve ayaklarınızı ısıran balıklar. Tayland'ın en güzel ve en erişilebilir şelalelerinden biri.",
+    bestFor: "Şelale · Yüzme · Yürüyüş",
+    tips: "Kalabalığı önlemek için park açılışında (8:00) gelin. Üst katmanlar daha dik tırmanış gerektirir.",
+  },
+  "sai-yok-national-park": {
+    name: "Sai Yok Milli Parkı",
+    description:
+      "Kanchanaburi'de şelaleler, kireçtaşı mağaraları ve Kwai Noi boyunca Ölüm Demiryolu kalıntılarıyla nehir vadisi parkı. Ana turist rotasının batısında doğa, tarih ve sakin orman patikaları.",
+    bestFor: "Doğa · Tarih · Mağaralar",
+    tips: "Tam deneyim için nehir kenarı raft evinde kalın. Lawa Mağarası rehber ve kafa lambası gerektirir.",
+  },
+  "hellfire-pass": {
+    name: "Hellfire Pass",
+    description:
+      "Müttefik savaş esirlerinin Ölüm Demiryolu'nu elle kazdığı katı kayaya açılan dokunaklı anıt geçit. Orman içi sesli rehberli yürüyüş parkuru savaş zamanı acının boyutunu aktarır.",
+    bestFor: "Tarih · II. Dünya Savaşı · Anıt",
+    tips: "Müzeden ücretsiz sesli rehber alın. Yürüyüş için 1–2 saat ayırın.",
+  },
+  "james-bond-island": {
+    name: "James Bond Island (Koh Tapu)",
+    description:
+      "Altın Tabancalı Adam'dan ikonik kireçtaşı deniz sütunu Phang Nga Körfezi'nden yükselir. Karst manzarası, mağaralar ve yüzen köy ziyaretleriyle klasik longtail tekne turu durağı.",
+    bestFor: "Ada turu · Fotoğraf · Tekne turu",
+    tips: "Phuket veya Krabi'den turlar ayırtın. Öğle zirve tekne trafiğinden kaçınmak için erken gidin.",
+  },
+  "koh-panyee": {
+    name: "Koh Panyee",
+    description:
+      "Phang Nga Körfezi'nde tamamen su üzerine iskelelerle kurulmuş olağanüstü Müslüman balıkçı köyü. Yüzen futbol sahası, deniz ürünü öğle yemeği ve yüzyıllık ada topluluğu yaşamına bir bakış.",
+    bestFor: "Kültür · Deniz ürünleri · Tekne turu",
+    tips: "Çoğu James Bond Island turuna dahil. Yerel adetlere saygı — mütevazı giyim takdir edilir.",
+  },
+  "samet-nangshe-viewpoint": {
+    name: "Samet Nangshe Seyir Noktası",
+    description:
+      "Phang Nga Körfezi'nin sabah sisine bürünmüş karst adaları üzerinde nefes kesen gün doğumu seyir noktası. Bambu kulübeler ve dik 10 dakikalık tırmanış güney Tayland'ın ikonik panoramalarından birini sunar.",
+    bestFor: "Gün doğumu · Manzara · Fotoğraf",
+    tips: "Gün doğumu için otelden 5:00'te çıkın. Astrofotoğraf için bambu kulübeler gece kiralanır.",
+  },
+  "koh-yao-noi": {
+    name: "Koh Yao Noi",
+    description:
+      "Phuket ile Krabi arasında pirinç tarlaları, balıkçı köyleri ve Phang Nga Körfezi'ne bakan kalabalıksız plajlarla huzurlu ada. Yavaş ada yaşamı, kano ve doğu kıyısından James Bond Island manzarası.",
+    bestFor: "Sakin ada · Kano · Yerel yaşam",
+    tips: "Bang Rong iskelesi (Phuket) veya Ao Nang'dan feribot. Adayı keşfetmek için scooter kiralayın.",
+  },
 };
 
 export default tr;

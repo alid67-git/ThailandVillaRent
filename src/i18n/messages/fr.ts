@@ -12,6 +12,7 @@ const fr: Messages = {
   },
   home: {
     eyebrow: "À travers la Thaïlande",
+    heroEyebrow: "Phuket · mer d'Andaman",
     title: "Votre séjour idéal en Thaïlande",
     subtitle:
       "Locations de villas et bungalows à Phuket et Koh Samui — recherche et filtres avancés.",
@@ -22,6 +23,7 @@ const fr: Messages = {
     exploreTitle: "Explorez votre destination",
     exploreHint:
       "Les distances sont affichées sur la page de détail de chaque hébergement — calculées depuis ce bien.",
+    galleryTitle: "Plages de Phuket et vues sur l'Andaman",
   },
   search: {
     destination: "Destination",
@@ -31,6 +33,8 @@ const fr: Messages = {
     checkOut: "Départ",
     guests: "Voyageurs",
     submit: "Rechercher",
+    title: "Rechercher un hébergement",
+    close: "Fermer",
   },
   areas: {
     kamala: "Kamala",
@@ -79,6 +83,10 @@ const fr: Messages = {
     ayutthaya: "Ayutthaya",
     pai: "Pai",
     "hua-hin": "Hua Hin",
+    "koh-chang": "Koh Chang",
+    "koh-samet": "Koh Samet",
+    kanchanaburi: "Kanchanaburi",
+    "phang-nga": "Phang Nga",
   },
   airports: {
     hkt: "Aéroport international de Phuket",

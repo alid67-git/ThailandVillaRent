@@ -14,6 +14,18 @@ export const STAY_IMAGES = {
     "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&q=80",
 } as const;
 
+/** Phuket & Andaman hero imagery for homepage */
+export const HOME_HERO_IMAGES = {
+  main: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1600&q=85",
+  gallery: [
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    "https://images.unsplash.com/photo-1473496167757-71d0ec8a0a3c?w=1200&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+    "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80",
+    "https://images.unsplash.com/photo-1559127324-4af05e789266?w=1200&q=80",
+  ],
+} as const;
+
 export const DESTINATION_IMAGES = {
   beach:
     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",

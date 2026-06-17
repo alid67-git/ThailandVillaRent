@@ -10,6 +10,7 @@ const tr = {
   },
   home: {
     eyebrow: "Tayland genelinde",
+    heroEyebrow: "Phuket · Andaman Denizi",
     title: "Tayland'da mükemmel konaklamanızı bulun",
     subtitle: "Phuket ve Koh Samui'de villa ve bungalov kiralama — gelişmiş arama ve filtreler.",
     cta: "Tüm konaklamaları gör",
@@ -18,6 +19,7 @@ const tr = {
     viewAll: "Tümünü gör",
     exploreTitle: "Bölgenizi keşfedin",
     exploreHint: "Mesafeler konaklama detay sayfasında — seçtiğiniz mülke göre hesaplanır.",
+    galleryTitle: "Phuket plajları ve Andaman manzarası",
   },
   search: {
     destination: "Destinasyon",
@@ -27,6 +29,8 @@ const tr = {
     checkOut: "Çıkış",
     guests: "Misafir",
     submit: "Ara",
+    title: "Konaklama ara",
+    close: "Kapat",
   },
   areas: {
     kamala: "Kamala",
@@ -75,6 +79,10 @@ const tr = {
     ayutthaya: "Ayutthaya",
     pai: "Pai",
     "hua-hin": "Hua Hin",
+    "koh-chang": "Koh Chang",
+    "koh-samet": "Koh Samet",
+    kanchanaburi: "Kanchanaburi",
+    "phang-nga": "Phang Nga",
   },
   airports: {
     hkt: "Phuket Uluslararası Havalimanı",

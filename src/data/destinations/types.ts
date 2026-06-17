@@ -10,7 +10,11 @@ export type DestinationRegion =
   | "koh-lipe"
   | "ayutthaya"
   | "pai"
-  | "hua-hin";
+  | "hua-hin"
+  | "koh-chang"
+  | "koh-samet"
+  | "kanchanaburi"
+  | "phang-nga";
 
 export const DESTINATION_REGIONS = [
   "phuket",
@@ -25,6 +29,10 @@ export const DESTINATION_REGIONS = [
   "ayutthaya",
   "pai",
   "hua-hin",
+  "koh-chang",
+  "koh-samet",
+  "kanchanaburi",
+  "phang-nga",
 ] as const satisfies readonly DestinationRegion[];
 
 export type DestinationCategory =

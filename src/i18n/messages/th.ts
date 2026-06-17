@@ -12,6 +12,7 @@ const th: Messages = {
   },
   home: {
     eyebrow: "ทั่วประเทศไทย",
+    heroEyebrow: "ภูเก็ต · ทะเลอันดามัน",
     title: "ที่พักในฝันของคุณในประเทศไทย",
     subtitle:
       "เช่าวิลล่าและบังกะโลในภูเก็ตและเกาะสมุย — ค้นหาและกรองขั้นสูง",
@@ -22,6 +23,7 @@ const th: Messages = {
     exploreTitle: "สำรวจจุดหมายของคุณ",
     exploreHint:
       "ระยะทางแสดงในหน้ารายละเอียดของแต่ละที่พัก — คำนวณจากที่พักนั้น",
+    galleryTitle: "ชายหาดภูเก็ตและวิวอันดามัน",
   },
   search: {
     destination: "จุดหมาย",
@@ -31,6 +33,8 @@ const th: Messages = {
     checkOut: "เช็คเอาท์",
     guests: "ผู้เข้าพัก",
     submit: "ค้นหา",
+    title: "ค้นหาที่พัก",
+    close: "ปิด",
   },
   areas: {
     kamala: "กมลา",
@@ -79,6 +83,10 @@ const th: Messages = {
     ayutthaya: "อยุธยา",
     pai: "ปาย",
     "hua-hin": "หัวหิน",
+    "koh-chang": "เกาะช้าง",
+    "koh-samet": "เกาะเสม็ด",
+    kanchanaburi: "กาญจนบุรี",
+    "phang-nga": "พังงา",
   },
   airports: {
     hkt: "ท่าอากาศยานนานาชาติภูเก็ต",

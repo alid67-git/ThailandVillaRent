@@ -5,7 +5,13 @@ import { useState } from "react";
 import { useLocale } from "@/context/LocaleContext";
 import { AREAS_BY_REGION } from "@/data/stays/catalog";
 
-export function SearchBar({ compact = false }: { compact?: boolean }) {
+export function SearchBar({
+  compact = false,
+  onSubmitted,
+}: {
+  compact?: boolean;
+  onSubmitted?: () => void;
+}) {
   const { t } = useLocale();
   const router = useRouter();
   const [region, setRegion] = useState<"phuket" | "koh-samui">("phuket");
@@ -25,6 +31,7 @@ export function SearchBar({ compact = false }: { compact?: boolean }) {
     if (checkOut) params.set("checkOut", checkOut);
     params.set("guests", String(guests));
     router.push(`/stays?${params.toString()}`);
+    onSubmitted?.();
   }
 
   return (
