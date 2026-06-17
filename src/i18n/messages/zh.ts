@@ -36,9 +36,18 @@ const zh: Messages = {
     close: "关闭",
   },
   areas: {
-    kamala: "卡马拉",
-    boPhut: "波普",
-    maenam: "湄南",
+    kamala: "卡马拉", karon: "卡伦", kata: "卡塔", bangtao: "邦涛", rawai: "拉威",
+    boPhut: "波普", maenam: "湄南", chaweng: "查汶", lamai: "拉迈",
+    aoNang: "奥南", railay: "莱利", tubkaek: "图卡克", klongMuang: "空芒",
+    oldCity: "古城", nimman: "宁曼", doiSuthep: "素贴山",
+    sukhumvit: "素坤逸", riverside: "河畔", sathorn: "沙吞",
+    jomtien: "乔木提恩", central: "芭堤雅中心", naklua: "那库拉",
+    haadRin: "哈林", bottleBeach: "Bottle Beach", thongSala: "通萨拉",
+    sairee: "赛瑞", maeHaad: "湄哈",
+    pattayaBeach: "芭堤雅海滩", sunriseBeach: "日出海滩",
+    centre: "市中心", khaoTakiab: "考塔基布",
+    whiteSand: "白沙滩", lonelyBeach: "Lonely Beach",
+    riverKwai: "桂河", erawan: "爱侣湾",
   },
   filters: {
     allRegions: "全部",
@@ -90,6 +99,13 @@ const zh: Messages = {
   airports: {
     hkt: "普吉国际机场",
     usm: "苏梅国际机场",
+    kbv: "甲米国际机场",
+    cnx: "清迈国际机场",
+    bkk: "素万那普机场",
+    utp: "乌塔保国际机场",
+    hdh: "帕岸岛机场",
+    hhq: "华欣机场",
+    tdx: "桐艾机场",
   },
   auth: {
     signIn: "登录",
@@ -141,6 +157,9 @@ const zh: Messages = {
   footer: {
     tagline: "泰国全境住宿租赁",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "回到顶部",
   },
 };
 

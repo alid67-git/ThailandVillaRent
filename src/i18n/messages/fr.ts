@@ -37,9 +37,18 @@ const fr: Messages = {
     close: "Fermer",
   },
   areas: {
-    kamala: "Kamala",
-    boPhut: "Bo Phut",
-    maenam: "Maenam",
+    kamala: "Kamala", karon: "Karon", kata: "Kata", bangtao: "Bang Tao", rawai: "Rawai",
+    boPhut: "Bo Phut", maenam: "Maenam", chaweng: "Chaweng", lamai: "Lamai",
+    aoNang: "Ao Nang", railay: "Railay", tubkaek: "Tubkaek", klongMuang: "Klong Muang",
+    oldCity: "Vieille ville", nimman: "Nimman", doiSuthep: "Doi Suthep",
+    sukhumvit: "Sukhumvit", riverside: "Bords de rivière", sathorn: "Sathorn",
+    jomtien: "Jomtien", central: "Centre Pattaya", naklua: "Naklua",
+    haadRin: "Haad Rin", bottleBeach: "Bottle Beach", thongSala: "Thong Sala",
+    sairee: "Sairee", maeHaad: "Mae Haad",
+    pattayaBeach: "Plage Pattaya", sunriseBeach: "Plage Sunrise",
+    centre: "Centre-ville", khaoTakiab: "Khao Takiab",
+    whiteSand: "White Sand", lonelyBeach: "Lonely Beach",
+    riverKwai: "Rivière Kwai", erawan: "Erawan",
   },
   filters: {
     allRegions: "Tous",
@@ -91,6 +100,13 @@ const fr: Messages = {
   airports: {
     hkt: "Aéroport international de Phuket",
     usm: "Aéroport international de Samui",
+    kbv: "Aéroport international de Krabi",
+    cnx: "Aéroport international de Chiang Mai",
+    bkk: "Aéroport Suvarnabhumi",
+    utp: "Aéroport international U-Tapao",
+    hdh: "Aéroport de Koh Phangan",
+    hhq: "Aéroport de Hua Hin",
+    tdx: "Aéroport de Trat",
   },
   auth: {
     signIn: "Se connecter",
@@ -142,6 +158,9 @@ const fr: Messages = {
   footer: {
     tagline: "Locations en Thaïlande",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "Haut de page",
   },
 };
 

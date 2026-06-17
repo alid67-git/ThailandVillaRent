@@ -3,7 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useLocale } from "@/context/LocaleContext";
-import { AREAS_BY_REGION } from "@/data/stays/catalog";
+import { AREAS_BY_REGION, REGIONS } from "@/data/stays/catalog";
+import type { StayRegion } from "@/data/stays/types";
 
 export function SearchBar({
   compact = false,
@@ -14,7 +15,7 @@ export function SearchBar({
 }) {
   const { t } = useLocale();
   const router = useRouter();
-  const [region, setRegion] = useState<"phuket" | "koh-samui">("phuket");
+  const [region, setRegion] = useState<StayRegion>("phuket");
   const [area, setArea] = useState("");
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
@@ -49,14 +50,17 @@ export function SearchBar({
           <select
             value={region}
             onChange={(e) => {
-              setRegion(e.target.value as "phuket" | "koh-samui");
+              setRegion(e.target.value as StayRegion);
               setArea("");
             }}
             className="mt-1 w-full rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2.5 text-sm font-semibold dark:border-ink-600 dark:bg-ink-800"
             required
           >
-            <option value="phuket">{t("regions.phuket")}</option>
-            <option value="koh-samui">{t("regions.koh-samui")}</option>
+            {REGIONS.map((r) => (
+              <option key={r} value={r}>
+                {t(`regions.${r}`)}
+              </option>
+            ))}
           </select>
         </div>
         <div>

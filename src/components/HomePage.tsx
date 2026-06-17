@@ -82,9 +82,11 @@ export function HomePage() {
             {t("home.viewAll")} →
           </Link>
         </div>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {STAY_CATALOG.slice(0, 3).map((stay) => (
-            <StayCard key={stay.slug} stay={stay} />
+        <div className="mt-8 flex gap-6 overflow-x-auto snap-x snap-mandatory pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {STAY_CATALOG.slice(0, 12).map((stay) => (
+            <div key={stay.slug} className="w-[min(100%,300px)] shrink-0 snap-center sm:w-80">
+              <StayCard stay={stay} />
+            </div>
           ))}
         </div>
       </section>

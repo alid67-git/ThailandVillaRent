@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { STAY_CATALOG } from "@/data/stays/catalog";
+import { STAY_CATALOG, REGIONS } from "@/data/stays/catalog";
 import { StayCard } from "@/components/StayCard";
 import { StayFilters, type StayFiltersState } from "@/components/StayFilters";
 import { useSearchModal } from "@/context/SearchModalContext";
@@ -17,8 +17,8 @@ export function StaysListPage() {
   const areaParam = searchParams.get("area") ?? "";
   const guestsParam = Number(searchParams.get("guests") ?? 0);
 
-  const [region, setRegion] = useState<StayRegion | "all">(
-    regionParam === "phuket" || regionParam === "koh-samui" ? regionParam : "all",
+  const [region, setRegion] = useState<StayRegion | "all">(() =>
+    REGIONS.includes(regionParam as (typeof REGIONS)[number]) ? regionParam : "all",
   );
   const [filters, setFilters] = useState<StayFiltersState>({
     priceMax: 9999,
@@ -62,7 +62,7 @@ export function StaysListPage() {
 
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="mb-6 flex flex-wrap gap-2">
-          {(["all", "phuket", "koh-samui"] as const).map((r) => (
+          {(["all", ...REGIONS] as const).map((r) => (
             <button
               key={r}
               type="button"

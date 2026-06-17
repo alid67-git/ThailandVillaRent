@@ -37,9 +37,18 @@ const ar: Messages = {
     close: "إغلاق",
   },
   areas: {
-    kamala: "كامالا",
-    boPhut: "بو فوت",
-    maenam: "ماينام",
+    kamala: "كامالا", karon: "كارون", kata: "كاتا", bangtao: "بانغ تاو", rawai: "راواي",
+    boPhut: "بو فوت", maenam: "ماينام", chaweng: "تشاوينغ", lamai: "لاماي",
+    aoNang: "أو نانغ", railay: "رايلاي", tubkaek: "توبكيك", klongMuang: "كلونغ موانغ",
+    oldCity: "المدينة القديمة", nimman: "نيمان", doiSuthep: "دوي سوتيب",
+    sukhumvit: "سوخومفيت", riverside: "ضفاف النهر", sathorn: "ساثورن",
+    jomtien: "جومتين", central: "وسط باتايا", naklua: "ناكلوا",
+    haadRin: "هاد رين", bottleBeach: "Bottle Beach", thongSala: "ثونغ سالا",
+    sairee: "سايري", maeHaad: "ماي هاد",
+    pattayaBeach: "شاطئ باتايا", sunriseBeach: "شاطئ سانرايز",
+    centre: "وسط المدينة", khaoTakiab: "خاو تاكياب",
+    whiteSand: "White Sand", lonelyBeach: "Lonely Beach",
+    riverKwai: "نهر كواي", erawan: "إيراوان",
   },
   filters: {
     allRegions: "الكل",
@@ -91,6 +100,13 @@ const ar: Messages = {
   airports: {
     hkt: "مطار بوكيت الدولي",
     usm: "مطار ساموي الدولي",
+    kbv: "مطار كرابي الدولي",
+    cnx: "مطار تشيانغ ماي الدولي",
+    bkk: "مطار سوفارنابومي",
+    utp: "مطار يو تاباو الدولي",
+    hdh: "مطار كوه فانغان",
+    hhq: "مطار هوا هين",
+    tdx: "مطار ترات",
   },
   auth: {
     signIn: "تسجيل الدخول",
@@ -142,6 +158,9 @@ const ar: Messages = {
   footer: {
     tagline: "إيجار إقامة في جميع أنحاء تايلاند",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "العودة للأعلى",
   },
 };
 

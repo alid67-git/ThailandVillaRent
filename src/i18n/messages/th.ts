@@ -37,9 +37,18 @@ const th: Messages = {
     close: "ปิด",
   },
   areas: {
-    kamala: "กมลา",
-    boPhut: "บ่อผุด",
-    maenam: "แม่น้ำ",
+    kamala: "กมลา", karon: "กะรน", kata: "กะตะ", bangtao: "บางเทา", rawai: "ราไวย์",
+    boPhut: "บ่อผุด", maenam: "แม่น้ำ", chaweng: "เฉวง", lamai: "ละไม",
+    aoNang: "อ่าวนาง", railay: "ไร่เลย์", tubkaek: "ทับแค", klongMuang: "คลองม่วง",
+    oldCity: "เมืองเก่า", nimman: "นิมมาน", doiSuthep: "ดอยสุเทพ",
+    sukhumvit: "สุขุมวิท", riverside: "ริมแม่น้ำ", sathorn: "สาทร",
+    jomtien: "จอมเทียน", central: "ใจกลางพัทยา", naklua: "นาเกลือ",
+    haadRin: "หาดริ้น", bottleBeach: "Bottle Beach", thongSala: "ท้องศาลา",
+    sairee: "สายรี", maeHaad: "แม่หาด",
+    pattayaBeach: "หาดพัทยา", sunriseBeach: "หาดอรุณรักษ์",
+    centre: "ใจกลางเมือง", khaoTakiab: "เขาตะเกียบ",
+    whiteSand: "หาดทรายขาว", lonelyBeach: "Lonely Beach",
+    riverKwai: "แม่น้ำแคว", erawan: "เอราวัณ",
   },
   filters: {
     allRegions: "ทั้งหมด",
@@ -91,6 +100,13 @@ const th: Messages = {
   airports: {
     hkt: "ท่าอากาศยานนานาชาติภูเก็ต",
     usm: "ท่าอากาศยานนานาชาติสมุย",
+    kbv: "ท่าอากาศยานนานาชาติกระบี่",
+    cnx: "ท่าอากาศยานนานาชาติเชียงใหม่",
+    bkk: "ท่าอากาศยานสุวรรณภูมิ",
+    utp: "ท่าอากาศยานนานาชาติอู่ตะเภา",
+    hdh: "ท่าอากาศยานเกาะพะงัน",
+    hhq: "ท่าอากาศยานหัวหิน",
+    tdx: "ท่าอากาศยานตราด",
   },
   auth: {
     signIn: "เข้าสู่ระบบ",
@@ -142,6 +158,9 @@ const th: Messages = {
   footer: {
     tagline: "ที่พักเช่าทั่วประเทศไทย",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "กลับขึ้นด้านบน",
   },
 };
 

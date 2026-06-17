@@ -4,8 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { StayCatalogItem } from "@/data/stays/types";
 import { useLocale } from "@/context/LocaleContext";
-import { getStayContent } from "@/i18n/stays";
-import type { StaySlug } from "@/data/stays/types";
+import { getStayContentForItem } from "@/i18n/stays";
 import { BookButton } from "@/components/AuthButton";
 import { StayProximitySection } from "@/components/StayProximitySection";
 
@@ -19,10 +18,9 @@ function formatMeters(
 
 export function StayDetailView({ stay }: { stay: StayCatalogItem }) {
   const { locale, t } = useLocale();
-  const content = getStayContent(locale, stay.slug as StaySlug);
+  const content = getStayContentForItem(locale, stay);
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${stay.lat},${stay.lng}`;
-  const airportLabel =
-    stay.airportKey === "hkt" ? t("airports.hkt") : t("airports.usm");
+  const airportLabel = t(`airports.${stay.airportKey}` as "airports.hkt");
   const regionLabel = t(`regions.${stay.region}`);
 
   return (

@@ -37,9 +37,18 @@ const ru: Messages = {
     close: "Закрыть",
   },
   areas: {
-    kamala: "Камала",
-    boPhut: "Бо Пхут",
-    maenam: "Маенам",
+    kamala: "Камала", karon: "Карон", kata: "Ката", bangtao: "Банг Тао", rawai: "Равай",
+    boPhut: "Бо Пхут", maenam: "Маенам", chaweng: "Чавенг", lamai: "Ламай",
+    aoNang: "Ао Нанг", railay: "Рейли", tubkaek: "Тубкаек", klongMuang: "Клонг Муанг",
+    oldCity: "Старый город", nimman: "Нимман", doiSuthep: "Дой Сутхеп",
+    sukhumvit: "Сукхумвит", riverside: "Набережная", sathorn: "Сатхорн",
+    jomtien: "Джомтьен", central: "Центр Паттайи", naklua: "Наклуа",
+    haadRin: "Хаад Рин", bottleBeach: "Bottle Beach", thongSala: "Тонг Сала",
+    sairee: "Сайри", maeHaad: "Мае Хаад",
+    pattayaBeach: "Пляж Паттайя", sunriseBeach: "Пляж Sunrise",
+    centre: "Центр города", khaoTakiab: "Као Такиаб",
+    whiteSand: "White Sand", lonelyBeach: "Lonely Beach",
+    riverKwai: "Река Квай", erawan: "Эраван",
   },
   filters: {
     allRegions: "Все",
@@ -91,6 +100,13 @@ const ru: Messages = {
   airports: {
     hkt: "Международный аэропорт Пхукета",
     usm: "Международный аэропорт Самуи",
+    kbv: "Международный аэропорт Краби",
+    cnx: "Международный аэропорт Чиангмай",
+    bkk: "Аэропорт Суварнабхуми",
+    utp: "Международный аэропорт У-Тапао",
+    hdh: "Аэропорт Ко Панган",
+    hhq: "Аэропорт Хуахин",
+    tdx: "Аэропорт Трат",
   },
   auth: {
     signIn: "Войти",
@@ -142,6 +158,9 @@ const ru: Messages = {
   footer: {
     tagline: "Аренда жилья по всему Таиланду",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "Наверх",
   },
 };
 

@@ -12,7 +12,30 @@ export const STAY_IMAGES = {
     "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=80",
   samui:
     "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&q=80",
+  villa2:
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
+  villa3:
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+  room:
+    "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
+  deck:
+    "https://images.unsplash.com/photo-1578683010236-d716f9a3fdf7?w=1200&q=80",
 } as const;
+
+export const STAY_IMAGE_POOL = [
+  STAY_IMAGES.villaPool,
+  STAY_IMAGES.villaTropical,
+  STAY_IMAGES.beachResort,
+  STAY_IMAGES.bungalow,
+  STAY_IMAGES.interior,
+  STAY_IMAGES.samui,
+  STAY_IMAGES.villa2,
+  STAY_IMAGES.villa3,
+  STAY_IMAGES.room,
+  STAY_IMAGES.deck,
+  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+  "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+];
 
 /** Phuket & Andaman hero imagery for homepage */
 export const HOME_HERO_IMAGES = {

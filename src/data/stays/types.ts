@@ -1,6 +1,20 @@
-export type StayRegion = "phuket" | "koh-samui";
+export type StayRegion =
+  | "phuket"
+  | "koh-samui"
+  | "krabi"
+  | "chiang-mai"
+  | "bangkok"
+  | "pattaya"
+  | "koh-phangan"
+  | "koh-tao"
+  | "koh-lipe"
+  | "hua-hin"
+  | "koh-chang"
+  | "kanchanaburi";
 
 export type StaySize = "compact" | "family" | "large";
+
+export type StayPropertyType = "villa" | "bungalow" | "pool-villa" | "beach-house" | "apartment";
 
 export interface StayLandmarkRef {
   id: string;
@@ -39,6 +53,7 @@ export interface StayCatalogItem {
   amenityKeys: string[];
   landmarks: StayLandmarkRef[];
   beaches: StayBeachRef[];
+  propertyType?: StayPropertyType;
 }
 
 export interface StayRoomContent {
@@ -86,12 +101,15 @@ export interface StayContent {
   amenities: Record<string, string>;
 }
 
-export type StaySlug =
+export type ManualStaySlug =
   | "bungalow-phuket"
   | "family-bungalow-kamala-2br"
   | "fantasy-villa-kamala"
   | "tango-luxe-beach-villa-koh-samui"
   | "moonhut-bungalows-koh-samui";
+
+/** @deprecated use string — manual slugs + generated catalog slugs */
+export type StaySlug = ManualStaySlug | string;
 
 export function sizeFromRooms(roomCount: number): StaySize {
   if (roomCount <= 2) return "compact";

@@ -1,7 +1,8 @@
 import type { StayCatalogItem } from "./types";
 import { STAY_IMAGES } from "@/data/images";
+import { buildExtraStays } from "./catalog-extra";
 
-export const STAY_CATALOG: StayCatalogItem[] = [
+const BASE_STAYS: StayCatalogItem[] = [
   {
     id: "1",
     slug: "bungalow-phuket",
@@ -175,6 +176,8 @@ export const STAY_CATALOG: StayCatalogItem[] = [
   },
 ];
 
+export const STAY_CATALOG: StayCatalogItem[] = [...BASE_STAYS, ...buildExtraStays()];
+
 export function getStayBySlug(slug: string) {
   return STAY_CATALOG.find((s) => s.slug === slug);
 }
@@ -183,9 +186,32 @@ export function getAllStaySlugs() {
   return STAY_CATALOG.map((s) => s.slug);
 }
 
-export const REGIONS = ["phuket", "koh-samui"] as const;
+export const REGIONS = [
+  "phuket",
+  "koh-samui",
+  "krabi",
+  "chiang-mai",
+  "bangkok",
+  "pattaya",
+  "koh-phangan",
+  "koh-tao",
+  "koh-lipe",
+  "hua-hin",
+  "koh-chang",
+  "kanchanaburi",
+] as const satisfies readonly import("./types").StayRegion[];
 
 export const AREAS_BY_REGION: Record<string, string[]> = {
-  phuket: ["kamala"],
-  "koh-samui": ["boPhut", "maenam"],
+  phuket: ["kamala", "karon", "kata", "bangtao", "rawai"],
+  "koh-samui": ["boPhut", "maenam", "chaweng", "lamai"],
+  krabi: ["aoNang", "railay", "tubkaek", "klongMuang"],
+  "chiang-mai": ["oldCity", "nimman", "doiSuthep"],
+  bangkok: ["sukhumvit", "riverside", "sathorn"],
+  pattaya: ["jomtien", "central", "naklua"],
+  "koh-phangan": ["haadRin", "bottleBeach", "thongSala"],
+  "koh-tao": ["sairee", "maeHaad"],
+  "koh-lipe": ["pattayaBeach", "sunriseBeach"],
+  "hua-hin": ["centre", "khaoTakiab"],
+  "koh-chang": ["whiteSand", "lonelyBeach"],
+  kanchanaburi: ["riverKwai", "erawan"],
 };

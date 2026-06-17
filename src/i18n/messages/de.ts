@@ -37,9 +37,18 @@ const de: Messages = {
     close: "Schließen",
   },
   areas: {
-    kamala: "Kamala",
-    boPhut: "Bo Phut",
-    maenam: "Maenam",
+    kamala: "Kamala", karon: "Karon", kata: "Kata", bangtao: "Bang Tao", rawai: "Rawai",
+    boPhut: "Bo Phut", maenam: "Maenam", chaweng: "Chaweng", lamai: "Lamai",
+    aoNang: "Ao Nang", railay: "Railay", tubkaek: "Tubkaek", klongMuang: "Klong Muang",
+    oldCity: "Altstadt", nimman: "Nimman", doiSuthep: "Doi Suthep",
+    sukhumvit: "Sukhumvit", riverside: "Flussufer", sathorn: "Sathorn",
+    jomtien: "Jomtien", central: "Pattaya Zentrum", naklua: "Naklua",
+    haadRin: "Haad Rin", bottleBeach: "Bottle Beach", thongSala: "Thong Sala",
+    sairee: "Sairee", maeHaad: "Mae Haad",
+    pattayaBeach: "Pattaya Beach", sunriseBeach: "Sunrise Beach",
+    centre: "Stadtzentrum", khaoTakiab: "Khao Takiab",
+    whiteSand: "White Sand", lonelyBeach: "Lonely Beach",
+    riverKwai: "River Kwai", erawan: "Erawan",
   },
   filters: {
     allRegions: "Alle",
@@ -91,6 +100,13 @@ const de: Messages = {
   airports: {
     hkt: "Phuket Internationaler Flughafen",
     usm: "Samui Internationaler Flughafen",
+    kbv: "Krabi Internationaler Flughafen",
+    cnx: "Chiang Mai Internationaler Flughafen",
+    bkk: "Flughafen Suvarnabhumi",
+    utp: "U-Tapao Internationaler Flughafen",
+    hdh: "Flughafen Koh Phangan",
+    hhq: "Flughafen Hua Hin",
+    tdx: "Flughafen Trat",
   },
   auth: {
     signIn: "Anmelden",
@@ -142,6 +158,9 @@ const de: Messages = {
   footer: {
     tagline: "Unterkünfte in ganz Thailand",
     copyright: "© 2026 Thailand Villa Rent",
+  },
+  ui: {
+    scrollTop: "Nach oben",
   },
 };
 

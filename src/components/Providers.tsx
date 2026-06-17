@@ -1,6 +1,7 @@
 "use client";
 
 import { SessionProvider } from "next-auth/react";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { SearchModalProvider } from "@/context/SearchModalContext";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -21,6 +22,7 @@ export function Providers({
           <SiteHeader />
           {children}
           <SiteFooter />
+          <ScrollToTop />
         </SearchModalProvider>
       </LocaleProvider>
     </SessionProvider>
