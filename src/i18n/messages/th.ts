@@ -34,6 +34,7 @@ const th: Messages = {
     destination: "จุดหมาย",
     pickRegions: "จุดหมาย (เลือกหลายรายการ)",
     allRegions: "ทุกจุดหมาย",
+    noRegions: "ยังไม่ได้เลือกจุดหมาย",
     regionsSelected: "เลือก {count} จุดหมาย",
     area: "พื้นที่ / ย่าน",
     allAreas: "ทุกย่าน",

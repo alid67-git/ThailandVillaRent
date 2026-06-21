@@ -31,6 +31,7 @@ const tr = {
     destination: "Destinasyon",
     pickRegions: "Destinasyonlar (çoklu seçim)",
     allRegions: "Tüm destinasyonlar",
+    noRegions: "Destinasyon seçilmedi",
     regionsSelected: "{count} destinasyon seçili",
     area: "Bölge / semt",
     allAreas: "Tüm semtler",

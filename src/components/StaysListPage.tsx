@@ -10,7 +10,7 @@ import { RegionMultiSelect } from "@/components/RegionMultiSelect";
 import { useSearchModal } from "@/context/SearchModalContext";
 import { useLocale } from "@/context/LocaleContext";
 import type { StayRegion } from "@/data/stays/types";
-import { parseRegionsParam } from "@/lib/region-params";
+import { parseRegionsParam, ALL_STAY_REGIONS } from "@/lib/region-params";
 
 export function StaysListPage() {
   const { t } = useLocale();
@@ -19,8 +19,8 @@ export function StaysListPage() {
   const initialRegions = parseRegionsParam(searchParams);
   const guestsParam = Number(searchParams.get("guests") ?? 0);
 
-  const [regions, setRegions] = useState<StayRegion[]>(
-    initialRegions === "all" ? [] : initialRegions,
+  const [regions, setRegions] = useState<StayRegion[]>(() =>
+    initialRegions === "all" ? [...ALL_STAY_REGIONS] : initialRegions,
   );
   const [filters, setFilters] = useState<StayFiltersState>({
     priceMax: 9999,

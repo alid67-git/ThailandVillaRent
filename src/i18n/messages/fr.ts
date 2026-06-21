@@ -34,6 +34,7 @@ const fr: Messages = {
     destination: "Destination",
     pickRegions: "Destinations (sélection multiple)",
     allRegions: "Toutes les destinations",
+    noRegions: "Aucune destination sélectionnée",
     regionsSelected: "{count} destinations sélectionnées",
     area: "Quartier / zone",
     allAreas: "Tous les quartiers",

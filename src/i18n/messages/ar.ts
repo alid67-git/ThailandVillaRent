@@ -34,6 +34,7 @@ const ar: Messages = {
     destination: "الوجهة",
     pickRegions: "الوجهات (اختيار متعدد)",
     allRegions: "جميع الوجهات",
+    noRegions: "لم يتم اختيار وجهة",
     regionsSelected: "{count} وجهة محددة",
     area: "المنطقة / الحي",
     allAreas: "جميع الأحياء",

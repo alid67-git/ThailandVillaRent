@@ -34,6 +34,7 @@ const ru: Messages = {
     destination: "Направление",
     pickRegions: "Направления (множественный выбор)",
     allRegions: "Все направления",
+    noRegions: "Направление не выбрано",
     regionsSelected: "Выбрано направлений: {count}",
     area: "Район / квартал",
     allAreas: "Все районы",

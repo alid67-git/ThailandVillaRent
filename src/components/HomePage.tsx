@@ -11,14 +11,14 @@ import { HorizontalImageCarousel } from "@/components/HorizontalImageCarousel";
 import { RegionMultiSelect } from "@/components/RegionMultiSelect";
 import { useSearchModal } from "@/context/SearchModalContext";
 import { useLocale } from "@/context/LocaleContext";
-import { buildRegionsQuery } from "@/lib/region-params";
+import { buildRegionsQuery, ALL_STAY_REGIONS } from "@/lib/region-params";
 import type { StayRegion } from "@/data/stays/types";
 
 export function HomePage() {
   const { t } = useLocale();
   const { openSearch } = useSearchModal();
   const router = useRouter();
-  const [regions, setRegions] = useState<StayRegion[]>([]);
+  const [regions, setRegions] = useState<StayRegion[]>([...ALL_STAY_REGIONS]);
 
   function browseByRegion() {
     const q = buildRegionsQuery(regions);

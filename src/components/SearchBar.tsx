@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useLocale } from "@/context/LocaleContext";
 import { RegionMultiSelect } from "@/components/RegionMultiSelect";
-import { buildRegionsQuery } from "@/lib/region-params";
+import { buildRegionsQuery, ALL_STAY_REGIONS } from "@/lib/region-params";
 import type { StayRegion } from "@/data/stays/types";
 
 export function SearchBar({
@@ -16,7 +16,7 @@ export function SearchBar({
 }) {
   const { t } = useLocale();
   const router = useRouter();
-  const [regions, setRegions] = useState<StayRegion[]>([]);
+  const [regions, setRegions] = useState<StayRegion[]>([...ALL_STAY_REGIONS]);
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [guests, setGuests] = useState(2);

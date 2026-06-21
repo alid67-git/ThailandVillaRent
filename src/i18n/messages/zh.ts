@@ -33,6 +33,7 @@ const zh: Messages = {
     destination: "目的地",
     pickRegions: "目的地（多选）",
     allRegions: "全部目的地",
+    noRegions: "未选择目的地",
     regionsSelected: "已选 {count} 个目的地",
     area: "区域 / 街区",
     allAreas: "所有区域",

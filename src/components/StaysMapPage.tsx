@@ -8,7 +8,7 @@ import { STAY_CATALOG } from "@/data/stays/catalog";
 import type { StayRegion } from "@/data/stays/types";
 import { RegionMultiSelect } from "@/components/RegionMultiSelect";
 import { useLocale } from "@/context/LocaleContext";
-import { parseRegionsParam } from "@/lib/region-params";
+import { parseRegionsParam, ALL_STAY_REGIONS, isAllRegionsSelected } from "@/lib/region-params";
 import { getStayContentForItem } from "@/i18n/stays";
 
 const StaysMapInner = dynamic(
@@ -21,16 +21,15 @@ export function StaysMapPage() {
   const searchParams = useSearchParams();
   const initialRegions = parseRegionsParam(searchParams);
   const [regions, setRegions] = useState<StayRegion[]>(
-    initialRegions === "all" ? [] : initialRegions,
+    initialRegions === "all" ? [...ALL_STAY_REGIONS] : initialRegions,
   );
 
-  const highlightRegions: StayRegion[] | "all" =
-    regions.length === 0 ? "all" : regions;
+  const highlightRegions: StayRegion[] | "all" = isAllRegionsSelected(regions) ? "all" : regions;
 
   const sidebarStays = useMemo(() => {
-    if (highlightRegions === "all") return STAY_CATALOG;
-    return STAY_CATALOG.filter((s) => highlightRegions.includes(s.region));
-  }, [highlightRegions]);
+    if (isAllRegionsSelected(regions)) return STAY_CATALOG;
+    return STAY_CATALOG.filter((s) => regions.includes(s.region));
+  }, [regions]);
 
   return (
     <main className="min-h-screen bg-neutral-50 dark:bg-ink-950">
