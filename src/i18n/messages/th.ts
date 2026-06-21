@@ -167,6 +167,7 @@ const th: Messages = {
   footer: {
     tagline: "เช่าวิลล่าและบังกะโลทั่วประเทศไทย",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "เวอร์ชัน {version}",
   },
   ui: {
     scrollTop: "กลับขึ้นด้านบน",

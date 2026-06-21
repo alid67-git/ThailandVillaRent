@@ -11,7 +11,9 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-4 text-center text-sm text-neutral-500 sm:px-6 dark:text-neutral-400">
         <p>{t("footer.tagline")}</p>
         <p className="mt-1">{t("footer.copyright")}</p>
-        <p className="mt-2 text-xs text-neutral-400">{APP_VERSION_LABEL}</p>
+        <p className="mt-2 text-xs text-neutral-400">
+          {t("footer.version", { version: APP_VERSION_LABEL })}
+        </p>
       </div>
     </footer>
   );

@@ -166,6 +166,7 @@ const zh: Messages = {
   footer: {
     tagline: "泰国别墅与bungalow租赁",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "版本 {version}",
   },
   ui: {
     scrollTop: "回到顶部",

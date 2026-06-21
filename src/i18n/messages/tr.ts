@@ -187,6 +187,7 @@ const tr = {
   footer: {
     tagline: "Tayland genelinde villa & bungalov kiralama",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "Sürüm {version}",
   },
   ui: {
     scrollTop: "Yukarı çık",

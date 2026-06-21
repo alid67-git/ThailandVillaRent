@@ -189,6 +189,7 @@ const en: Messages = {
   footer: {
     tagline: "Villa & bungalow rentals across Thailand",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "Version {version}",
   },
   ui: {
     scrollTop: "Back to top",

@@ -167,6 +167,7 @@ const ru: Messages = {
   footer: {
     tagline: "Аренда вилл и бунгало в Таиланде",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "Версия {version}",
   },
   ui: {
     scrollTop: "Наверх",

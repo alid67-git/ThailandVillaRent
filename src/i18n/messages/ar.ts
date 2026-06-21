@@ -167,6 +167,7 @@ const ar: Messages = {
   footer: {
     tagline: "إيجار فيلات وبنغلows في تايلاند",
     copyright: "© 2026 Thailand Villa Rent",
+    version: "الإصدار {version}",
   },
   ui: {
     scrollTop: "العودة للأعلى",
